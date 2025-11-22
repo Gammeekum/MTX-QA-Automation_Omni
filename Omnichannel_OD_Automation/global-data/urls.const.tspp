@@ -1,0 +1,15 @@
+[
+    {
+        "environments": [
+            "Omni_OD"
+        ],
+        "isDefault": false,
+        "constants": [
+            {
+                "name": "SITE_URL",
+                "type": "url",
+                "value": "https://uat-od.moolahplay.net/"
+            }
+        ]
+    }
+]

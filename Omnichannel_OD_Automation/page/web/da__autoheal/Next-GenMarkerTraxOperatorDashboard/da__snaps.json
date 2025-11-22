@@ -1,0 +1,58 @@
+{
+    "Sign_In_To_Dashboard": [
+        {
+            "snapshot": "1763794018651.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        }
+    ],
+    "Enrollment_Status": [
+        {
+            "snapshot": "1763794108092.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enrollment_Status",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<h3 type=\"h3\">Enrollment Status</h3>"
+        }
+    ],
+    "Home": [
+        {
+            "snapshot": "1763794126897.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Home",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<a type=\"a\" aria-current=\"page\">Home</a>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1763794127989.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        }
+    ],
+    "Reports": [
+        {
+            "snapshot": "1763794129401.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        }
+    ],
+    "Employees": [
+        {
+            "snapshot": "1763794130811.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Employees",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-controls=\"reka-collapsible-content-v-1-3\" aria-expanded=\"false\">Employees</button>"
+        }
+    ],
+    "Settings": [
+        {
+            "snapshot": "1763794132506.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Settings",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<a type=\"a\">Settings</a>"
+        }
+    ]
+}

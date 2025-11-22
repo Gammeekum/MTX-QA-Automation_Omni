@@ -1,0 +1,34 @@
+{
+    "loginfmt": [
+        {
+            "snapshot": "1763794042574.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"test1001@qa1001.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        }
+    ],
+    "Signin_Submit": [
+        {
+            "snapshot": "1763794090137.png",
+            "label": "page > web > Signintoyouraccount > Signin_Submit",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        }
+    ],
+    "passwd": [
+        {
+            "snapshot": "1763794068928.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for test1001@qa1001.com\" type=\"password\" value=\"Q\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for test1001@qa1001.com\"></input>"
+        }
+    ],
+    "DontShowAgain": [
+        {
+            "snapshot": "1763794088549.png",
+            "label": "page > web > Signintoyouraccount > DontShowAgain",
+            "testLabel": "Omni_OD_Login.web",
+            "attrs": "<input type=\"input\" aria-label=\"Don't show this again\" type=\"checkbox\" value=\"true\" aria-label=\"Don't show this again\"></input>"
+        }
+    ]
+}

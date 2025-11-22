@@ -1,0 +1,10 @@
+>>summary: 
+>>recorderName: Next-GenMarkerTraxOperatorDashboard
+
+==Sign_In_To_Dashboard;CSS;[type='button'];Button;[CSS:button];[Sign_In_To_Dashboard];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enrollment_Status;XPATH;//h3[text()="Enrollment Status"];;[];[Enrollment_Status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Home;XPATH;//a[@data-reka-collection-item=''][@data-active=''];;[XPATH://a[@data-active='']^^XPATH://*[@data-reka-collection-item=''][./span[text()="Home"]]^^XPATH://*[@data-active=''][./span[text()="Home"]]^^XPATH://a[./span[text()="Home"]]];[Home];[Next-GenMarkerTraxOperatorDashboard];;==
+==Players;XPATH;//*[@data-reka-collection-item=''][./span[text()="Players"]];;[XPATH://a[./span[text()="Players"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Players"]]];[Players];[Next-GenMarkerTraxOperatorDashboard];;==
+==Reports;XPATH;//*[@data-reka-collection-item=''][./span[text()="Reports"]];;[XPATH://a[./span[text()="Reports"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Reports"]]];[Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Employees;XPATH;//button[@id='reka-accordion-trigger-v-1-2'][@data-reka-collection-item=''];Button;[XPATH://button[@id='reka-accordion-trigger-v-1-2'][@data-orientation='vertical']^^XPATH://*[@id='reka-accordion-trigger-v-1-2'][./span[text()="Employees"]]^^XPATH://*[@data-state='closed'][./span[text()="Employees"]]^^XPATH://*[@data-reka-collection-item=''][./span[text()="Employees"]]];[Employees];[Next-GenMarkerTraxOperatorDashboard];;==
+==Settings;XPATH;//*[@data-reka-collection-item=''][./span[text()="Settings"]];;[XPATH://a[./span[text()="Settings"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Settings"]]];[Settings];[Next-GenMarkerTraxOperatorDashboard];;==
