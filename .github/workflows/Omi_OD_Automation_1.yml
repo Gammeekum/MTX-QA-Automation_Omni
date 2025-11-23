@@ -1,4 +1,4 @@
-name: Run DevAssure Tests in Ubuntu
+name: Run Dev Assure Omichannle OD Automation Test running in Ubuntu 
 
 on:
   push:
@@ -16,10 +16,10 @@ on:
 env:
   JOB_NAME: dev_tests
   DEVASSURE_CLI_URL: https://devassures3bucket.s3.amazonaws.com/linux/cli/DevAssure.zip
-  SOURCE_PATH: ${{ github.workspace }}/Test_CICD
+  SOURCE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation
   TARGET_PATH: ${{ github.workspace }}/temp
-  SUITE_PATH: ${{ github.workspace }}/Test_CICD/test-suite/base.suite.tspp
-  RUN_PROFILE_PATH: ${{ github.workspace }}/Test_CICD/run-profile/base.profile.tspp
+  SUITE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation/test-suite/base.suite.tspp
+  RUN_PROFILE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation/run-profile/base.profile.tspp
   ENVIRONMENT: UAT_Environment
 
 jobs:
