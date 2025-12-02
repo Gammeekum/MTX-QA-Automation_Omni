@@ -10,7 +10,7 @@
 
 
 --Open URL-- [[https://uat-od.moolahplay.net/]] 
---Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present-- 
+--Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
 --Input value-- ::constants.Logi_Credentials.UserName:: --in-- {{web > Signintoyouraccount > loginfmt}} 
 --Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
