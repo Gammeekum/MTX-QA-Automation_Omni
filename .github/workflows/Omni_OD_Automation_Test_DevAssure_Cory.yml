@@ -1,4 +1,4 @@
-name: Run Dev Assure Omichannle OD Automation Test running in Ubuntu 
+name: Run Cory Automation Project 
 
 on:
   push:
@@ -11,15 +11,15 @@ on:
       - '*'
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"    # Runs every 2 hrs 
+    - cron: "0 */1 * * *"    # Runs every 2 hrs 
 
 env:
   JOB_NAME: dev_tests
   DEVASSURE_CLI_URL: https://devassures3bucket.s3.amazonaws.com/linux/cli/DevAssure.zip
-  SOURCE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation
+  SOURCE_PATH: ${{ github.workspace }}/Cory_Project
   TARGET_PATH: ${{ github.workspace }}/temp
-  SUITE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation/test-suite/base.suite.tspp
-  RUN_PROFILE_PATH: ${{ github.workspace }}/Omnichannel_OD_Automation/run-profile/base.profile.tspp
+  SUITE_PATH: ${{ github.workspace }}/Cory_Project/test-suite/base.suite.tspp
+  RUN_PROFILE_PATH: ${{ github.workspace }}/Cory_Project/run-profile/base.profile.tspp
   ENVIRONMENT: UAT_Environment
 
 jobs:
