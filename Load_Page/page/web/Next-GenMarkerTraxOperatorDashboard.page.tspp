@@ -1,0 +1,26 @@
+>>summary: 
+>>recorderName: Next-GenMarkerTraxOperatorDashboard
+
+==Sign_In_To_Dashboard;CSS;[type='button'];Button;[CSS:button];[Sign_In_To_Dashboard];[Next-GenMarkerTraxOperatorDashboard];;==
+==Players;XPATH;//*[@data-reka-collection-item=''][./span[text()="Players"]];;[XPATH://a[./span[text()="Players"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Players"]]];[Players];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_Id;CSS;#reka-popover-trigger-v-1-23;Button;[];[Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enter_Player_Id;CSS;[placeholder='Enter Player Id'];Input;[CSS:[type='text']^^CSS:input];[Enter_Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Apply;XPATH;//div[./h3[text()="Player Id"]]//*[@type='button'];Button;[XPATH://div[./h3[text()="Player Id"]]//button^^XPATH://button[text()="Apply"]];[Apply];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span;XPATH;(//table)[1]//tbody/tr/td[${colId}]/div/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_Activity;XPATH;//*[@data-reka-collection-item=''][./span[text()="Player Activity"]];;[XPATH://a[./span[text()="Player Activity"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Player Activity"]]];[Player_Activity];[Next-GenMarkerTraxOperatorDashboard];;==
+==Marker_Info;XPATH;//*[@data-reka-collection-item=''][./span[text()="Marker Info"]];;[XPATH://a[./span[text()="Marker Info"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Marker Info"]]];[Marker_Info];[Next-GenMarkerTraxOperatorDashboard];;==
+==For_Signing_Agreement;XPATH;//span[text()="For Signing Agreement"];;[];[For_Signing_Agreement];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enrollment;XPATH;//span[text()="Enrollment:"];;[];[Enrollment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status;XPATH;//span[text()="Status:"];;[];[Status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Approved;XPATH;//span[text()="Approved"];;[];[Approved];[Next-GenMarkerTraxOperatorDashboard];;==
+==Aging;XPATH;//span[text()="Aging:"];;[];[Aging];[Next-GenMarkerTraxOperatorDashboard];;==
+==Current;XPATH;//span[text()="Current"];;[];[Current];[Next-GenMarkerTraxOperatorDashboard];;==
+==Reports;XPATH;//*[@data-reka-collection-item=''][./span[text()="Reports"]];;[XPATH://a[./span[text()="Reports"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Reports"]]];[Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Historical_status_changes_for;XPATH;//div[./h2[text()="Account Status"]]//p;;[XPATH://p[text()="Historical status changes for accounts"]];[Historical_status_changes_for];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_Id_1;CSS;#reka-popover-trigger-v-1-52;Button;[];[Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span_1;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+
+
+
+
+

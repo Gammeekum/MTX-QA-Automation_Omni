@@ -1,0 +1,130 @@
+{
+    "Sign_In_To_Dashboard": [
+        {
+            "snapshot": "1764112986259.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1764878177909.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        }
+    ],
+    "Player_Id": [
+        {
+            "snapshot": "1764878184455.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ],
+    "Enter_Player_Id": [
+        {
+            "snapshot": "1764878187383.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        }
+    ],
+    "Apply": [
+        {
+            "snapshot": "1764878192344.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        }
+    ],
+    "table_span": [
+        {
+            "snapshot": "1764878195599.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">60053</span>"
+        }
+    ],
+    "Player_Activity": [
+        {
+            "snapshot": "1764878201470.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Activity",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<a type=\"a\">Player Activity</a>"
+        }
+    ],
+    "Marker_Info": [
+        {
+            "snapshot": "1764878221965.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Marker_Info",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<a type=\"a\">Marker Info</a>"
+        }
+    ],
+    "For_Signing_Agreement": [
+        {
+            "snapshot": "1764878248901.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > For_Signing_Agreement",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">For Signing Agreement</span>"
+        }
+    ],
+    "Enrollment": [
+        {
+            "snapshot": "1764878250424.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enrollment",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">Enrollment:</span>"
+        }
+    ],
+    "Status": [
+        {
+            "snapshot": "1764878248001.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">Status:</span>"
+        }
+    ],
+    "Approved": [
+        {
+            "snapshot": "1764878251384.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Approved",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">Approved</span>"
+        }
+    ],
+    "Aging": [
+        {
+            "snapshot": "1764878253738.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Aging",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">Aging:</span>"
+        }
+    ],
+    "Reports": [
+        {
+            "snapshot": "1764886613453.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        }
+    ],
+    "Historical_status_changes_for": [
+        {
+            "snapshot": "1764886625144.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<p type=\"p\">Historical status changes for accounts</p>"
+        }
+    ],
+    "Player_Id_1": [
+        {
+            "snapshot": "1764886648771.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ]
+}

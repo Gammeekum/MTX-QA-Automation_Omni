@@ -1,0 +1,10 @@
+{
+    "ignoreLocators": {
+        "attributes": [],
+        "cssRegex": [
+            "^\\.[a-zA-Z_-]+\\d+$",
+            "^\\._.*[_-]\\d+$",
+            "hover*"
+        ]
+    }
+}

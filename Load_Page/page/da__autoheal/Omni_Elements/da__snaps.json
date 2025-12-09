@@ -1,0 +1,106 @@
+{
+    "loginfmt": [
+        {
+            "snapshot": "1764112992016.png",
+            "label": "page > Omni_Elements > loginfmt",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"t\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        }
+    ],
+    "Signin_Submit": [
+        {
+            "snapshot": "1764113001423.png",
+            "label": "page > Omni_Elements > Signin_Submit",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        }
+    ],
+    "passwd": [
+        {
+            "snapshot": "1764113004727.png",
+            "label": "page > Omni_Elements > passwd",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for test1001@qa1001.com\" type=\"password\" value=\"Q\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for test1001@qa1001.com\"></input>"
+        }
+    ],
+    "Forgot_my_password": [
+        {
+            "snapshot": "1764113008664.png",
+            "label": "page > Omni_Elements > Forgot_my_password",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<div type=\"div\">\n    \n        \n        \n\n        \n            \n   </div>"
+        }
+    ],
+    "idSIButton9": [
+        {
+            "snapshot": "1764113009687.png",
+            "label": "page > Omni_Elements > idSIButton9",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        }
+    ],
+    "DontShowAgain": [
+        {
+            "snapshot": "1764113015223.png",
+            "label": "page > Omni_Elements > DontShowAgain",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" aria-label=\"Don't show this again\" type=\"checkbox\" value=\"true\" aria-label=\"Don't show this again\"></input>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1764889734505.png",
+            "label": "page > Omni_Elements > Players",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        }
+    ],
+    "Enter_Player_Id": [
+        {
+            "snapshot": "1764889739738.png",
+            "label": "page > Omni_Elements > Enter_Player_Id",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        }
+    ],
+    "Apply": [
+        {
+            "snapshot": "1764889742628.png",
+            "label": "page > Omni_Elements > Apply",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        }
+    ],
+    "table_span": [
+        {
+            "snapshot": "1764889725384.png",
+            "label": "page > Omni_Elements > table_span",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<span type=\"span\">Current</span>"
+        }
+    ],
+    "Player_Id_2": [
+        {
+            "snapshot": "1764889706390.png",
+            "label": "page > Omni_Elements > Player_Id_2",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ],
+    "Property_Name": [
+        {
+            "snapshot": "1764889751127.png",
+            "label": "page > Omni_Elements > Property_Name",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<div type=\"div\">Property Name Player Id First Name Last Name Line </div>"
+        }
+    ],
+    "Player_Id_3": [
+        {
+            "snapshot": "1764889737443.png",
+            "label": "page > Omni_Elements > Player_Id_3",
+            "testLabel": "Load_Omni_URL.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ]
+}

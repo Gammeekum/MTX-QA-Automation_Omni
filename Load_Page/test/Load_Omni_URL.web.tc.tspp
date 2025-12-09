@@ -1,0 +1,57 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- ::urls.SITE_URL:: 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Click on-- {{Omni_Elements > loginfmt}} 
+--Input value-- [[test1001@qa1001.com]] --in-- {{Omni_Elements > loginfmt}} 
+--Click on-- {{Omni_Elements > Signin_Submit}} 
+--Click on-- {{Omni_Elements > idSIButton9}} 
+--Input value-- [[Qa1212!@]] --in-- {{Omni_Elements > passwd}} 
+--Click on-- {{Omni_Elements > idSIButton9}} 
+--Click on-- {{Omni_Elements > DontShowAgain}} 
+--Click on-- {{Omni_Elements > idSIButton9}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Input value-- ::constants.Omni_OD_Test_Data.playerID:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 2 )) 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Marker_Info}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Enrollment}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Aging}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Approved}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Current}} 
+--Verify if-- {{web > Next-GenMarkerTraxOperatorDashboard > Enrollment}} --is present-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Input value-- ::constants.Omni_OD_Test_Data.playerID:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span_1}}(( rowId: 1, colId: 7 )) 
+--Click on-- {{Omni_Elements > Players}} 
+--Click on-- {{Omni_Elements > Player_Id_2}} 
+--Input value-- ::constants.Omni_OD_Test_Data.playerID:: --in-- {{Omni_Elements > Enter_Player_Id}} 
+--Click on-- {{Omni_Elements > Apply}} 
+--Click on-- {{Omni_Elements > Property_Name}} 
+--Click on-- {{Omni_Elements > table_span}}(( colId: 10 )) 
+--Click on-- {{Omni_Elements > Players}} 
+--Click on-- {{Omni_Elements > Player_Id_3}} 
+--Input value-- ::constants.Omni_OD_Test_Data.playerID:: --in-- {{Omni_Elements > Enter_Player_Id}} 
+--Click on-- {{Omni_Elements > Apply}} 
+--Click on-- {{Omni_Elements > Property_Name}} 
+--Click on-- {{Omni_Elements > Property_Name}} 
+--Click on-- {{Omni_Elements > table_span}}(( colId: 12 )) 
+
