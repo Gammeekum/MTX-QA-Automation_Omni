@@ -1,0 +1,514 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+#Launch Web Portal 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+#Login to the Dashboard 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[3000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Input value-- [[testabc@qa.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Open Reports List - Export the Past 7 Days 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Export Account Balance as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Account_Balance_2}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[AccountBalance]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[3000]] --milliseconds-- 
+::filePath_24 = --Get last downloaded file-- 
+::content_25 = --File.Read content as text-- ::filePath_24:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_32 = --Get last downloaded file-- 
+::content_33 = --File.Read content as text-- ::filePath_32:: 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_40 = --Get last downloaded file-- 
+::content_41 = --File.Read content as text-- ::filePath_40:: 
+--Wait for-- [[2000]] --milliseconds-- 
+#Export Account Status as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status_Change_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[AccountStatus]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[3000]] --milliseconds-- 
+::filePath_61 = --Get last downloaded file-- 
+::content_62 = --File.Read content as text-- ::filePath_61:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_68 = --Get last downloaded file-- 
+::content_69 = --File.Read content as text-- ::filePath_68:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_75 = --Get last downloaded file-- 
+::content_76 = --File.Read content as text-- ::filePath_75:: 
+#Export Cashier Adjustment as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Adjustments_made_by_cashiers}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[CashierAdjustment]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_2}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_95 = --Get last downloaded file-- 
+::content_96 = --File.Read content as text-- ::filePath_95:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_2}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_102 = --Get last downloaded file-- 
+::content_103 = --File.Read content as text-- ::filePath_102:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_2}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_109 = --Get last downloaded file-- 
+::content_110 = --File.Read content as text-- ::filePath_109:: 
+#Export Credit Extended as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Credit_amounts_extended_to_pla}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[CreditExtended]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_3}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[3000]] --milliseconds-- 
+::filePath_129 = --Get last downloaded file-- 
+::content_130 = --File.Read content as text-- ::filePath_129:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_3}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_136 = --Get last downloaded file-- 
+::content_137 = --File.Read content as text-- ::filePath_136:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_3}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_143 = --Get last downloaded file-- 
+::content_144 = --File.Read content as text-- ::filePath_143:: 
+#Export Debit Payments as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Payment_transactions_using_deb}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_2}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[DebitPayments]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_4}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_163 = --Get last downloaded file-- 
+::content_164 = --File.Read content as text-- ::filePath_163:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_4}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_170 = --Get last downloaded file-- 
+::content_171 = --File.Read content as text-- ::filePath_170:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_4}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_177 = --Get last downloaded file-- 
+::content_178 = --File.Read content as text-- ::filePath_177:: 
+#Export Enrollment Activity as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Enrollment_Activity}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Enrollment_Start_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[EnrollmentActivity]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_5}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_197 = --Get last downloaded file-- 
+::content_198 = --File.Read content as text-- ::filePath_197:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_5}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_204 = --Get last downloaded file-- 
+::content_205 = --File.Read content as text-- ::filePath_204:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_5}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_211 = --Get last downloaded file-- 
+::content_212 = --File.Read content as text-- ::filePath_211:: 
+#Export Failed Transactions as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Failed_Transactions}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Transaction_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[FailedTransactions]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_6}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_231 = --Get last downloaded file-- 
+::content_232 = --File.Read content as text-- ::filePath_231:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_6}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_238 = --Get last downloaded file-- 
+::content_239 = --File.Read content as text-- ::filePath_238:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_6}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_245 = --Get last downloaded file-- 
+::content_246 = --File.Read content as text-- ::filePath_245:: 
+--Wait for-- [[4000]] --milliseconds-- 
+#Export Limit Activity as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportsList}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > LimitActivityReport}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_3}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[LimitActivity]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_7}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_265 = --Get last downloaded file-- 
+::content_266 = --File.Read content as text-- ::filePath_265:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_7}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_272 = --Get last downloaded file-- 
+::content_273 = --File.Read content as text-- ::filePath_272:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_7}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_279 = --Get last downloaded file-- 
+::content_280 = --File.Read content as text-- ::filePath_279:: 
+#Export Line Adjustment as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Line_Adjustment}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Changed_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[LineAdjustment]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_8}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_299 = --Get last downloaded file-- 
+::content_300 = --File.Read content as text-- ::filePath_299:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_8}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_306 = --Get last downloaded file-- 
+::content_307 = --File.Read content as text-- ::filePath_306:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_8}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_313 = --Get last downloaded file-- 
+::content_314 = --File.Read content as text-- ::filePath_313:: 
+#Export Payment as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Payment}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_4}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[Payment]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_9}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_333 = --Get last downloaded file-- 
+::content_334 = --File.Read content as text-- ::filePath_333:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_9}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_340 = --Get last downloaded file-- 
+::content_341 = --File.Read content as text-- ::filePath_340:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_9}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_347 = --Get last downloaded file-- 
+::content_348 = --File.Read content as text-- ::filePath_347:: 
+#Export Payment Detail as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Payment_Detail}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_5}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[PaymentDetail]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_10}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_367 = --Get last downloaded file-- 
+::content_368 = --File.Read content as text-- ::filePath_367:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_10}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_374 = --Get last downloaded file-- 
+::content_375 = --File.Read content as text-- ::filePath_374:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_10}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_381 = --Get last downloaded file-- 
+::content_382 = --File.Read content as text-- ::filePath_381:: 
+#Export Player Activity as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Activity}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_6}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[PlayerActivity]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_11}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_401 = --Get last downloaded file-- 
+::content_402 = --File.Read content as text-- ::filePath_401:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_12}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_408 = --Get last downloaded file-- 
+::content_409 = --File.Read content as text-- ::filePath_408:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_12}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_415 = --Get last downloaded file-- 
+::content_416 = --File.Read content as text-- ::filePath_415:: 
+#Export Player Activity Detail as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Detailed_player_activity_infor}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Calendar_Date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[PlayerActivityDetail]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_13}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_435 = --Get last downloaded file-- 
+::content_436 = --File.Read content as text-- ::filePath_435:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_13}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_442 = --Get last downloaded file-- 
+::content_443 = --File.Read content as text-- ::filePath_442:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_13}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_449 = --Get last downloaded file-- 
+::content_450 = --File.Read content as text-- ::filePath_449:: 
+#Export Underwriting as PDF/Excel/CSV 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Underwriting_details_and_appro}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Date_Created}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Take Screenshot-- [[Underwriting]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_14}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PDF}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_469 = --Get last downloaded file-- 
+::content_470 = --File.Read content as text-- ::filePath_469:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_14}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Excel}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_476 = --Get last downloaded file-- 
+::content_477 = --File.Read content as text-- ::filePath_476:: 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export_14}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CSV}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[4000]] --milliseconds-- 
+::filePath_483 = --Get last downloaded file-- 
+::content_484 = --File.Read content as text-- ::filePath_483:: 
+

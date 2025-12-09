@@ -1,0 +1,79 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+#Launch Web Portal 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[5000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+#Login to the Dashboard 
+--Input value-- [[testabc@qa.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Press keyboard keys-- [[Enter]] --on-- {{web > Signintoyouraccount > loginfmt}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Press keyboard keys-- [[Enter]] --on-- {{web > Signintoyouraccount > passwd}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > MicrosoftButton}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Open Players List 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Select Player and Navigate to Patron Info 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1}} 
+--Input value-- [[60032]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply_1}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 2 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+#Set the Players Status to Disabled 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Patron_Info}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Change_Status}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Select_a_status}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Disabled}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description_2}} 
+--Input value-- [[This was done by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description_2}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Close}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Player's Status was Updated 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Disabled_1}} --is equal to-- [[Disabled]] 
+#Set the Player's Status to Active 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Change_Status}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Select_a_status_1}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Active_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description_3}} 
+--Input value-- [[This was done by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description_3}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Close}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Status was Updated Correctly 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Active_2}} --is equal to-- [[Active]] 
+#Validate the Account Status Report was Updated 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > TopRow}} --is equal to-- [[Lawson]] 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > AccountStatus}} --is equal to-- [[Active]] 
+

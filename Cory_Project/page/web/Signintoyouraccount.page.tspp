@@ -1,0 +1,15 @@
+>>summary: 
+>>recorderName: Signintoyouraccount
+
+==loginfmt;CSS;#i0116;Input;[CSS:[data-report-event='Signin_Email_Phone_Skype']^^CSS:[data-report-value='Email_Phone_Skype_Entry']^^CSS:[placeholder='Email or phone']^^CSS:[name='loginfmt']];[loginfmt];[Signintoyouraccount];;==
+==passwd;CSS;#i0118;Input;[CSS:[placeholder='Password']^^CSS:[name='passwd']^^CSS:[aria-label='Enter the password for testabc@qa.com']^^CSS:[type='password']];[passwd];[Signintoyouraccount];;==
+==idSIButton9;CSS;#idSIButton9;Input;[CSS:[data-report-event='Signin_Submit']^^CSS:[data-report-trigger='click']^^CSS:[data-report-value='Submit']^^CSS:[data-report-attached='1']^^CSS:[type='submit']];[idSIButton9];[Signintoyouraccount];;==
+==StaySignedIn;XPATH;//*[@id="idSIButton9"];Button;[];[];[];;==
+==Microsoft_SignIn;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==MicroSoftButton;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==Sign_In;XPATH;/html/body/div/form[1]/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[5]/div/div/div/div/input;Button;[];[];[];;==
+==Microsoft_Signin;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==Signin_Submit;CSS;[data-report-event='Signin_Submit'];Input;[CSS:[data-report-value='Submit']^^CSS:[type='submit']^^CSS:#idSIButton9];[Signin_Submit];[Signintoyouraccount];;==
+==Micro_signIn;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==MicroSoft_Button;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==MicrosoftButton;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==

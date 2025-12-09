@@ -1,0 +1,158 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+#Launch Operators Dashboard 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+#Login to the Dashboard as the Requestor 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[3000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[requestor@automation.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Navigate to Player for Testing (60007) 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PlayerIDFliter}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[60007]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 2 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+#Perform Marker Line Adjustment 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Line_Activity}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Marker_Line_Adjustment}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.02]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.03]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.04]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.05]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > v_1_100}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Other}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Note_1}} 
+--Input value-- [[Automation Did This]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Note_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Close}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify Marker Status is Updated to Pending 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > PendingStatus}} --is equal to-- [[Pending]] 
+--Take Screenshot-- [[PendingStatus]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Open URL-- [[https://uat-od.moolahplay.net/players/22608/line-activity]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > MarkerInfoTab}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[MarkerInfo]] 
+#Log out of the Requestor Account 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > RA}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Log_out_2}} 
+--Wait for-- [[5000]] --milliseconds-- 
+#Sign into the Approval Account 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[approval1@automation.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Locate Player from Previous Steps (60007) 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PlayerFilter2}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[60007]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_div}}(( colId: 2 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+#Approve the Advanced Line Change 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Line_Activity}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span_3}}(( rowId: 1, colId: 9 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Approve_Decline_2}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > notes_1}} 
+--Input value-- [[Approved by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > notes_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Approve_Adjustment}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Status is Updated to For Signing Agreement 
+--Take Screenshot-- [[FSA]] 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > MarkerInfoTab1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[MarkerInfoFSA]] 
+#Refresh the Page to Display the Print Marker Agreement Button 
+--Open URL-- [[https://uat-od.moolahplay.net/players/22608/line-activity]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Accept the Print Marker Agreement 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Print_Agreement}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Print_Agreement_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Open New Browser Window to Bypase the Print Screen 
+--Open new window-- 
+--Switch to window with index-- [[2]] 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+#Login to the Requestor Account 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_91 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[3000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_91:: --is equal to-- [[true]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[requestor@automation.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Open Reports List and Navigate to the Line Adjustment Report 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Line_Adjustment}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Property_Id}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Filters the Requested Date Column to Display Most Recent Line Changes at the Top of the List 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span_4}}(( colId: 8 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span_4}}(( colId: 8 )) 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Property_Id}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Validate the Report appears with the Line Change made during this Automation Test 
+--Take Screenshot-- [[Report]] 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > FirstName}} --is equal to-- [[Lawson]] 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > NewLineLimit}} --is equal to-- [[$0.05]] 
+

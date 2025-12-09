@@ -1,0 +1,71 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+#Launch Web Portal 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[5000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Input value-- [[testabc@qa.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Press keyboard keys-- [[Enter]] --on-- {{web > Signintoyouraccount > loginfmt}} 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > Sign_In}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > MicroSoftButton}} --if present-- 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id}} 
+--Input value-- [[60032]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 1 )) 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspend_2}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status_Action}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
+--Input value-- [[suspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Close}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspended}} --is equal to-- [[Suspended]] 
+--Take Screenshot-- [[Suspended_Status]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > UnSuspend}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status_Action_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description_1}} 
+--Input value-- [[Unsuspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Close}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Active}} --is equal to-- [[Active]] 
+--Take Screenshot-- [[Unsuspended_Status]] 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > LastName}} --is equal to-- [[Lawson]] 
+--Take Screenshot-- [[Report_Verification]] 
+

@@ -1,0 +1,1174 @@
+{
+    "Sign_In_To_Dashboard": [
+        {
+            "snapshot": "1763758040013.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1764871124025.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1764875785384.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1764957796626.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1764970271560.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1765301625279.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1763758066995.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        },
+        {
+            "snapshot": "1764871160037.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        },
+        {
+            "snapshot": "1764875815482.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        },
+        {
+            "snapshot": "1764957820343.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        }
+    ],
+    "Player_Id": [
+        {
+            "snapshot": "1763758069283.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ],
+    "Enter_Player_Id": [
+        {
+            "snapshot": "1763758071160.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        },
+        {
+            "snapshot": "1764871165366.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        },
+        {
+            "snapshot": "1764875820182.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        },
+        {
+            "snapshot": "1764957824381.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<input type=\"input\" placeholder=\"Enter Player Id\" type=\"text\" value=\"6\"></input>"
+        }
+    ],
+    "Apply": [
+        {
+            "snapshot": "1763758073838.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        },
+        {
+            "snapshot": "1764970351513.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        },
+        {
+            "snapshot": "1765302156724.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        }
+    ],
+    "table_div": [
+        {
+            "snapshot": "1764957828683.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_div",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<div type=\"div\">60007</div>"
+        }
+    ],
+    "More_actions": [
+        {
+            "snapshot": "1763758128747.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > More_actions",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" aria-label=\"More actions\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\" aria-label=\"More actions\" aria-describedby=\"reka-tooltip-content-v-1-42\"></button>"
+        }
+    ],
+    "Suspend": [],
+    "Status_Action": [
+        {
+            "snapshot": "1763758102173.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status_Action",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" role=\"switch\" aria-label=\"Status Action\" type=\"button\" value=\"on\" aria-invalid=\"false\" aria-checked=\"false\" aria-required=\"false\" aria-label=\"Status Action\"></button>"
+        }
+    ],
+    "description": [
+        {
+            "snapshot": "1763758105360.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter reason for suspension...\" value=\"s\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Next": [
+        {
+            "snapshot": "1763758158264.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1764871212176.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1764875958637.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1764957767889.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        }
+    ],
+    "Submit": [
+        {
+            "snapshot": "1763758160212.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1764871214310.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1764875961070.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1764957769454.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        }
+    ],
+    "Close": [
+        {
+            "snapshot": "1763758163192.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "snapshot": "1764871216964.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "snapshot": "1764875965367.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "snapshot": "1764957777657.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        }
+    ],
+    "Suspended": [
+        {
+            "snapshot": "1763758126296.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Suspended",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<span type=\"span\">Suspended</span>"
+        },
+        {
+            "snapshot": "1764875941667.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Suspended",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<span type=\"span\">Suspended</span>"
+        }
+    ],
+    "Status_Action_1": [
+        {
+            "snapshot": "1763758133382.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status_Action_1",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" role=\"switch\" aria-label=\"Status Action\" type=\"button\" value=\"on\" aria-invalid=\"false\" aria-checked=\"true\" aria-required=\"false\" aria-label=\"Status Action\"></button>"
+        }
+    ],
+    "description_1": [
+        {
+            "snapshot": "1763758138131.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description_1",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter reason for unsuspension...\" value=\"Uns\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Active": [
+        {
+            "snapshot": "1763758168465.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Active",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<span type=\"span\">Active</span>"
+        },
+        {
+            "snapshot": "1764875972291.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Active",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<span type=\"span\">Active</span>"
+        }
+    ],
+    "table_span": [
+        {
+            "snapshot": "1763758093361.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<span type=\"span\">G2E Casino</span>"
+        },
+        {
+            "snapshot": "1764871169906.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<span type=\"span\">60032</span>"
+        },
+        {
+            "snapshot": "1764875824793.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<span type=\"span\">60032</span>"
+        },
+        {
+            "snapshot": "1764957746599.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<span type=\"span\">60007</span>"
+        }
+    ],
+    "Suspend_1": [],
+    "Suspend_2": [
+        {
+            "snapshot": "1763758131197.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Suspend_2",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"button\">Unsuspend</button>"
+        }
+    ],
+    "Reports": [
+        {
+            "snapshot": "1763758176409.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        },
+        {
+            "snapshot": "1764871229951.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        },
+        {
+            "snapshot": "1764875976606.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        },
+        {
+            "snapshot": "1764970298522.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        }
+    ],
+    "Historical_status_changes_for": [
+        {
+            "snapshot": "1763758179554.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<p type=\"p\">Historical status changes for accounts</p>"
+        },
+        {
+            "snapshot": "1764871232468.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<p type=\"p\">Historical status changes for accounts</p>"
+        },
+        {
+            "snapshot": "1765301701272.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Historical status changes for accounts</p>"
+        }
+    ],
+    "table_span_1": [
+        {
+            "snapshot": "1763758191493.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span_1",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<span type=\"span\">60032</span>"
+        },
+        {
+            "snapshot": "1764871291354.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<span type=\"span\">Active</span>"
+        },
+        {
+            "snapshot": "1764875998122.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span_1",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<span type=\"span\">Active</span>"
+        }
+    ],
+    "Property_Id": [
+        {
+            "snapshot": "1763758208937.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Property_Id",
+            "testLabel": "AccountStatus_RealTime_Report.web",
+            "attrs": "<div type=\"div\">Property Id Property Name Player Id Last Name Firs</div>"
+        },
+        {
+            "snapshot": "1764871276482.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Property_Id",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<div type=\"div\">Property Id Property Name Player Id Last Name Firs</div>"
+        }
+    ],
+    "Historical": [
+        {
+            "snapshot": "1764970300194.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Historical",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<a type=\"a\">Historical</a>"
+        }
+    ],
+    "Account_Balance": [
+        {
+            "snapshot": "1764970301783.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Account_Balance",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<h2 type=\"h2\">Account Balance</h2>"
+        }
+    ],
+    "Select_Report_Date": [
+        {
+            "snapshot": "1764970332746.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Select_Report_Date",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\">Select Report Date</button>"
+        }
+    ],
+    "Toggle_calendar": [
+        {
+            "snapshot": "1764970337759.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Toggle_calendar",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<button type=\"button\" aria-label=\"Toggle calendar\" type=\"button\" aria-label=\"Toggle calendar\"></button>"
+        }
+    ],
+    "table_button_div": [
+        {
+            "snapshot": "1764970349539.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_button_div",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<div type=\"div\" role=\"button\" aria-label=\"Friday, December 5, 2025\" aria-label=\"Friday, December 5, 2025\">5</div>"
+        }
+    ],
+    "Account_Balance_1": [],
+    "Download_Report": [],
+    "Home": [],
+    "Current_balances_of_players_ac": [],
+    "Player_Id_1": [
+        {
+            "snapshot": "1764871163447.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        },
+        {
+            "snapshot": "1764875818593.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        },
+        {
+            "snapshot": "1764957822838.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Player Id </button>"
+        }
+    ],
+    "Apply_1": [
+        {
+            "snapshot": "1764871167869.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        },
+        {
+            "snapshot": "1764875822425.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply_1",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        },
+        {
+            "snapshot": "1764957826593.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Apply_1",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Apply</button>"
+        }
+    ],
+    "Patron_Info": [
+        {
+            "snapshot": "1764871175157.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Patron_Info",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<a type=\"a\">Patron Info</a>"
+        }
+    ],
+    "Change_Status": [
+        {
+            "snapshot": "1764871200984.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Change_Status",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" type=\"button\">Change Status</button>"
+        }
+    ],
+    "Select_a_status": [
+        {
+            "snapshot": "1764871178131.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Select_a_status",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" role=\"combobox\" type=\"button\" aria-invalid=\"false\" aria-controls=\"reka-select-content-v-1-59\" aria-expanded=\"false\" aria-required=\"false\" aria-autocomplete=\"none\">Select a status</button>"
+        }
+    ],
+    "Disabled": [
+        {
+            "snapshot": "1764871178732.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Disabled",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-labelledby=\"reka-select-item-text-v-1-66\" aria-selected=\"false\">Disabled</div>"
+        }
+    ],
+    "description_2": [
+        {
+            "snapshot": "1764871180523.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description_2",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for the status change\" value=\"T\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Disabled_1": [
+        {
+            "snapshot": "1764871198904.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Disabled_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<span type=\"span\">Disabled</span>"
+        }
+    ],
+    "Select_a_status_1": [
+        {
+            "snapshot": "1764871202247.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Select_a_status_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<button type=\"button\" role=\"combobox\" type=\"button\" aria-invalid=\"false\" aria-controls=\"reka-select-content-v-1-88\" aria-expanded=\"false\" aria-required=\"false\" aria-autocomplete=\"none\">Select a status</button>"
+        }
+    ],
+    "Active_1": [
+        {
+            "snapshot": "1764871202849.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Active_1",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-labelledby=\"reka-select-item-text-v-1-95\" aria-selected=\"false\">Active</div>"
+        }
+    ],
+    "description_3": [
+        {
+            "snapshot": "1764871204444.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description_3",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for the status change\" value=\"T\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Active_2": [
+        {
+            "snapshot": "1764871226081.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Active_2",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<span type=\"span\">Active</span>"
+        }
+    ],
+    "Search": [
+        {
+            "snapshot": "1764871272240.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search",
+            "testLabel": "AccountStatus_Disable.web",
+            "attrs": "<body type=\"body\">Search...CtrlKHomePlayersReportsEmployeesSettingsW</body>"
+        }
+    ],
+    "More_actions_1": [
+        {
+            "snapshot": "1764875944670.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > More_actions_1",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" aria-label=\"More actions\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\" aria-label=\"More actions\" aria-describedby=\"reka-tooltip-content-v-1-46\"></button>"
+        }
+    ],
+    "Suspend_3": [
+        {
+            "snapshot": "1764875840630.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Suspend_3",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"button\">Suspend</button>"
+        }
+    ],
+    "Status_Action_2": [
+        {
+            "snapshot": "1764875843403.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status_Action_2",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" role=\"switch\" aria-label=\"Status Action\" type=\"button\" value=\"on\" aria-invalid=\"false\" aria-checked=\"false\" aria-required=\"false\" aria-label=\"Status Action\"></button>"
+        }
+    ],
+    "description_4": [
+        {
+            "snapshot": "1764875845885.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description_4",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter reason for suspension...\" value=\"T\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Unsuspend_1": [
+        {
+            "snapshot": "1764875946694.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unsuspend_1",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"button\">Unsuspend</button>"
+        }
+    ],
+    "Status_Action_3": [
+        {
+            "snapshot": "1764875948754.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status_Action_3",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<button type=\"button\" role=\"switch\" aria-label=\"Status Action\" type=\"button\" value=\"on\" aria-invalid=\"false\" aria-checked=\"true\" aria-required=\"false\" aria-label=\"Status Action\"></button>"
+        }
+    ],
+    "description_5": [
+        {
+            "snapshot": "1764875951042.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description_5",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter reason for unsuspension...\" value=\"T\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Account_Status": [
+        {
+            "snapshot": "1764875979529.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Account_Status",
+            "testLabel": "Account_Status_Suspended.web",
+            "attrs": "<h2 type=\"h2\">Account Status</h2>"
+        }
+    ],
+    "Line_Activity": [
+        {
+            "snapshot": "1764957832924.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Line_Activity",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<a type=\"a\">Line Activity</a>"
+        }
+    ],
+    "Marker_Line_Adjustment": [
+        {
+            "snapshot": "1764957838190.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Marker_Line_Adjustment",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\"> Marker Line Adjustment </button>"
+        }
+    ],
+    "spinbutton": [],
+    "amount": [
+        {
+            "snapshot": "1764957757711.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.05\"></input>"
+        }
+    ],
+    "v_1_88": [],
+    "Other": [
+        {
+            "snapshot": "1764957760490.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Other",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-labelledby=\"reka-select-item-text-v-1-110\" aria-selected=\"false\">Other</div>"
+        }
+    ],
+    "Note": [],
+    "table_span_2": [
+        {
+            "snapshot": "1764957789783.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span_2",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<span type=\"span\">Pending</span>"
+        }
+    ],
+    "RA": [
+        {
+            "snapshot": "1764957792982.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > RA",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">RARequestor Automation</button>"
+        }
+    ],
+    "Log_out": [],
+    "div": [
+        {
+            "snapshot": "1764957846973.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > div",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<div type=\"div\">Requested DateApproved AmountRequested AmountReque</div>"
+        }
+    ],
+    "table_span_3": [
+        {
+            "snapshot": "1764957865431.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > table_span_3",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\"></button>"
+        }
+    ],
+    "Approve_Decline": [],
+    "notes": [],
+    "Approve_Adjustment": [
+        {
+            "snapshot": "1764957875015.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Approve_Adjustment",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"submit\">Approve Adjustment </button>"
+        }
+    ],
+    "Marker_Info": [],
+    "_10": [],
+    "Print_Agreement": [
+        {
+            "snapshot": "1764957885310.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Print_Agreement",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Print Agreement</button>"
+        }
+    ],
+    "Print_Agreement_1": [
+        {
+            "snapshot": "1764957887114.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Print_Agreement_1",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" type=\"button\">Print Agreement</button>"
+        }
+    ],
+    "Line_Adjustment": [
+        {
+            "snapshot": "1765301964902.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Line_Adjustment",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<h2 type=\"h2\">Line Adjustment</h2>"
+        }
+    ],
+    "v_1_92": [],
+    "Note_1": [
+        {
+            "snapshot": "1764957762343.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Note_1",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<textarea type=\"textarea\" value=\"A\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "notes_1": [
+        {
+            "snapshot": "1764957869777.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > notes_1",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter notes\" value=\"A\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Adjustments_to_credit_lines": [],
+    "Increment": [
+        {
+            "snapshot": "1764957757695.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        }
+    ],
+    "v_1_100": [
+        {
+            "snapshot": "1764957758936.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > v_1_100",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" role=\"combobox\" type=\"button\" aria-invalid=\"false\" aria-controls=\"reka-select-content-v-1-101\" aria-expanded=\"false\" aria-required=\"false\" aria-autocomplete=\"none\"> </button>"
+        }
+    ],
+    "Log_out_1": [],
+    "Approve_Decline_1": [],
+    "Log_out_2": [
+        {
+            "snapshot": "1764957794643.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Log_out_2",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"button\">Log out</button>"
+        }
+    ],
+    "Approve_Decline_2": [
+        {
+            "snapshot": "1764957866822.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Approve_Decline_2",
+            "testLabel": "Advance_Line_Change.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"button\">Approve/Decline</button>"
+        }
+    ],
+    "Date": [
+        {
+            "snapshot": "1764970346636.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Date",
+            "testLabel": "Download_Historical_Reports.web",
+            "attrs": "<div type=\"div\">Date</div>"
+        }
+    ],
+    "Reports_1": [
+        {
+            "snapshot": "1765301652759.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Reports_1",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<a type=\"a\">Reports</a>"
+        }
+    ],
+    "Account_Balance_2": [
+        {
+            "snapshot": "1765301655485.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Account_Balance_2",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<div type=\"div\">Account BalanceCurrent balances of players account</div>"
+        }
+    ],
+    "Export": [
+        {
+            "snapshot": "1765301688135.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "PDF": [
+        {
+            "snapshot": "1765302163794.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > PDF",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"pdf\">PDF</button>"
+        }
+    ],
+    "Real_Time_Reports": [
+        {
+            "snapshot": "1765301929677.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<div type=\"div\">Real-Time Reports</div>"
+        }
+    ],
+    "Excel": [
+        {
+            "snapshot": "1765302169127.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Excel",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"xlsx\">Excel</button>"
+        }
+    ],
+    "CSV": [
+        {
+            "snapshot": "1765302174159.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > CSV",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" role=\"menuitem\" type=\"csv\">CSV</button>"
+        }
+    ],
+    "Real_Time_Reports_1": [
+        {
+            "snapshot": "1765302136314.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Real_Time_Reports_1",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<a type=\"a\">Real-Time Reports</a>"
+        }
+    ],
+    "Status_Change_Date": [
+        {
+            "snapshot": "1765301703766.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Status_Change_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Status Change Date </button>"
+        }
+    ],
+    "Pick_a_date": [
+        {
+            "snapshot": "1765302153414.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\">Pick a date</button>"
+        }
+    ],
+    "Last_7_Days": [
+        {
+            "snapshot": "1765302155379.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\">Last 7 Days</button>"
+        }
+    ],
+    "Export_1": [
+        {
+            "snapshot": "1765301729142.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_1",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Adjustments_made_by_cashiers": [
+        {
+            "snapshot": "1765301741951.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Adjustments_made_by_cashiers",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Adjustments made by cashiers</p>"
+        }
+    ],
+    "Gaming_Date": [
+        {
+            "snapshot": "1765301745416.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_2": [
+        {
+            "snapshot": "1765301764037.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_2",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Credit_amounts_extended_to_pla": [
+        {
+            "snapshot": "1765301774774.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Credit_amounts_extended_to_pla",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Credit amounts extended to players</p>"
+        }
+    ],
+    "Gaming_Date_1": [
+        {
+            "snapshot": "1765301777619.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_1",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_3": [
+        {
+            "snapshot": "1765301797621.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_3",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Payment_transactions_using_deb": [
+        {
+            "snapshot": "1765301807067.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Payment_transactions_using_deb",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Payment transactions using debit</p>"
+        }
+    ],
+    "Gaming_Date_2": [
+        {
+            "snapshot": "1765301809052.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_2",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_4": [
+        {
+            "snapshot": "1765301830145.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_4",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Enrollment_Activity": [
+        {
+            "snapshot": "1765301838860.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enrollment_Activity",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<div type=\"div\">Enrollment ActivityNew player enrollment statistic</div>"
+        }
+    ],
+    "Enrollment_Start_Date": [
+        {
+            "snapshot": "1765301845591.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Enrollment_Start_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Enrollment Start Date </button>"
+        }
+    ],
+    "Export_5": [
+        {
+            "snapshot": "1765301877780.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_5",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Failed_Transactions": [
+        {
+            "snapshot": "1765301900450.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Failed_Transactions",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<h2 type=\"h2\">Failed Transactions</h2>"
+        }
+    ],
+    "Transaction_Date": [
+        {
+            "snapshot": "1765301903183.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Transaction_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Transaction Date </button>"
+        }
+    ],
+    "Export_6": [
+        {
+            "snapshot": "1765301922807.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_6",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Player_limit_setting_activitie": [
+        {
+            "snapshot": "1765301935073.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_limit_setting_activitie",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Player limit setting activities</p>"
+        }
+    ],
+    "Gaming_Date_3": [
+        {
+            "snapshot": "1765301937816.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_3",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_7": [
+        {
+            "snapshot": "1765301956599.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_7",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Changed_Date": [
+        {
+            "snapshot": "1765301967751.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Changed_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Changed Date </button>"
+        }
+    ],
+    "Export_8": [
+        {
+            "snapshot": "1765301985356.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_8",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Payment": [
+        {
+            "snapshot": "1765301994687.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Payment",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<h2 type=\"h2\">Payment</h2>"
+        }
+    ],
+    "Gaming_Date_4": [
+        {
+            "snapshot": "1765301997661.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_4",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_9": [
+        {
+            "snapshot": "1765302018705.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_9",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Payment_Detail": [
+        {
+            "snapshot": "1765302026678.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Payment_Detail",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<h2 type=\"h2\">Payment Detail</h2>"
+        }
+    ],
+    "Gaming_Date_5": [
+        {
+            "snapshot": "1765302029329.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_5",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_10": [
+        {
+            "snapshot": "1765302047512.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_10",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Player_Activity": [
+        {
+            "snapshot": "1765302055069.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Player_Activity",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<h2 type=\"h2\">Player Activity</h2>"
+        }
+    ],
+    "Gaming_Date_6": [
+        {
+            "snapshot": "1765302060445.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Gaming_Date_6",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Gaming Date </button>"
+        }
+    ],
+    "Export_11": [
+        {
+            "snapshot": "1765302066803.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_11",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<div type=\"div\">Export</div>"
+        }
+    ],
+    "Export_12": [
+        {
+            "snapshot": "1765302093314.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_12",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Detailed_player_activity_infor": [
+        {
+            "snapshot": "1765302103953.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Detailed_player_activity_infor",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Detailed player activity information</p>"
+        }
+    ],
+    "Calendar_Date": [
+        {
+            "snapshot": "1765302109038.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Calendar_Date",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Calendar Date </button>"
+        }
+    ],
+    "Export_13": [
+        {
+            "snapshot": "1765302131020.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_13",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ],
+    "Underwriting_details_and_appro": [
+        {
+            "snapshot": "1765302148067.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Underwriting_details_and_appro",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<p type=\"p\">Underwriting details and approvals</p>"
+        }
+    ],
+    "Date_Created": [
+        {
+            "snapshot": "1765302152133.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Date_Created",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\"> Date Created </button>"
+        }
+    ],
+    "Export_14": [
+        {
+            "snapshot": "1765302172567.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Export_14",
+            "testLabel": "Export_RealTime_Reports.web",
+            "attrs": "<button type=\"button\" type=\"button\" aria-haspopup=\"menu\" aria-expanded=\"false\">Export</button>"
+        }
+    ]
+}

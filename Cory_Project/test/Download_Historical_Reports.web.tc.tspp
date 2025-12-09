@@ -1,0 +1,292 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+#Launch the Web Portal 
+--Open URL-- [[https://uat-od.moolahplay.net/]] 
+#Login to the Operators Dashboard 
+--Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
+::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[3000]] --milliseconds-- 
+--Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[testabc@qa.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Input value-- [[LetmeEnter1!]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Navigate to Historical Reports 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Select the Account Balance Report 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Account_Balance}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Select the Previous Date after Calculating the Current Date 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Select_Report_Date}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Toggle_calendar}} 
+--Wait for-- [[3000]] --milliseconds-- 
+::yesterdayIso = --Date.Get date-- [[-1]] --days from current date in format-- [[YYYY-MM-DD]] 
+--Click on-- {{Calendar_Day_By_Date > Calendar_Day_By_Date}}(( targetDate: ::yesterdayIso )) 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify Account Balance Historical Report was Downloaded 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_32 = --Get last downloaded file-- 
+::content_33 = --File.Read content as text-- ::filePath_32:: 
+--Take Screenshot-- [[Account Balance Report]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Account status Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > AccountStatusReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_52 = --Get last downloaded file-- 
+::content_53 = --File.Read content as text-- ::filePath_52:: 
+--Take Screenshot-- [[Account Status Report]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Activity History Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ActivityHistory}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_55 = --Get last downloaded file-- 
+::content_56 = --File.Read content as text-- ::filePath_55:: 
+--Take Screenshot-- [[ActivityHistory]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Activity History Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ActivityHistoryReport}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_66 = --Get last downloaded file-- 
+::content_67 = --File.Read content as text-- ::filePath_66:: 
+--Take Screenshot-- [[ActivityHistory]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Aging Transaction Details Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > AgingTransactionDetailsReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_77 = --Get last downloaded file-- 
+::content_78 = --File.Read content as text-- ::filePath_77:: 
+--Take Screenshot-- [[AgingTransactionDetail]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Aging Weekly Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > AgingWeeklyReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_88 = --Get last downloaded file-- 
+::content_89 = --File.Read content as text-- ::filePath_88:: 
+--Take Screenshot-- [[AgingWeekly]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Aging Monthly Hisorical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > AgingMonthlyReport}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_99 = --Get last downloaded file-- 
+::content_100 = --File.Read content as text-- ::filePath_99:: 
+--Take Screenshot-- [[AgingMonthly]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Cashier Adjustment Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CashierAdjustmentReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_110 = --Get last downloaded file-- 
+::content_111 = --File.Read content as text-- ::filePath_110:: 
+--Take Screenshot-- [[CashierAdjustment]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Credit Extended Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > CreditExtendedReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_121 = --Get last downloaded file-- 
+::content_122 = --File.Read content as text-- ::filePath_121:: 
+--Take Screenshot-- [[CreditExtended]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Failed Transaction Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > FailedTransactionsReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_132 = --Get last downloaded file-- 
+::content_133 = --File.Read content as text-- ::filePath_132:: 
+--Take Screenshot-- [[FailedTransactions]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Gross Gaming Revenue Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > GrossGamingRevenueReport}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_143 = --Get last downloaded file-- 
+::content_144 = --File.Read content as text-- ::filePath_143:: 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Fee Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > FeeReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_153 = --Get last downloaded file-- 
+::content_154 = --File.Read content as text-- ::filePath_153:: 
+--Take Screenshot-- [[Fee]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Limit Activity Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > LimitActivityReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_164 = --Get last downloaded file-- 
+::content_165 = --File.Read content as text-- ::filePath_164:: 
+--Take Screenshot-- [[LimitActivity]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Line Adjustment Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > LineAdjustmentReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_175 = --Get last downloaded file-- 
+::content_176 = --File.Read content as text-- ::filePath_175:: 
+--Take Screenshot-- [[LineAdjustment]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Payments Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PaymentReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete-- 
+::filePath_186 = --Get last downloaded file-- 
+::content_187 = --File.Read content as text-- ::filePath_186:: 
+--Take Screenshot-- [[Payment]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Payment Detail Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PaymentDetailReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_197 = --Get last downloaded file-- 
+::content_198 = --File.Read content as text-- ::filePath_197:: 
+--Take Screenshot-- [[Payment Detail]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Player Activity Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PlayerActivityReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_208 = --Get last downloaded file-- 
+::content_209 = --File.Read content as text-- ::filePath_208:: 
+--Take Screenshot-- [[PlayerActivity]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Underwriting Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > UnderwritingReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_219 = --Get last downloaded file-- 
+::content_220 = --File.Read content as text-- ::filePath_219:: 
+--Take Screenshot-- [[Underwriting]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the User Access Listing Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > UserAccessListingReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_230 = --Get last downloaded file-- 
+::content_231 = --File.Read content as text-- ::filePath_230:: 
+--Take Screenshot-- [[UserAccessListing]] 
+--Wait for-- [[2000]] --milliseconds-- 
+#Verify the Roles and Permission Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > RolesAndPermissionsReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_241 = --Get last downloaded file-- 
+::content_242 = --File.Read content as text-- ::filePath_241:: 
+--Take Screenshot-- [[RolesAndPermissions]] 
+--Wait for-- [[3000]] --milliseconds-- 
+#Verify the Write Off Historical Report is Downloadable 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > WriteOffReport}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_252 = --Get last downloaded file-- 
+::content_253 = --File.Read content as text-- ::filePath_252:: 
+--Take Screenshot-- [[WriteOff]] 
+

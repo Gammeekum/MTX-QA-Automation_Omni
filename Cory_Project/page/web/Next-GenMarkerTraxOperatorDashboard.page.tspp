@@ -1,0 +1,195 @@
+>>summary: 
+>>recorderName: Next-GenMarkerTraxOperatorDashboard
+
+==Sign_In_To_Dashboard;CSS;[type='button'];Button;[CSS:button];[Sign_In_To_Dashboard];[Next-GenMarkerTraxOperatorDashboard];;==
+==Players;XPATH;//a[@data-reka-collection-item=''][./span[text()='Players']];;[XPATH://a[./span[text()="Players"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Players"]]];[Players];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_Id;CSS;#reka-popover-trigger-v-1-19;Button;[];[Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enter_Player_Id;CSS;[placeholder='Enter Player Id'];Input;[CSS:[type='text']^^CSS:input];[Enter_Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Apply;XPATH;//button[text()='Apply'];Button;[XPATH://div[./h3[text()="Player Id"]]//button^^XPATH://button[text()="Apply"]];[Apply];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_div;XPATH;(//table)[1]//tbody/tr/td[${colId}]/div;;[];[table_div];[Next-GenMarkerTraxOperatorDashboard];;==
+==More_actions;CSS;#reka-dropdown-menu-trigger-v-1-41;Button;[CSS:[aria-label='More actions']^^XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
+==Suspend;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action;CSS;#v-1-53;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description;CSS;#v-1-54;;[CSS:[placeholder='Enter reason for suspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Next;XPATH;//button[text()="Next"];Button;[];[Next];[Next-GenMarkerTraxOperatorDashboard];;==
+==Submit;XPATH;//button[text()="Submit"];Button;[];[Submit];[Next-GenMarkerTraxOperatorDashboard];;==
+==Close;XPATH;//button[text()="Close"];Button;[];[Close];[Next-GenMarkerTraxOperatorDashboard];;==
+==Suspended;XPATH;//span[text()="Suspended"];;[];[Suspended];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_1;CSS;#v-1-64;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_1;CSS;#v-1-65;;[CSS:[placeholder='Enter reason for unsuspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Active;XPATH;//span[text()="Active"];;[];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span;XPATH;(//table)[1]//tbody/tr/td[${colId}]/div/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==Suspend_1;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
+==Unsuspend;XPATH;//*[@id="reka-dropdown-menu-content-v-1-44"]/div/div/button[3]/span[2];Button;[];[];[];;==
+==Unsuspend;XPATH;/html/body/div[4]/div/div/div/button[3]/span[2];Button;[];[];[];;==
+==Reports_List;XPATH;/html/body/div[1]/div[2]/div/div[1]/div[2]/nav/ul/li[3]/a/span[2];Button;[];[];[];;==
+==AccountStatus_Report;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/h2;Button;[];[];[];;==
+==Suspend_2;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
+==Reports;XPATH;//a[./span[text()='Reports']];;[XPATH://a[./span[text()="Reports"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Reports"]]];[Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Historical_status_changes_for;XPATH;//div[./h2[text()="Account Status"]]//p;;[XPATH://p[text()="Historical status changes for accounts"]];[Historical_status_changes_for];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span_1;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==Property_Id;XPATH;//div[./table];;[];[Property_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Unsuspended;XPATH;/html/body/div[4]/div/div/div/button[3]/span[2];Button;[];[];[];;==
+==LastName;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[4]/div/span;Text;[];[];[];;==
+==Historical;CSS;[title='Historical Reports'];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Historical"]]^^XPATH://a[./span[text()="Historical"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Historical"]]];[Historical];[Next-GenMarkerTraxOperatorDashboard];;==
+==Account_Balance;XPATH;//h2[text()="Account Balance"];;[];[Account_Balance];[Next-GenMarkerTraxOperatorDashboard];;==
+==Select_Report_Date;XPATH;//*[@data-state='closed'][./span[text()="Select Report Date"]];Button;[XPATH://*[@type='button'][./span[text()="Select Report Date"]]^^XPATH://button[./span[text()="Select Report Date"]]^^XPATH://div[@data-v-9ac70d31=''][@data-v-397c15ea='']//*[@data-state='closed']^^CSS:#reka-popover-trigger-v-1-22];[Select_Report_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Toggle_calendar;CSS;[aria-label='Toggle calendar'];Button;[XPATH://button[@data-v-9ac70d31=''][@type='button']^^XPATH://button[@data-v-9ac70d31='']^^XPATH://*[@data-v-9ac70d31=''][./span]^^XPATH://*[@data-v-9ac70d31=''][./span[@data-v-9ac70d31='']]];[Toggle_calendar];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_button_div;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div;Button;[];[table_button_div];[Next-GenMarkerTraxOperatorDashboard];;==
+==Download_Report;CSS;[type='submit'];Button;[XPATH://button[./span[text()="Download Report"]]^^XPATH://div[@data-v-397c15ea=''][.//*/span[text()="Use the fields above to download the report"]]//button^^XPATH://div[@data-v-397c15ea=''][.//*/span[@data-v-397c15ea='']]//button];[Download_Report];[Next-GenMarkerTraxOperatorDashboard];;==
+==Microsoft_Signin;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==Account_Balance_1;CSS;div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > div;;[];[Account_Balance];[Next-GenMarkerTraxOperatorDashboard];;==
+==Home;CSS;[data-reka-navigation-menu=''];Nav;[CSS:[aria-label='Main']^^CSS:nav^^XPATH://nav[@data-collapsed='false'][@data-orientation='vertical']^^XPATH://*[@data-collapsed='false'][./ul]^^XPATH://*[@data-orientation='vertical'][./ul]^^XPATH://*[@data-orientation='vertical'][.//*/*/a[@data-reka-collection-item=''][@data-active='']]];[Home];[Next-GenMarkerTraxOperatorDashboard];;==
+==Current_balances_of_players_ac;XPATH;//div[./h2[text()="Account Balance"]]//p;;[XPATH://p[text()="Current balances of players accounts"]];[Current_balances_of_players_ac];[Next-GenMarkerTraxOperatorDashboard];;==
+==DatePicker;XPATH;//td[text()='{{day}}'];Button;[];[];[];;==
+==DatePicker_Day;XPATH;//td[normalize-space(text())='{{day}}'];Button;[];[];[];;==
+==Click_Date;XPATH;//td[normalize-space(text())='{{day}}'];Button;[];[];[];;==
+==day;XPATH;//td[normalize-space(text())='{{day}}'];Button;[];[];[];;==
+==Day;XPATH;//td[normalize-space(text())='{{day}}'];Button;[];[];[];;==
+==Yesterday;XPATH;//div[normalize-space(text())='{{day}}'];Button;[];[];[];;==
+==UnSuspend;XPATH;/html/body/div[4]/div/div/div/button[5]/span[2];Button;[];[];[];;==
+==Player_Id_1;CSS;#reka-popover-trigger-v-1-23;Button;[];[Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
+==Apply_1;XPATH;//div[./h3[text()="Player Id"]]//*[@type='button'];Button;[XPATH://div[./h3[text()="Player Id"]]//button^^XPATH://button[text()="Apply"]];[Apply];[Next-GenMarkerTraxOperatorDashboard];;==
+==Patron_Info;XPATH;//*[@data-reka-collection-item=''][./span[text()="Patron Info"]];;[XPATH://a[./span[text()="Patron Info"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Patron Info"]]];[Patron_Info];[Next-GenMarkerTraxOperatorDashboard];;==
+==Change_Status;XPATH;//button[text()="Change Status"];Button;[];[Change_Status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Select_a_status;CSS;#v-1-58;;[CSS:[data-placeholder='']^^CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Disabled;CSS;[data-highlighted=''];;[XPATH://*[@data-reka-collection-item=''][./*[@id='reka-select-item-text-v-1-66']]^^XPATH://*[@data-state='unchecked'][./*[@id='reka-select-item-text-v-1-66']]^^XPATH://*[@role='option'][./*[@id='reka-select-item-text-v-1-66']]];[Disabled];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_2;CSS;#v-1-60;;[CSS:[placeholder='Enter a description for the status change']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Disabled_1;XPATH;//div[./span[text()="Status:"]]//span[text()="Disabled"];;[];[Disabled];[Next-GenMarkerTraxOperatorDashboard];;==
+==Select_a_status_1;CSS;#v-1-87;;[CSS:[data-placeholder='']^^CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Active_1;CSS;[data-highlighted=''];;[XPATH://*[@data-reka-collection-item=''][./*[@id='reka-select-item-text-v-1-95']]^^XPATH://*[@data-state='unchecked'][./*[@id='reka-select-item-text-v-1-95']]^^XPATH://*[@role='option'][./*[@id='reka-select-item-text-v-1-95']]];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_3;CSS;#v-1-89;;[CSS:[placeholder='Enter a description for the status change']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Active_2;XPATH;//div[./span[text()="Status:"]]//span[text()="Active"];;[];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search;CSS;body;;[];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
+==MicrosoftButton;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
+==TopRow;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[4]/div/span;Text;[];[];[];;==
+==AccountStatus;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[7]/div/span;Text;[];[];[];;==
+==PatronInfoTab;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/nav/div[1]/ul/li[2]/a/span;Button;[];[];[];;==
+==PlayerIDFilter;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==More_actions_1;CSS;#reka-dropdown-menu-trigger-v-1-45;Button;[CSS:[aria-label='More actions']^^XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
+==Suspend_3;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_2;CSS;#v-1-57;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_4;CSS;#v-1-58;;[CSS:[placeholder='Enter reason for suspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Unsuspend_1;XPATH;//*[@data-reka-collection-item=''][./span[text()='Unsuspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Unsuspend"]]^^XPATH://*[@type='button'][./span[text()="Unsuspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Unsuspend"]]];[Unsuspend];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_3;CSS;#v-1-68;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_5;CSS;#v-1-69;;[CSS:[placeholder='Enter reason for unsuspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Account_Status;XPATH;//h2[text()="Account Status"];;[];[Account_Status];[Next-GenMarkerTraxOperatorDashboard];;==
+==LastName;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[4]/div/span;Text;[];[];[];;==
+==Account_Status;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[7]/div/span;Text;[];[];[];;==
+==Account_Status_Report;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div[2]/p;Button;[];[];[];;==
+==Line_Activity;XPATH;//*[@data-reka-collection-item=''][./span[text()="Line Activity"]];;[XPATH://a[./span[text()="Line Activity"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Line Activity"]]];[Line_Activity];[Next-GenMarkerTraxOperatorDashboard];;==
+==Marker_Line_Adjustment;XPATH;(//div[./h2[text()="Player Line Activity"]]//*[@type='button'])[2];Button;[XPATH:(//div[./h2[text()="Player Line Activity"]]//button)[2]^^XPATH:(//div[./h2[text()="Player Line Activity"]]//button[@type='button'])[2]];[Marker_Line_Adjustment];[Next-GenMarkerTraxOperatorDashboard];;==
+==spinbutton;CSS;[role='spinbutton'];;[CSS:#v-1-87];[spinbutton];[Next-GenMarkerTraxOperatorDashboard];;==
+==amount;CSS;[data-hidden=''];Input;[CSS:[name='amount']];[amount];[Next-GenMarkerTraxOperatorDashboard];;==
+==v_1_88;CSS;#v-1-88;;[CSS:[data-placeholder='']^^XPATH://*[@data-state='closed'][./span[text()=" "]]^^XPATH://*[@type='button'][./span[text()=" "]]^^XPATH://*[@role='combobox'][./span[text()=" "]]];[v_1_88];[Next-GenMarkerTraxOperatorDashboard];;==
+==Other;CSS;[data-highlighted=''];;[XPATH://*[@data-reka-collection-item=''][./*[@id='reka-select-item-text-v-1-98']]^^XPATH://*[@data-state='unchecked'][./*[@id='reka-select-item-text-v-1-98']]^^XPATH://*[@role='option'][./*[@id='reka-select-item-text-v-1-98']]];[Other];[Next-GenMarkerTraxOperatorDashboard];;==
+==Note;CSS;#v-1-90;;[CSS:[name='Note']^^CSS:textarea];[Note];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span_2;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==RA;CSS;[name='Requestor Automation'];Button;[XPATH://*[@data-state='closed'][./span[text()="Requestor Automation"]]^^XPATH://*[@type='button'][./span[text()="Requestor Automation"]]^^XPATH://button[./span[text()="Requestor Automation"]]];[RA];[Next-GenMarkerTraxOperatorDashboard];;==
+==Log_out;XPATH;//*[@data-reka-collection-item=''][./span[text()='Log out']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Log out"]]^^XPATH://*[@type='button'][./span[text()="Log out"]]^^XPATH://*[@role='menuitem'][./span[text()="Log out"]]];[Log_out];[Next-GenMarkerTraxOperatorDashboard];;==
+==div;XPATH;//div[./table];;[];[div];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span_3;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div/button/span;Button;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==Approve_Decline;XPATH;//*[@data-reka-collection-item=''][./span[text()='Approve/Decline']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Approve/Decline"]]^^XPATH://*[@type='button'][./span[text()="Approve/Decline"]]^^XPATH://*[@role='menuitem'][./span[text()="Approve/Decline"]]];[Approve_Decline];[Next-GenMarkerTraxOperatorDashboard];;==
+==notes;CSS;#v-1-91;;[CSS:[placeholder='Enter notes']^^CSS:[name='notes']^^CSS:textarea];[notes];[Next-GenMarkerTraxOperatorDashboard];;==
+==Approve_Adjustment;CSS;[type='submit'];Button;[XPATH://button[text()="Approve Adjustment "]];[Approve_Adjustment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Marker_Info;XPATH;//*[@data-reka-collection-item=''][./span[text()="Marker Info"]];;[XPATH://a[./span[text()="Marker Info"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Marker Info"]]];[Marker_Info];[Next-GenMarkerTraxOperatorDashboard];;==
+==_10;XPATH;//div[./*[@role='combobox']];;[];[_10];[Next-GenMarkerTraxOperatorDashboard];;==
+==Print_Agreement;XPATH;//div[@data-v-2befad8c=''][@data-orientation='horizontal']//*[@type='button'];Button;[XPATH://div[@data-v-2befad8c=''][@data-orientation='horizontal']//button^^XPATH://div[@data-v-2befad8c=''][@data-orientation='horizontal']//button[@type='button']^^XPATH://div[@data-orientation='horizontal']//*[@type='button']^^XPATH://div[@data-orientation='horizontal']//button];[Print_Agreement];[Next-GenMarkerTraxOperatorDashboard];;==
+==Print_Agreement_1;XPATH;(//div[./button[text()="Cancel"]]//*[@type='button'])[2];Button;[XPATH:(//div[./button[text()="Cancel"]]//button)[2]^^XPATH:(//div[./button[text()="Cancel"]]//button[@type='button'])[2]];[Print_Agreement];[Next-GenMarkerTraxOperatorDashboard];;==
+==Line_Adjustment;XPATH;//h2[text()="Line Adjustment"];;[];[Line_Adjustment];[Next-GenMarkerTraxOperatorDashboard];;==
+==v_1_92;CSS;[data-placeholder=''];;[XPATH://*[@data-state='closed'][./span[text()=" "]]^^XPATH://*[@type='button'][./span[text()=" "]]^^XPATH://*[@role='combobox'][./span[text()=" "]]];[v_1_92];[Next-GenMarkerTraxOperatorDashboard];;==
+==Note_1;CSS;[name='Note'];;[CSS:textarea];[Note];[Next-GenMarkerTraxOperatorDashboard];;==
+==notes_1;CSS;[placeholder='Enter notes'];;[CSS:[name='notes']^^CSS:textarea];[notes];[Next-GenMarkerTraxOperatorDashboard];;==
+==Adjustments_to_credit_lines;XPATH;//div[./h2[text()="Line Adjustment"]]//p;;[XPATH://p[text()="Adjustments to credit lines"]];[Adjustments_to_credit_lines];[Next-GenMarkerTraxOperatorDashboard];;==
+==IncrimentAmount;XPATH;/html/body/div[6]/form/div/div[1]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1];Button;[];[];[];;==
+==PendingTag;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/table/tbody/tr[1]/td[6]/span;Text;[];[];[];;==
+==PlayerFilter;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/table/tbody/tr[1]/td[6]/span;Button;[];[];[];;==
+==PlayerPicker;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==CancelButton;XPATH;/html/body/print-preview-app//print-preview-sidebar//print-preview-button-strip//cr-button[2];Button;[];[];[];;==
+==Increment;CSS;[aria-label='Increment'];Button;[];[Increment];[Next-GenMarkerTraxOperatorDashboard];;==
+==v_1_100;CSS;[data-placeholder=''];;[XPATH://*[@data-state='closed'][./span[text()=" "]]^^XPATH://*[@type='button'][./span[text()=" "]]^^XPATH://*[@role='combobox'][./span[text()=" "]]];[v_1_100];[Next-GenMarkerTraxOperatorDashboard];;==
+==Log_out_1;XPATH;//*[@data-reka-collection-item=''][./span[text()='Log out']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Log out"]]^^XPATH://*[@type='button'][./span[text()="Log out"]]^^XPATH://*[@role='menuitem'][./span[text()="Log out"]]];[Log_out];[Next-GenMarkerTraxOperatorDashboard];;==
+==Approve_Decline_1;XPATH;//*[@data-reka-collection-item=''][./span[text()='Approve/Decline']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Approve/Decline"]]^^XPATH://*[@type='button'][./span[text()="Approve/Decline"]]^^XPATH://*[@role='menuitem'][./span[text()="Approve/Decline"]]];[Approve_Decline];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/table/tbody/tr[1]/td[6]/span;Text;[];[];[];;==
+==Log_out_2;XPATH;//*[@data-reka-collection-item=''][./span[text()='Log out']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Log out"]]^^XPATH://*[@type='button'][./span[text()="Log out"]]^^XPATH://*[@role='menuitem'][./span[text()="Log out"]]];[Log_out];[Next-GenMarkerTraxOperatorDashboard];;==
+==Approve_Decline_2;XPATH;//*[@data-reka-collection-item=''][./span[text()='Approve/Decline']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Approve/Decline"]]^^XPATH://*[@type='button'][./span[text()="Approve/Decline"]]^^XPATH://*[@role='menuitem'][./span[text()="Approve/Decline"]]];[Approve_Decline];[Next-GenMarkerTraxOperatorDashboard];;==
+==table_span_4;XPATH;(//table)[1]//thead/tr/th[${colId}]/span/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
+==PendingStatus;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[2]/table/tbody/tr[1]/td[6]/span;Text;[];[];[];;==
+==FirstName;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[4]/div/span;Text;[];[];[];;==
+==NewLineLimit;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[7]/div/span;Text;[];[];[];;==
+==PlayerIDFliter;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==PlayerFilter2;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==Date;XPATH;(//*[@data-v-9ac70d31='']//div)[4];;[XPATH:(//div[@data-v-9ac70d31='']//div)[4]^^XPATH:(//*[@data-v-9ac70d31='']//div)[4]];[Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==ReportSelector;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/form/div[1]/div/div[3]/div[2]/button/span[2]/span;Button;[];[];[];;==
+==AccountStatusReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[2]/span[1];Button;[];[];[];;==
+==ActivityHistory;XPATH;/html/body/div[4]/div/div/div[2]/div/div[3]/span[1];Button;[];[];[];;==
+==ActivityHistoryReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[3]/span[1];Button;[];[];[];;==
+==AgingTransactionDetailsReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[4]/span[1];Button;[];[];[];;==
+==AgingWeeklyReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[5]/span[1];Button;[];[];[];;==
+==AgingMonthlyReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[6]/span[1];Button;[];[];[];;==
+==CashierAdjustmentReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[7]/span[1];Button;[];[];[];;==
+==CreditExtendedReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[8]/span[1];Button;[];[];[];;==
+==FailedTransactionsReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[9]/span[1];Button;[];[];[];;==
+==GrossGamingRevenueReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[10]/span[1];Button;[];[];[];;==
+==FeeReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[11]/span[1];Button;[];[];[];;==
+==LimitActivityReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[12]/span[1];Button;[];[];[];;==
+==LineAdjustmentReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[13]/span[1];Button;[];[];[];;==
+==PaymentReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[14]/span[1];Button;[];[];[];;==
+==PaymentDetailReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[15]/span[1];Button;[];[];[];;==
+==PlayerActivityReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[16]/span[1];Button;[];[];[];;==
+==UnderwritingReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[17]/span[1];Button;[];[];[];;==
+==UserAccessListingReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[18]/span[1];Button;[];[];[];;==
+==RolesAndPermissionsReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[19]/span[1];Button;[];[];[];;==
+==WriteOffReport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[20]/span[1];Button;[];[];[];;==
+==MarkerInfoTab;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/nav/div[1]/ul/li[1]/a/span;Button;[];[];[];;==
+==MarkerInfoTab1;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/nav/div[1]/ul/li[1]/a/span;Button;[];[];[];;==
+==Reports_1;XPATH;//*[@data-reka-collection-item=''][./span[text()="Reports"]];;[XPATH://a[./span[text()="Reports"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Reports"]]];[Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Account_Balance_2;XPATH;//div[./h2[text()="Account Balance"]];;[XPATH://div[./p[text()="Current balances of players accounts"]]];[Account_Balance];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export;CSS;#reka-dropdown-menu-trigger-v-1-35;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==PDF;CSS;[type='pdf'];;[XPATH://*[@data-reka-collection-item=''][./span[text()="PDF"]]^^XPATH://*[@role='menuitem'][./span[text()="PDF"]]^^XPATH://button[./span[text()="PDF"]]];[PDF];[Next-GenMarkerTraxOperatorDashboard];;==
+==Real_Time_Reports;XPATH;(//*[@id='dashboard-panel-reports']//div)[1];;[XPATH:(//div[./footer]//div)[3]];[Real_Time_Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Excel;CSS;[type='xlsx'];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Excel"]]^^XPATH://*[@role='menuitem'][./span[text()="Excel"]]^^XPATH://button[./span[text()="Excel"]]];[Excel];[Next-GenMarkerTraxOperatorDashboard];;==
+==CSV;CSS;[type='csv'];;[XPATH://*[@data-reka-collection-item=''][./span[text()="CSV"]]^^XPATH://*[@role='menuitem'][./span[text()="CSV"]]^^XPATH://button[./span[text()="CSV"]]];[CSV];[Next-GenMarkerTraxOperatorDashboard];;==
+==Real_Time_Reports_1;XPATH;//a[./span[text()="Real-Time Reports"]];;[];[Real_Time_Reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Change_Date;CSS;#reka-popover-trigger-v-1-45;Button;[];[Status_Change_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Pick_a_date;XPATH;//*[@data-state='closed'][./span[text()="Pick a date"]];Button;[XPATH://*[@type='button'][./span[text()="Pick a date"]]^^XPATH://button[./span[text()="Pick a date"]]^^XPATH://div[./h3[text()="Status Change Date"]]//*[@data-state='closed']^^CSS:#reka-popover-trigger-v-1-90];[Pick_a_date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Last_7_Days;XPATH;//*[@type='button'][./span[text()="Last 7 Days"]];Button;[XPATH://button[./span[text()="Last 7 Days"]]^^XPATH://button[@type='button'][./span[text()="Last 7 Days"]]];[Last_7_Days];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_1;CSS;#reka-dropdown-menu-trigger-v-1-63;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Adjustments_made_by_cashiers;XPATH;//div[./h2[text()="Cashier Adjustment"]]//p;;[XPATH://p[text()="Adjustments made by cashiers"]];[Adjustments_made_by_cashiers];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date;CSS;#reka-popover-trigger-v-1-95;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_2;CSS;#reka-dropdown-menu-trigger-v-1-119;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Credit_amounts_extended_to_pla;XPATH;//div[./h2[text()="Credit Extended"]]//p;;[XPATH://p[text()="Credit amounts extended to players"]];[Credit_amounts_extended_to_pla];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_1;CSS;#reka-popover-trigger-v-1-149;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_3;CSS;#reka-dropdown-menu-trigger-v-1-163;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Payment_transactions_using_deb;XPATH;//div[./h2[text()="Debit Payments"]]//p;;[XPATH://p[text()="Payment transactions using debit"]];[Payment_transactions_using_deb];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_2;CSS;#reka-popover-trigger-v-1-175;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_4;CSS;#reka-dropdown-menu-trigger-v-1-189;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enrollment_Activity;CSS;div:nth-child(6) > div;;[];[Enrollment_Activity];[Next-GenMarkerTraxOperatorDashboard];;==
+==Enrollment_Start_Date;CSS;#reka-popover-trigger-v-1-201;Button;[];[Enrollment_Start_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_5;CSS;#reka-dropdown-menu-trigger-v-1-217;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Failed_Transactions;XPATH;//h2[text()="Failed Transactions"];;[];[Failed_Transactions];[Next-GenMarkerTraxOperatorDashboard];;==
+==Transaction_Date;CSS;#reka-popover-trigger-v-1-229;Button;[];[Transaction_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_6;CSS;#reka-dropdown-menu-trigger-v-1-239;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_limit_setting_activitie;XPATH;//div[./h2[text()="Limit Activity"]]//p;;[XPATH://p[text()="Player limit setting activities"]];[Player_limit_setting_activitie];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_3;CSS;#reka-popover-trigger-v-1-251;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_7;CSS;#reka-dropdown-menu-trigger-v-1-267;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Changed_Date;CSS;#reka-popover-trigger-v-1-279;Button;[];[Changed_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_8;CSS;#reka-dropdown-menu-trigger-v-1-293;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Payment;XPATH;//h2[text()="Payment"];;[];[Payment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_4;CSS;#reka-popover-trigger-v-1-325;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_9;CSS;#reka-dropdown-menu-trigger-v-1-345;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Payment_Detail;XPATH;//h2[text()="Payment Detail"];;[];[Payment_Detail];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_5;CSS;#reka-popover-trigger-v-1-367;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_10;CSS;#reka-dropdown-menu-trigger-v-1-391;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Player_Activity;XPATH;//h2[text()="Player Activity"];;[];[Player_Activity];[Next-GenMarkerTraxOperatorDashboard];;==
+==Gaming_Date_6;CSS;#reka-popover-trigger-v-1-413;Button;[];[Gaming_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_11;XPATH;//div[./*[@id='reka-dropdown-menu-trigger-v-1-435']];;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_12;CSS;#reka-dropdown-menu-trigger-v-1-435;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Detailed_player_activity_infor;XPATH;//div[./h2[text()="Player Activity Detail"]]//p;;[XPATH://p[text()="Detailed player activity information"]];[Detailed_player_activity_infor];[Next-GenMarkerTraxOperatorDashboard];;==
+==Calendar_Date;CSS;#reka-popover-trigger-v-1-457;Button;[];[Calendar_Date];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_13;CSS;#reka-dropdown-menu-trigger-v-1-477;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==Underwriting_details_and_appro;XPATH;//div[./h2[text()="Underwriting"]]//p;;[XPATH://p[text()="Underwriting details and approvals"]];[Underwriting_details_and_appro];[Next-GenMarkerTraxOperatorDashboard];;==
+==Date_Created;CSS;#reka-popover-trigger-v-1-499;Button;[];[Date_Created];[Next-GenMarkerTraxOperatorDashboard];;==
+==Export_14;CSS;#reka-dropdown-menu-trigger-v-1-547;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
+==LimitActivityReport;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div/div[9]/div/div/div[2]/h2;Button;[];[];[];;==
+==ReportsList;XPATH;/html/body/div[1]/div[2]/div/div[1]/div[2]/nav/ul/li[3]/a/span[2];Button;[];[];[];;==

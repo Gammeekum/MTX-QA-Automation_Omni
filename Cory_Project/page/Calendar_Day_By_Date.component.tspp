@@ -1,0 +1,3 @@
+>>summary: 
+
+==Calendar_Day_By_Date;CSS;td[role="gridcell"] div[role="button"][data-value="${targetDate}"];;[];[];[];;==
