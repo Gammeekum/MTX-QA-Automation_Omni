@@ -52,13 +52,13 @@
 ==Apply_1;XPATH;//div[./h3[text()="Player Id"]]//*[@type='button'];Button;[XPATH://div[./h3[text()="Player Id"]]//button^^XPATH://button[text()="Apply"]];[Apply];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Patron_Info;XPATH;//*[@data-reka-collection-item=''][./span[text()="Patron Info"]];;[XPATH://a[./span[text()="Patron Info"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Patron Info"]]];[Patron_Info];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Change_Status;XPATH;//button[text()="Change Status"];Button;[];[Change_Status];[Next-GenMarkerTraxOperatorDashboard];;==
-==Select_a_status;CSS;#v-1-58;;[CSS:[data-placeholder='']^^CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Select_a_status;CSS;[data-placeholder=''];;[CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Disabled;CSS;[data-highlighted=''];;[XPATH://*[@data-reka-collection-item=''][./*[@id='reka-select-item-text-v-1-66']]^^XPATH://*[@data-state='unchecked'][./*[@id='reka-select-item-text-v-1-66']]^^XPATH://*[@role='option'][./*[@id='reka-select-item-text-v-1-66']]];[Disabled];[Next-GenMarkerTraxOperatorDashboard];;==
-==description_2;CSS;#v-1-60;;[CSS:[placeholder='Enter a description for the status change']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_2;CSS;[placeholder='Enter a description for the status change'];;[CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Disabled_1;XPATH;//div[./span[text()="Status:"]]//span[text()="Disabled"];;[];[Disabled];[Next-GenMarkerTraxOperatorDashboard];;==
-==Select_a_status_1;CSS;#v-1-87;;[CSS:[data-placeholder='']^^CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
+==Select_a_status_1;CSS;[data-placeholder=''];;[CSS:[role='combobox']^^XPATH://*[@data-state='closed'][./span[text()="Select a status"]]^^XPATH://*[@type='button'][./span[text()="Select a status"]]^^XPATH://button[./span[text()="Select a status"]]];[Select_a_status];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Active_1;CSS;[data-highlighted=''];;[XPATH://*[@data-reka-collection-item=''][./*[@id='reka-select-item-text-v-1-95']]^^XPATH://*[@data-state='unchecked'][./*[@id='reka-select-item-text-v-1-95']]^^XPATH://*[@role='option'][./*[@id='reka-select-item-text-v-1-95']]];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
-==description_3;CSS;#v-1-89;;[CSS:[placeholder='Enter a description for the status change']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_3;CSS;[placeholder='Enter a description for the status change'];;[CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Active_2;XPATH;//div[./span[text()="Status:"]]//span[text()="Active"];;[];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Search;CSS;body;;[];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
 ==MicrosoftButton;XPATH;/html/body/div/form/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/input;Button;[];[];[];;==
@@ -66,13 +66,13 @@
 ==AccountStatus;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[7]/div/span;Text;[];[];[];;==
 ==PatronInfoTab;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/nav/div[1]/ul/li[2]/a/span;Button;[];[];[];;==
 ==PlayerIDFilter;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
-==More_actions_1;CSS;#reka-dropdown-menu-trigger-v-1-45;Button;[CSS:[aria-label='More actions']^^XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
+==More_actions_1;CSS;[aria-label='More actions'];Button;[XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Suspend_3;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
-==Status_Action_2;CSS;#v-1-57;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
-==description_4;CSS;#v-1-58;;[CSS:[placeholder='Enter reason for suspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_2;CSS;[aria-label='Status Action'];;[CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_4;CSS;[placeholder='Enter reason for suspension...'];;[CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Unsuspend_1;XPATH;//*[@data-reka-collection-item=''][./span[text()='Unsuspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Unsuspend"]]^^XPATH://*[@type='button'][./span[text()="Unsuspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Unsuspend"]]];[Unsuspend];[Next-GenMarkerTraxOperatorDashboard];;==
-==Status_Action_3;CSS;#v-1-68;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
-==description_5;CSS;#v-1-69;;[CSS:[placeholder='Enter reason for unsuspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_3;CSS;[aria-label='Status Action'];;[CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==description_5;CSS;[placeholder='Enter reason for unsuspension...'];;[CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Account_Status;XPATH;//h2[text()="Account Status"];;[];[Account_Status];[Next-GenMarkerTraxOperatorDashboard];;==
 ==LastName;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[4]/div/span;Text;[];[];[];;==
 ==Account_Status;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[2]/div/table/tbody/tr[1]/td[7]/div/span;Text;[];[];[];;==
@@ -193,3 +193,5 @@
 ==Export_14;CSS;#reka-dropdown-menu-trigger-v-1-547;Button;[];[Export];[Next-GenMarkerTraxOperatorDashboard];;==
 ==LimitActivityReport;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div/div[9]/div/div/div[2]/h2;Button;[];[];[];;==
 ==ReportsList;XPATH;/html/body/div[1]/div[2]/div/div[1]/div[2]/nav/ul/li[3]/a/span[2];Button;[];[];[];;==
+==PlayerID;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==PlayerID;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==

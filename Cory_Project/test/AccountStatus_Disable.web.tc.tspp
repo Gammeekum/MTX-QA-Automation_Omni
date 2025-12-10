@@ -27,9 +27,9 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Open Players List 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[5000]] --milliseconds-- 
 #Select Player and Navigate to Patron Info 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PlayerID}} 
 --Input value-- [[60032]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply_1}} 
 --Wait for-- [[5000]] --milliseconds-- 
@@ -53,6 +53,7 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Verify the Player's Status was Updated 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Disabled_1}} --is equal to-- [[Disabled]] 
+--Take Screenshot-- [[DisabledStatus]] 
 #Set the Player's Status to Active 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Change_Status}} 
 --Wait for-- [[2000]] --milliseconds-- 
@@ -69,6 +70,7 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Verify the Status was Updated Correctly 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Active_2}} --is equal to-- [[Active]] 
+--Take Screenshot-- [[ActiveStatus]] 
 #Validate the Account Status Report was Updated 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
 --Wait for-- [[3000]] --milliseconds-- 
