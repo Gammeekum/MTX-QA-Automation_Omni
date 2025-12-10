@@ -7,15 +7,15 @@
 ==Enter_Player_Id;CSS;[placeholder='Enter Player Id'];Input;[CSS:[type='text']^^CSS:input];[Enter_Player_Id];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Apply;XPATH;//button[text()='Apply'];Button;[XPATH://div[./h3[text()="Player Id"]]//button^^XPATH://button[text()="Apply"]];[Apply];[Next-GenMarkerTraxOperatorDashboard];;==
 ==table_div;XPATH;(//table)[1]//tbody/tr/td[${colId}]/div;;[];[table_div];[Next-GenMarkerTraxOperatorDashboard];;==
-==More_actions;CSS;#reka-dropdown-menu-trigger-v-1-41;Button;[CSS:[aria-label='More actions']^^XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
+==More_actions;CSS;[aria-label='More actions'];Button;[XPATH://button[@data-state='delayed-open'][@data-grace-area-trigger='']^^XPATH://button[@data-state='delayed-open'][@type='button']^^XPATH://button[@data-state='delayed-open']];[More_actions];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Suspend;XPATH;//*[@data-reka-collection-item=''][./span[text()='Suspend']];;[XPATH://*[@data-reka-collection-item=''][./span[text()="Suspend"]]^^XPATH://*[@type='button'][./span[text()="Suspend"]]^^XPATH://*[@role='menuitem'][./span[text()="Suspend"]]];[Suspend];[Next-GenMarkerTraxOperatorDashboard];;==
-==Status_Action;CSS;#v-1-53;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action;CSS;[aria-label='Status Action'];;[CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
 ==description;CSS;#v-1-54;;[CSS:[placeholder='Enter reason for suspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Next;XPATH;//button[text()="Next"];Button;[];[Next];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Submit;XPATH;//button[text()="Submit"];Button;[];[Submit];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Close;XPATH;//button[text()="Close"];Button;[];[Close];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Suspended;XPATH;//span[text()="Suspended"];;[];[Suspended];[Next-GenMarkerTraxOperatorDashboard];;==
-==Status_Action_1;CSS;#v-1-64;;[CSS:[aria-label='Status Action']^^CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
+==Status_Action_1;CSS;[aria-label='Status Action'];;[CSS:[role='switch']];[Status_Action];[Next-GenMarkerTraxOperatorDashboard];;==
 ==description_1;CSS;#v-1-65;;[CSS:[placeholder='Enter reason for unsuspension...']^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Active;XPATH;//span[text()="Active"];;[];[Active];[Next-GenMarkerTraxOperatorDashboard];;==
 ==table_span;XPATH;(//table)[1]//tbody/tr/td[${colId}]/div/span;;[];[table_span];[Next-GenMarkerTraxOperatorDashboard];;==
@@ -195,3 +195,9 @@
 ==ReportsList;XPATH;/html/body/div[1]/div[2]/div/div[1]/div[2]/nav/ul/li[3]/a/span[2];Button;[];[];[];;==
 ==PlayerID;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
 ==PlayerID;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==PlayerID;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/button;Button;[];[];[];;==
+==Description;XPATH;/html/body/div[5]/form/div/div[2]/div/div[2]/div/div[3]/div[2]/div[1]/textarea;Button;[];[];[];;==
+==DescriptionInput;XPATH;/html/body/div[5]/form/div/div[2]/div/div[2]/div/div[3]/div[2]/div[1]/textarea;Input;[];[];[];;==
+==Unsuspend;XPATH;/html/body/div[5]/form/div/div[2]/div/div[2]/div/div[2]/div[2]/div/div[1]/button;Button;[];[];[];;==
+==DescriptionInput;XPATH;/html/body/div[5]/form/div/div[2]/div/div[2]/div/div[3]/div[2]/div[1]/textarea;Button;[];[];[];;==
+==Descriptioninput;XPATH;/html/body/div[5]/form/div/div[2]/div/div[2]/div/div[3]/div[2]/div[1]/textarea;Input;[];[];[];;==

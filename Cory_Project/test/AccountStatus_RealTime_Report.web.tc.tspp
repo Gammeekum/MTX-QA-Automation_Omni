@@ -24,8 +24,8 @@
 --Click on-- {{web > Signintoyouraccount > MicroSoftButton}} --if present-- 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
---Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Player_Id}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > PlayerID}} 
 --Input value-- [[60032]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Enter_Player_Id}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
 --Wait for-- [[5000]] --milliseconds-- 
@@ -37,8 +37,10 @@
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status_Action}} 
 --Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
---Input value-- [[suspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Description}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Input value-- [[suspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > DescriptionInput}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
@@ -51,9 +53,10 @@
 --Wait for-- [[2000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > UnSuspend}} 
 --Wait for-- [[4000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Status_Action_1}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description_1}} 
---Input value-- [[Unsuspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Unsuspend}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > DescriptionInput}} 
+--Input value-- [[Unsuspended by Automation]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Descriptioninput}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}} 
