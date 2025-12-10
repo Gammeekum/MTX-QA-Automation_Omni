@@ -45,4 +45,5 @@
 --Switch to window with index-- [[1]] 
 --Open URL-- [[https://portal.moolahplay.com/]] 
 --Wait for-- [[3000]] --milliseconds-- 
+--Wait for URL-- [[https://portal.moolahplay.com/]] --within-- [[2000]] --milliseconds-- 
 
