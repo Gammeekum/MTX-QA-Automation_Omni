@@ -47,6 +47,12 @@
             "snapshot": "1764971057231.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390313607.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
         }
     ],
     "password": [
@@ -97,6 +103,12 @@
             "snapshot": "1764971059599.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
             "attrs": "<input type=\"input\" type=\"password\" value=\"Test1234@$\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390320248.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
         }
     ],
     "LOGIN": [
@@ -147,6 +159,12 @@
             "snapshot": "1764971060449.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
             "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390320665.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
         }
     ],
     "visibility": [
@@ -191,6 +209,12 @@
         {
             "testLabel": "REN_PROD > MakePaymentCash.web",
             "snapshot": "1764882980295.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > Operator_Dashboard",
+            "attrs": "<h1 type=\"h1\"> Operator Dashboard </h1>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765393624283.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > Operator_Dashboard",
             "attrs": "<h1 type=\"h1\"> Operator Dashboard </h1>"
         }

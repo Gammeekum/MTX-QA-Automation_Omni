@@ -23,6 +23,12 @@
             "snapshot": "1765216593386.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
             "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390331617.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
         }
     ],
     "Players_1": [
@@ -47,6 +53,12 @@
         {
             "testLabel": "REN_PROD > InternaAdjustNegative.web",
             "snapshot": "1765216592965.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390326115.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
             "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
         }

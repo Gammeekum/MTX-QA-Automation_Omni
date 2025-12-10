@@ -41,6 +41,12 @@
             "snapshot": "1765216596984.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765391662655.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
         }
     ],
     "search": [
@@ -83,6 +89,12 @@
         {
             "testLabel": "REN_PROD > InternaAdjustNegative.web",
             "snapshot": "1765216597846.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390337956.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
             "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
         }
@@ -160,6 +172,12 @@
         {
             "testLabel": "REN_PROD > InternaAdjustNegative.web",
             "snapshot": "1765216599291.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390341415.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
             "attrs": "<button type=\"button\" type=\"button\"></button>"
         }

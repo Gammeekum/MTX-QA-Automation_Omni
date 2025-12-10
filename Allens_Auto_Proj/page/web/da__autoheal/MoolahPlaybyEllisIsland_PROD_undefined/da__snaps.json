@@ -103,6 +103,12 @@
             "snapshot": "1764970956997.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > _0",
             "attrs": "<input type=\"input\" placeholder=\"0\" type=\"text\" value=\"$0.00\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390343476.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > _0",
+            "attrs": "<input type=\"input\" placeholder=\"0\" type=\"text\" value=\"$0.00\"></input>"
         }
     ],
     "comment": [
@@ -141,6 +147,12 @@
             "snapshot": "1764970786797.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > comment",
             "attrs": "<textarea type=\"textarea\" value=\"automation test\"></textarea>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390344588.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > comment",
+            "attrs": "<textarea type=\"textarea\" value=\"automation\"></textarea>"
         }
     ],
     "YES": [
@@ -273,6 +285,12 @@
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_undefined > INTERNAL_ADJUSTMENT_1",
             "testLabel": "REN_PROD > InternaAdjustNegative.web",
             "attrs": "<button type=\"button\" type=\"button\">Internal adjustment </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390342917.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > INTERNAL_ADJUSTMENT_1",
+            "attrs": "<button type=\"button\" type=\"button\">Internal adjustment </button>"
         }
     ],
     "Negative": [
@@ -306,6 +324,12 @@
             "snapshot": "1764972372695.png",
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM_1",
             "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\"> Confirm </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765390347968.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM_1",
             "attrs": "<button type=\"button\" type=\"button\"> Confirm </button>"
         }
     ],
@@ -404,6 +428,12 @@
             "snapshot": "1764877106743.png",
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_undefined > Negative_1",
             "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "attrs": "<div type=\"div\">Negative</div>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
+            "snapshot": "1765391665798.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > Negative_1",
             "attrs": "<div type=\"div\">Negative</div>"
         }
     ],
