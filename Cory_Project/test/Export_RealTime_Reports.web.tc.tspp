@@ -39,7 +39,7 @@
 --Click on-- {{Calendar_Day_By_Date > Calendar_Day_By_Date}}(( targetDate: ::yesterdayIso )) 
 --Wait for-- [[4000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ApplyDate}} 
---Wait for-- [[4000]] --milliseconds-- 
+--Wait for-- [[5000]] --milliseconds-- 
 --Take Screenshot-- [[AccountBalance]] 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export}} 
 --Wait for-- [[2000]] --milliseconds-- 
@@ -178,10 +178,10 @@
 --Wait for-- [[2000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Pick_a_date}} 
 --Wait for-- [[2000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Last_7_Days}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > AllTime}} 
 --Wait for-- [[2000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply}} 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[5000]] --milliseconds-- 
 --Take Screenshot-- [[DebitPayments]] 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Export4}} 
 --Wait for-- [[2000]] --milliseconds-- 

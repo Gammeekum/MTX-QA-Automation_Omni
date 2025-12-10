@@ -37,6 +37,8 @@
 #Set the Player to Suspended 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 2 )) 
 --Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[StartingStatus]] 
+--Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions_1}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspend_3}} 
