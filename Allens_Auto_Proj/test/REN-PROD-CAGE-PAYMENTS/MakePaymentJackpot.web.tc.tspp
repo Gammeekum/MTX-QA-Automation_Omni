@@ -1,0 +1,48 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- ::urls.loginportal:: 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- [[autoClanker]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Press keyboard keys-- [[Tab]] --on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- [[Test@$automation23]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > password}} 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > visibility}} 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Open URL-- ::urls.dashboardAdminPage:: 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Input value-- [[val]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > search}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > button_primary_text}} 
+--Wait for-- [[10000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > MAKE_PAYMENT}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > div_nth_child_5_div_div}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Input value-- [[$0.01]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Input value-- ::constants.portalTags.test:: --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Hover on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > YES_1}} 
+--Wait for-- [[8500]] --milliseconds-- 
+--Take Screenshot-- [[CageJackpotPayment]] 
+--Open new window-- 
+--Switch to window with index-- [[1]] 
+--Open URL-- [[https://portal.moolahplay.com/]] 
+--Wait for-- [[3000]] --milliseconds-- 
+

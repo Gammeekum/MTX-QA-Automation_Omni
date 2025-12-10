@@ -1,0 +1,45 @@
+>>summary: 
+>>recorderName: MoolahPlaybyEllisIsland(PROD)|undefined
+
+==This_patron_needs_to_sign_Mark;CSS;.v-card__text;;[XPATH://div[contains(@class, 'v-dialog--active')]//div[contains(@class, 'v-card__text')]];[This_patron_needs_to_sign_Mark];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==CANCEL;CSS;div:nth-child(1) > div > button:nth-child(1);Button;[];[CANCEL];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==LINE_ACTIVITY;CSS;[href='\#line-activity'];;[];[LINE_ACTIVITY];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==CANCEL_1;CSS;div:nth-child(1) > div:nth-child(3) > button:nth-child(1);Button;[];[CANCEL];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==PATRON_RE_APPLY;CSS;.left .v-btn--is-elevated;Button;[];[PATRON_RE_APPLY];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Patron_Re_Apply_1;CSS;[fieldtype='AppHeaderField'];;[XPATH://div[contains(@class, 'AppHeaderField')]//div[@data-v-38662c3e=""]];[Patron_Re_Apply];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Reason;CSS;[aria-owns='list-576'];Button;[];[Reason];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Other;CSS;#list-item-587-6;;[XPATH://div[@id="list-576"]//div[@id="list-item-587-6"]];[Other];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==note;CSS;#input-582;;[CSS:[name='note']^^CSS:textarea^^XPATH://div[contains(@class, 'v-textarea')]//textarea[@id="input-582"]];[note];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==CONFIRM;CSS;.v-btn.primary--text;Button;[XPATH://div[contains(@class, 'overflow-visible')]//button[contains(@class, 'primary--text')]];[CONFIRM];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Record_saved_successfully;XPATH;//div[text()=" Record saved successfully "];;[CSS:.v-alert__content^^XPATH://div[contains(@class, 'v-alert__wrapper')]//div[text()=" Record saved successfully "]];[Record_saved_successfully];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==MAKE_PAYMENT;CSS;div:nth-child(2) > button;Button;[];[MAKE_PAYMENT];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==_0;CSS;[placeholder='0'];Input;[XPATH://div[contains(@class, 'v-input--has-state')]//input[@id="input-413"]];[_0];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==comment;CSS;[name='comment'];;[CSS:textarea^^XPATH://div[contains(@class, 'v-textarea')]//textarea[@id="input-429"]];[comment];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==YES;CSS;div:nth-child(3) > button:nth-child(2);Button;[];[YES];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==div_nth_child_4_div_nth_child_;CSS;div:nth-child(4) div:nth-child(3);;[];[div_nth_child_4_div_nth_child_];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Confirm_Payment;XPATH;//div[text()="Confirm Payment"];;[CSS:.v-card__title^^CSS:.headline^^XPATH://div[@id="app"]//div[text()="Confirm Payment"]];[Confirm_Payment];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Please_confirm_that_you_would;CSS;div:nth-child(5) div:nth-child(2);;[];[Please_confirm_that_you_would];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Chip;CSS;div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3);;[];[Chip];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==comment_1;CSS;[name='comment'];;[CSS:textarea^^XPATH://div[contains(@class, 'v-textarea')]//textarea[@id="input-441"]];[comment];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==_0_1;CSS;#input-425;Input;[CSS:[placeholder='0']^^XPATH://div[contains(@class, 'v-input--has-state')]//input[@id="input-425"]];[_0];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==div_nth_child_5_div_div;CSS;div:nth-child(5) > div > div;;[];[div_nth_child_5_div_div];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==INTERNAL_ADJUSTMENT;CSS;.word-break;Button;[XPATH://div[contains(@class, 'v-card--flat')]//button[contains(@class, 'word-break')]];[INTERNAL_ADJUSTMENT];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==_0_2;CSS;#input-426;Input;[CSS:[placeholder='0']^^XPATH://div[contains(@class, 'v-input--has-state')]//input[@id="input-426"]];[_0];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==comment_2;CSS;#input-438;;[CSS:[name='comment']^^CSS:textarea^^XPATH://div[contains(@class, 'v-textarea')]//textarea[@id="input-438"]];[comment];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==INTERNAL_ADJUSTMENT_1;XPATH;//*[@type='button'][./span[text()="Internal adjustment "]];Button;[XPATH://button[./span[text()="Internal adjustment "]]^^XPATH://button[@type='button'][./span[text()="Internal adjustment "]]];[INTERNAL_ADJUSTMENT];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Negative;XPATH;//label[./div[text()="Negative"]];;[];[Negative];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==CONFIRM_1;XPATH;//*[@data-v-bb731010=''][./span[text()=" Confirm "]];Button;[XPATH://*[@type='button'][./span[text()=" Confirm "]]^^XPATH://button[./span[text()=" Confirm "]]];[CONFIRM];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==div_input_449;XPATH;//div[./*[@id='input-449']]//div;;[];[div_input_449];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==listitem_listitem;XPATH;(//*[@role='listitem'])[4];;[XPATH:(//div[@role='listitem'])[4]];[listitem_listitem];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==PLAYER_ACTIVITY;XPATH;(//*[@role='tab'])[4];;[XPATH:(//a[@data-v-569d91ec=''][@role='tab'])[4]^^XPATH:(//a[@data-v-569d91ec=''])[4]];[PLAYER_ACTIVITY];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==table_span;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div/span;;[];[table_span];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==div_input_459;XPATH;//div[./*[@id='input-459']]//div;;[];[div_input_459];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==div_input_432;XPATH;//div[./*[@id='input-432']]//div;;[];[div_input_432];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Operation_successfully_execute;XPATH;//div[text()=" Operation successfully executed "];;[];[Operation_successfully_execute];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==table_span_1;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/div/span/span;;[];[table_span];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==home_Players_Val_Apoderado;XPATH;//main[@data-v-44827943=''][@data-booted='true'];;[XPATH://main[@data-v-44827943='']^^XPATH://*[@data-booted='true'][.//*/*/div[@data-v-569d91ec=''][@data-v-44827943='']]^^XPATH://main[.//*/*/div[@data-v-569d91ec=''][@data-v-44827943='']]^^XPATH://main[@data-booted='true'][.//*/*/div[@data-v-569d91ec=''][@data-v-44827943='']]];[home_Players_Val_Apoderado];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==Negative_1;XPATH;//div[./label//div[text()="Negative"]];;[];[Negative];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==MAKE_PAYMENT_1;XPATH;//*[@type='button'][./span[text()=" Make payment "]];Button;[XPATH://button[./span[text()=" Make payment "]]^^XPATH://button[@type='button'][./span[text()=" Make payment "]]];[MAKE_PAYMENT];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+==YES_1;XPATH;//*[@type='button'][./span[text()=" Yes "]];Button;[XPATH://button[./span[text()=" Yes "]]^^XPATH://button[@type='button'][./span[text()=" Yes "]]];[YES];[MoolahPlaybyEllisIsland(PROD)|undefined];;==
+
+

@@ -1,0 +1,44 @@
+{
+    "aria_label_Label_Other_amount_": [
+        {
+            "snapshot": "1762454431063.png",
+            "label": "page > web > _m_d_pay > aria_label_Label_Other_amount_",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<div type=\"div\"></div>"
+        },
+        {
+            "snapshot": "1762454431063.png",
+            "label": "page > web > _m_d_pay > aria_label_Label_Other_amount_",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<div type=\"div\"></div>"
+        }
+    ],
+    "_0_00": [
+        {
+            "snapshot": "1762454433800.png",
+            "label": "page > web > _m_d_pay > _0_00",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<input type=\"input\" placeholder=\"$0.00\" type=\"text\" value=\"$0.0\"></input>"
+        },
+        {
+            "snapshot": "1762454433800.png",
+            "label": "page > web > _m_d_pay > _0_00",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<input type=\"input\" placeholder=\"$0.00\" type=\"text\" value=\"$0.0\"></input>"
+        }
+    ],
+    "Pay_now": [
+        {
+            "snapshot": "1762454458363.png",
+            "label": "page > web > _m_d_pay > Pay_now",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Pay now\" type=\"button\" aria-label=\"Pay now\">Pay now</button>"
+        },
+        {
+            "snapshot": "1762454458363.png",
+            "label": "page > web > _m_d_pay > Pay_now",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Pay now\" type=\"button\" aria-label=\"Pay now\">Pay now</button>"
+        }
+    ]
+}

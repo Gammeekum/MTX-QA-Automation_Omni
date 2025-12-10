@@ -1,0 +1,142 @@
+{
+    "loginfmt": [
+        {
+            "snapshot": "1761174406226.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"a\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "snapshot": "1761174406226.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"a\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "snapshot": "1761174406226.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"a\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "snapshot": "1761174406226.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"a\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "snapshot": "1761331300594.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "InternalAdjustments.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"a\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "A_InternalAdjustments.web",
+            "snapshot": "1763764795856.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        }
+    ],
+    "idSIButton9": [
+        {
+            "snapshot": "1761174440460.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        },
+        {
+            "snapshot": "1761174440460.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        },
+        {
+            "snapshot": "1761174440460.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        },
+        {
+            "snapshot": "1761174440460.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        },
+        {
+            "snapshot": "1761331333104.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "InternalAdjustments.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Yes\" aria-describedby=\"KmsiDescription\"></input>"
+        },
+        {
+            "testLabel": "A_InternalAdjustments.web",
+            "snapshot": "1761331930683.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        }
+    ],
+    "passwd": [
+        {
+            "snapshot": "1761174435560.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for aclanker@gmail.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for aclanker@gmail.com\"></input>"
+        },
+        {
+            "snapshot": "1761174435560.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for aclanker@gmail.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for aclanker@gmail.com\"></input>"
+        },
+        {
+            "snapshot": "1761174435560.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for aclanker@gmail.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for aclanker@gmail.com\"></input>"
+        },
+        {
+            "snapshot": "1761174435560.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for aclanker@gmail.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for aclanker@gmail.com\"></input>"
+        },
+        {
+            "snapshot": "1761331323992.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "InternalAdjustments.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for aclanker@gmail.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for aclanker@gmail.com\"></input>"
+        },
+        {
+            "testLabel": "A_InternalAdjustments.web",
+            "snapshot": "1761331931120.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        }
+    ],
+    "search": [
+        {
+            "testLabel": "web > MakePaymentCash.web",
+            "snapshot": "1761324335911.png",
+            "label": "web > Signintoyouraccount > search",
+            "attrs": "<button type=\"button\" type=\"button\">Search</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761324335911.png",
+            "label": "web > Signintoyouraccount > search",
+            "attrs": "<button type=\"button\" type=\"button\">Search</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761324335911.png",
+            "label": "web > Signintoyouraccount > search",
+            "attrs": "<button type=\"button\" type=\"button\">Search</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761324335911.png",
+            "label": "web > Signintoyouraccount > search",
+            "attrs": "<button type=\"button\" type=\"button\">Search</button>"
+        }
+    ]
+}

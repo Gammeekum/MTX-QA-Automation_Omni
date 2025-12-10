@@ -1,0 +1,35 @@
+[
+    {
+        "environments": [
+            "default"
+        ],
+        "isDefault": false,
+        "constants": [
+            {
+                "name": "portalName",
+                "type": "text",
+                "value": "autoClanker"
+            },
+            {
+                "name": "PortalPassword",
+                "type": "text",
+                "value": "Test1234@$"
+            },
+            {
+                "name": "PlayerName",
+                "type": "text",
+                "value": "Val"
+            },
+            {
+                "name": "test",
+                "type": "text",
+                "value": "test"
+            },
+            {
+                "name": "standard001",
+                "type": "text",
+                "value": "$0.01"
+            }
+        ]
+    }
+]

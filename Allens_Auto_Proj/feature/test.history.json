@@ -1,0 +1,76 @@
+{
+    "history": [
+        {
+            "timestamp": "2025-11-05T18:47:18.840Z",
+            "action": "REQUEST",
+            "user": {
+                "id": 2198,
+                "email": "apharr@markertrax.com",
+                "name": "apharr@markertrax.com"
+            },
+            "data": {
+                "attachments": [
+                    {
+                        "type": "message",
+                        "payload": {
+                            "message": "write test cases for loging into facebook.com"
+                        }
+                    }
+                ],
+                "generationId": "f199a5c4-b8c0-4d91-9201-e16f7c15b856",
+                "status": "generating",
+                "requestId": "c996d6df-086b-4208-af68-f3e8589f1f24"
+            }
+        },
+        {
+            "timestamp": "2025-11-05T18:47:34.695Z",
+            "action": "GENERATION_MESSAGE",
+            "user": {
+                "id": 2198,
+                "email": "apharr@markertrax.com",
+                "name": "apharr@markertrax.com"
+            },
+            "data": {
+                "generationId": "f199a5c4-b8c0-4d91-9201-e16f7c15b856",
+                "message": "The input message explicitly requests test cases for a specific feature unrelated to the supported 'web' type constraints or priorities defined in the instructions. As per the rules, no test case generation can proceed for unspecified or unsupported types.",
+                "requestId": "c996d6df-086b-4208-af68-f3e8589f1f24"
+            }
+        },
+        {
+            "timestamp": "2025-11-05T18:48:01.499Z",
+            "action": "REQUEST",
+            "user": {
+                "id": 2198,
+                "email": "apharr@markertrax.com",
+                "name": "apharr@markertrax.com"
+            },
+            "data": {
+                "attachments": [
+                    {
+                        "type": "message",
+                        "payload": {
+                            "message": "write test cases for loging into www.facebook.com"
+                        }
+                    }
+                ],
+                "generationId": "d154a6c0-e139-4b85-b506-a7b3bf8fea31",
+                "status": "generating",
+                "requestId": "acd3ac27-4a21-42d6-bf37-f4bd1d706c6e"
+            }
+        },
+        {
+            "timestamp": "2025-11-05T18:48:12.125Z",
+            "action": "GENERATION_MESSAGE",
+            "user": {
+                "id": 2198,
+                "email": "apharr@markertrax.com",
+                "name": "apharr@markertrax.com"
+            },
+            "data": {
+                "generationId": "d154a6c0-e139-4b85-b506-a7b3bf8fea31",
+                "message": "The input message explicitly requests activities outside the scope of testing, such as writing test cases beyond the specified 'web' type or testing-only mandate.",
+                "requestId": "acd3ac27-4a21-42d6-bf37-f4bd1d706c6e"
+            }
+        }
+    ]
+}

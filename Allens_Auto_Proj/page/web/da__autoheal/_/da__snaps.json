@@ -1,0 +1,16 @@
+{
+    "Sign_in": [
+        {
+            "snapshot": "1762453779831.png",
+            "label": "page > web > _ > Sign_in",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<a type=\"a\" role=\"link\">Sign in</a>"
+        },
+        {
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "snapshot": "1763747418443.png",
+            "label": "web > _ > Sign_in",
+            "attrs": "<a type=\"a\" role=\"link\">Sign in</a>"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+>>summary: 
+>>recorderName: MoolahPlaybyEllisIsland(PROD)|Dashboard
+
+==Players;CSS;.v-list-group__header;Button;[CSS:.v-list-item--link^^XPATH://div[contains(@class, 'v-list-group--no-action')]//div[contains(@class, 'v-list-item--link')]];[Players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==List_players;CSS;[href='\/players'];;[];[List_players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Enrollments;XPATH;//h3[text()="Enrollments"];;[CSS:h3[data-v-0b535bd0]^^XPATH://div[contains(@class, 'text-xs-center')]//h3[@data-v-0b535bd0=""]];[Enrollments];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Dashboard;XPATH;//h2[text()=" Dashboard "];;[CSS:h2[data-v-fc048714]^^XPATH://div[@data-v-fc048714=""]//h2[@data-v-fc048714=""]];[Dashboard];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Players_1;XPATH;//div[@role='button'];Button;[XPATH://*[@role='button'][.//*/*/div[text()="Players"]]^^XPATH://div[./*[@id='logo']]//*[@role='button']^^XPATH://div[./div[text()=" by Ellis Island Casino "]]//*[@role='button']^^CSS:nav [role='button']];[Players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==List_players_1;XPATH;//a[.//*/span[text()="List players"]];;[];[List_players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+
+
+
+
+
+
+
+
+

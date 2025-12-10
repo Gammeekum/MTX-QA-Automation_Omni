@@ -1,0 +1,16 @@
+>>summary: 
+>>recorderName: MoolahPlaybyEllisIsland(PROD)|Players
+
+==first_name;CSS;[name='first_name'];Input;[XPATH://form[@name="form"]//input[@id="input-161"]];[first_name];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==search;CSS;[type='submit'];Button;[CSS:.blue^^XPATH://form[@name="form"]//button[@type="submit"]];[search];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==table_button;XPATH;(//table)[1]//tbody/tr[${rowId}]/td[${colId}]/button;Button;[];[table_button];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==button_primary_text;CSS;button.primary--text;Button;[XPATH://tbody//button[contains(@class, 'primary--text')]];[button_primary_text];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==first_name_1;CSS;#input-173;Input;[CSS:[name='first_name']^^XPATH://form[@name="form"]//input[@id="input-173"]];[first_name];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==file_download;CSS;.container--fluid.text-xs-center .wrap > .pa-2;;[];[file_download];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==table_button_1;XPATH;(//table)[1]//tbody/tr/td[${colId}]/button;Button;[];[table_button];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==button_fas;XPATH;//*[@type='button'][.//*/*[@data-prefix='fas']];Button;[XPATH://button[.//*/*[@data-prefix='fas']]^^XPATH://button[@type='button'][.//*/*[@data-prefix='fas']]^^XPATH://tr[./td[text()="Ellis Island Casino"]]//*[@type='button']^^XPATH://tr[./td[text()="Ellis Island Casino"]]//button];[button_fas];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Players;CSS;h2;;[XPATH://h2[text()=" Players "]];[Players];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+
+
+
+

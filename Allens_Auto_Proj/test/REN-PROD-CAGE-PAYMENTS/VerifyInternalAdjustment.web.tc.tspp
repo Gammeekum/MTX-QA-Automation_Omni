@@ -1,0 +1,36 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- ::urls.loginportal:: 
+--Wait for-- [[10000]] --milliseconds-- 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- [[autoClanker]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Press keyboard keys-- [[Tab]] --on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- [[Test@$automation23]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > password}} 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN}} 
+--Wait for-- [[4000]] --milliseconds-- 
+--Open URL-- ::urls.dashboardAdminPage:: 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Input value-- [[val]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > search}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > button_fas}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > PLAYER_ACTIVITY}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[TransactionVerify]] 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > table_span}}(( rowId: 1, colId: 7 )) 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > table_span}}(( rowId: 1, colId: 3 )) 
+--Take Screenshot-- [[PLayer Activity]] 
+

@@ -1,0 +1,16 @@
+{
+    "Make_a_payment": [
+        {
+            "snapshot": "1762454424963.png",
+            "label": "page > web > _m_d_dashboard > Make_a_payment",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Make a payment\" type=\"button\" aria-label=\"Make a payment\">Make a payment</button>"
+        },
+        {
+            "snapshot": "1762454424963.png",
+            "label": "page > web > _m_d_dashboard > Make_a_payment",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Make a payment\" type=\"button\" aria-label=\"Make a payment\">Make a payment</button>"
+        }
+    ]
+}

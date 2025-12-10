@@ -1,0 +1,508 @@
+{
+    "Sign_In_To_Dashboard": [
+        {
+            "snapshot": "1761174393864.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1761174393864.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1761174393864.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1761174393864.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1761331280607.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        }
+    ],
+    "Search_players": [
+        {
+            "snapshot": "1761242022114.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players\" type=\"text\" value=\"4\"></input>"
+        },
+        {
+            "snapshot": "1761242022114.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players\" type=\"text\" value=\"4\"></input>"
+        },
+        {
+            "snapshot": "1761242022114.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players\" type=\"text\" value=\"4\"></input>"
+        },
+        {
+            "snapshot": "1761242022114.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players\" type=\"text\" value=\"4\"></input>"
+        },
+        {
+            "snapshot": "1761331407323.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players\" type=\"text\" value=\"4\"></input>"
+        }
+    ],
+    "_40017": [
+        {
+            "snapshot": "1761242025981.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _40017",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<a type=\"a\" aria-describedby=\"reka-tooltip-content-v-1-23\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "snapshot": "1761242025981.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _40017",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<a type=\"a\" aria-describedby=\"reka-tooltip-content-v-1-23\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "snapshot": "1761242025981.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _40017",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<a type=\"a\" aria-describedby=\"reka-tooltip-content-v-1-23\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "snapshot": "1761242025981.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _40017",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<a type=\"a\" aria-describedby=\"reka-tooltip-content-v-1-23\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "snapshot": "1761331410471.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _40017",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<a type=\"a\" aria-describedby=\"reka-tooltip-content-v-1-35\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        }
+    ],
+    "Make_Payment": [
+        {
+            "snapshot": "1761242030431.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "snapshot": "1761242030431.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "snapshot": "1761242030431.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "snapshot": "1761242030431.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        }
+    ],
+    "comment": [
+        {
+            "snapshot": "1761242895361.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" value=\"test\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "snapshot": "1761242895361.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" value=\"test\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "snapshot": "1761242895361.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" value=\"test\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "snapshot": "1761242895361.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" value=\"test\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Next_1": [
+        {
+            "snapshot": "1761242897283.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1761242897283.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1761242897283.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1761242897283.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1761331485480.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        }
+    ],
+    "Click_40017": [
+        {
+            "testLabel": "web > MakePaymentCash.web",
+            "snapshot": "1761324338315.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Click_40017",
+            "attrs": "<a type=\"a\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761324338315.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Click_40017",
+            "attrs": "<a type=\"a\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761324338315.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Click_40017",
+            "attrs": "<a type=\"a\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761324338315.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Click_40017",
+            "attrs": "<a type=\"a\">40017mtx-omni-gs2cdh@markertrax.com</a>"
+        }
+    ],
+    "Increment": [
+        {
+            "testLabel": "web > MakePaymentCash.web",
+            "snapshot": "1761324344134.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761324344134.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761324344134.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761324344134.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "snapshot": "1761331478180.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        }
+    ],
+    "amount": [
+        {
+            "testLabel": "web > MakePaymentCash.web",
+            "snapshot": "1761324344805.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761324344805.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761324344805.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761324344805.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "snapshot": "1761331478196.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.01\"></input>"
+        }
+    ],
+    "Submit_1": [
+        {
+            "snapshot": "1761326585575.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1761326585575.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1761326585575.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1761326585575.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1761331487152.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        }
+    ],
+    "Unable_to_get_account": [
+        {
+            "snapshot": "1761326593827.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "testLabel": "web > MakePaymentCash.web",
+            "attrs": "<p type=\"p\">Unable to get account</p>"
+        },
+        {
+            "snapshot": "1761326593827.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<p type=\"p\">Unable to get account</p>"
+        },
+        {
+            "snapshot": "1761326593827.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<p type=\"p\">Unable to get account</p>"
+        },
+        {
+            "snapshot": "1761326593827.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<p type=\"p\">Unable to get account</p>"
+        },
+        {
+            "snapshot": "1761331489409.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<p type=\"p\">Card adjustment failed</p>"
+        }
+    ],
+    "Close": [
+        {
+            "testLabel": "web > MakePaymentCash.web",
+            "snapshot": "1761326731448.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761326731448.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761326731448.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761326731448.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        },
+        {
+            "snapshot": "1761331491303.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Close",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Close</button>"
+        }
+    ],
+    "Chip": [
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761327544087.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Chip",
+            "attrs": "<label type=\"label\">Chip</label>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761327544087.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Chip",
+            "attrs": "<label type=\"label\">Chip</label>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761327544087.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Chip",
+            "attrs": "<label type=\"label\">Chip</label>"
+        }
+    ],
+    "payment_type": [
+        {
+            "testLabel": "web > MakePaymentCheck.web",
+            "snapshot": "1761328169274.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "attrs": "<input type=\"input\" value=\"checkcash\"></input>"
+        },
+        {
+            "testLabel": "web > MakePaymentChip.web",
+            "snapshot": "1761328169274.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "attrs": "<input type=\"input\" value=\"checkcash\"></input>"
+        },
+        {
+            "testLabel": "web > MakePaymentJackpot.web",
+            "snapshot": "1761328169274.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "attrs": "<input type=\"input\" value=\"checkcash\"></input>"
+        },
+        {
+            "snapshot": "1761331480380.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<input type=\"input\" value=\"negative\"></input>"
+        }
+    ],
+    "Chip_1": [
+        {
+            "snapshot": "1761328573726.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Chip_1",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Chip\" type=\"button\" value=\"chip\" aria-checked=\"false\" aria-label=\"Chip\"></button>"
+        },
+        {
+            "snapshot": "1761328573726.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Chip_1",
+            "testLabel": "web > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Chip\" type=\"button\" value=\"chip\" aria-checked=\"false\" aria-label=\"Chip\"></button>"
+        },
+        {
+            "snapshot": "1761328573726.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Chip_1",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Chip\" type=\"button\" value=\"chip\" aria-checked=\"false\" aria-label=\"Chip\"></button>"
+        }
+    ],
+    "Check": [
+        {
+            "snapshot": "1761329240124.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Check",
+            "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Check\" type=\"button\" value=\"check\" aria-checked=\"false\" aria-label=\"Check\"></button>"
+        }
+    ],
+    "Jackpot": [
+        {
+            "snapshot": "1761329775516.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Jackpot",
+            "testLabel": "web > MakePaymentJackpot.web",
+            "attrs": "<label type=\"label\">Jackpot</label>"
+        }
+    ],
+    "Internal_Adjustment": [
+        {
+            "snapshot": "1761331472747.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
+        }
+    ],
+    "v_2_0_23": [],
+    "comment_1": [
+        {
+            "snapshot": "1761331436926.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment_1",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this payment\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "v_2_0_42": [],
+    "comment_2": [
+        {
+            "snapshot": "1761331483658.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment_2",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this payment\" value=\"t\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Search": [
+        {
+            "snapshot": "1761331345868.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Search</button>"
+        }
+    ],
+    "Negative": [
+        {
+            "snapshot": "1761331479869.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Negative",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Negative\" type=\"button\" value=\"negative\" aria-checked=\"false\" aria-label=\"Negative\"></button>"
+        }
+    ],
+    "Search_1": [
+        {
+            "snapshot": "1763764936748.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        }
+    ],
+    "Search_players_and_reports": [
+        {
+            "snapshot": "1763764939587.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\" value=\"4\"></input>"
+        }
+    ]
+}

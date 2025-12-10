@@ -1,0 +1,25 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+__web > _ > OpenPP__ 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > _m_d_dashboard > Make_a_payment}} 
+--Click on-- {{web > _m_d_pay > aria_label_Label_Other_amount_}} 
+--Click on-- {{web > _m_d_pay > _0_00}} 
+--Input value-- [[$0.01]] --in-- {{web > _m_d_pay > _0_00}} 
+--Click on-- {{web > _m_d_pay > Pay_now}} 
+--Wait for-- [[1000]] --milliseconds-- 
+--Click on-- {{web > _m_d_confirm > Yes}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Take Screenshot-- [[DebitPayment]] 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > _m_d_confirm > Back}} 
+

@@ -1,0 +1,13 @@
+>>summary: 
+>>recorderName: /
+
+==Sign_in;CSS;.r-5w3kjk [href='\/login'];Link;[];[Sign_in];[/];;==
+
+
+^^OpenPP()
+	--Open URL-- [[https://ellis.moolahplay.com/]] 
+	--Wait for-- [[5000]] --milliseconds-- 
+	--Click on-- {{Sign_in}} 
+	__web > _login > loginPP__ [[timtheyeti@gmail.com]] [[Testing1212isthisthingon!]] 
+
+^^

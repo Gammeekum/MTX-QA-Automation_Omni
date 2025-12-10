@@ -1,0 +1,10 @@
+{
+    "autoheal": true,
+    "flutterApp": false,
+    "browserOptions": {
+        "enableGpu": false
+    },
+    "chromeExtensionSetting": {
+        "enabled": false
+    }
+}
