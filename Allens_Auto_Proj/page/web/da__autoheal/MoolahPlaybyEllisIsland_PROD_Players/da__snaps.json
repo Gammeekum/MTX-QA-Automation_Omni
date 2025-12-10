@@ -1,0 +1,175 @@
+{
+    "first_name": [
+        {
+            "snapshot": "1762810532558.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"V\"></input>"
+        },
+        {
+            "snapshot": "1762818298492.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"v\"></input>"
+        },
+        {
+            "snapshot": "1763748865691.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"v\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764713379977.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964983338.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970767357.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"val\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "snapshot": "1765216596984.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "search": [
+        {
+            "snapshot": "1762810539584.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "snapshot": "1762817597667.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "snapshot": "1762818299904.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "snapshot": "1763748867650.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764713380361.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964984178.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "snapshot": "1765216597846.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        }
+    ],
+    "table_button": [],
+    "button_primary_text": [
+        {
+            "snapshot": "1762810542437.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > button_primary_text",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "snapshot": "1762818303395.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > button_primary_text",
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964985654.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_primary_text",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        }
+    ],
+    "first_name_1": [
+        {
+            "snapshot": "1762817593378.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name_1",
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"V\"></input>"
+        }
+    ],
+    "file_download": [
+        {
+            "snapshot": "1762817603650.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > file_download",
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "attrs": "<div type=\"div\">file_download Export </div>"
+        }
+    ],
+    "table_button_1": [
+        {
+            "snapshot": "1762817604703.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > table_button_1",
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        }
+    ],
+    "button_fas": [
+        {
+            "snapshot": "1763748870082.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764713444966.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "snapshot": "1764878284713.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970770889.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "snapshot": "1765216599291.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1764878266570.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Players",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<h2 type=\"h2\"> Players </h2>"
+        }
+    ]
+}

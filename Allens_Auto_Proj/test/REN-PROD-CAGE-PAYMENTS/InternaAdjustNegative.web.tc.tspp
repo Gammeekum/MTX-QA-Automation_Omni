@@ -1,0 +1,40 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Open URL-- ::urls.loginportal:: 
+--Wait for-- {{web > MarkerTraxOperatorDashboard_PROD_Login > Operator_Dashboard}} --to be visible-- 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- ::constants.portalTags.portalName:: --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Press keyboard keys-- [[Tab]] --on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
+--Input value-- [[Test@$automation23]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > password}} 
+--Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Open URL-- ::urls.dashboardAdminPage:: 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Input value-- [[val]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > search}} 
+--Wait for-- [[1000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > button_fas}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > INTERNAL_ADJUSTMENT_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > Negative_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Input value-- ::constants.portalTags.standard001:: --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Input value-- [[automation test]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM_1}} 
+--Wait for-- [[8200]] --milliseconds-- 
+--Take Screenshot-- [[NegativeInternalAdjust]] 
+

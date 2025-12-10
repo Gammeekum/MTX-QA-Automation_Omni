@@ -1,0 +1,29 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > MAKE_PAYMENT}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Input value-- [[automation test]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > comment}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Input value-- [[$0.01]] --in-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > _0}} 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > Confirm_Payment}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > Please_confirm_that_you_would}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_undefined > YES}} 
+--Wait for-- [[8000]] --milliseconds-- 
+--Take Screenshot-- [[CageCheckPayment]] 
+#receipt load 
+--Open new window-- 
+--Switch to window with index-- [[1]] 
+--Open URL-- [[https://portal.moolahplay.com/]] 
+--Wait for-- [[3000]] --milliseconds-- 
+

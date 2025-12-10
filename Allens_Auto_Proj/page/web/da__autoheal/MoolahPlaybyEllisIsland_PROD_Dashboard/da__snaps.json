@@ -1,0 +1,108 @@
+{
+    "List_players_1": [
+        {
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "snapshot": "1764883283855.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970761437.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1765215798405.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "snapshot": "1765216593386.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
+        }
+    ],
+    "Players_1": [
+        {
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "snapshot": "1764883371254.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970760948.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1765215797943.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "snapshot": "1765216592965.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        }
+    ],
+    "Dashboard": [
+        {
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "snapshot": "1764883718846.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
+            "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971202016.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
+            "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
+        }
+    ],
+    "Players": [
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964979125.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970003967.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971202498.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        }
+    ],
+    "List_players": [
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964979674.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players",
+            "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764970004458.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players",
+            "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971202924.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players",
+            "attrs": "<a type=\"a\">List players</a>"
+        }
+    ]
+}

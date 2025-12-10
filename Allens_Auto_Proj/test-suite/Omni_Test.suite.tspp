@@ -1,0 +1,15 @@
+{
+    "groups": [],
+    "tags": [
+        []
+    ],
+    "additionalTests": [],
+    "priority": [
+        "P0"
+    ],
+    "testType": "web",
+    "testFolders": [
+        "web"
+    ],
+    "description": "Test Check"
+}

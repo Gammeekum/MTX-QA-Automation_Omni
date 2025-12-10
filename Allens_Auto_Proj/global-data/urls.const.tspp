@@ -1,0 +1,33 @@
+[
+    {
+        "environments": [
+            "portalENV"
+        ],
+        "isDefault": false,
+        "constants": [
+            {
+                "name": "SITE_URL",
+                "type": "url",
+                "value": "https://portal.moolahplay.com/"
+            }
+        ]
+    },
+    {
+        "environments": [
+            "default"
+        ],
+        "isDefault": false,
+        "constants": [
+            {
+                "name": "loginportal",
+                "type": "url",
+                "value": "https://portal.moolahplay.com/"
+            },
+            {
+                "name": "dashboardAdminPage",
+                "type": "url",
+                "value": "https://portal.moolahplay.com/home"
+            }
+        ]
+    }
+]

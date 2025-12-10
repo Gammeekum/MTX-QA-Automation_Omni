@@ -1,0 +1,30 @@
+{
+    "Yes": [
+        {
+            "snapshot": "1762454465184.png",
+            "label": "page > web > _m_d_confirm > Yes",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Yes\" type=\"button\" aria-label=\"Yes\">Yes</button>"
+        },
+        {
+            "snapshot": "1762454465184.png",
+            "label": "page > web > _m_d_confirm > Yes",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Yes\" type=\"button\" aria-label=\"Yes\">Yes</button>"
+        }
+    ],
+    "Back": [
+        {
+            "snapshot": "1762454471059.png",
+            "label": "page > web > _m_d_confirm > Back",
+            "testLabel": "REN_PROD > DebitTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Back\" type=\"button\" aria-label=\"Back\">Back</button>"
+        },
+        {
+            "snapshot": "1762454471059.png",
+            "label": "page > web > _m_d_confirm > Back",
+            "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Back\" type=\"button\" aria-label=\"Back\">Back</button>"
+        }
+    ]
+}

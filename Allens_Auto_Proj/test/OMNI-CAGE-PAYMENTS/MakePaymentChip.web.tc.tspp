@@ -1,0 +1,54 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+^^detailed_steps
+Open the web URL --> The webpage should open successfully
+Click the "Sign_In to Dashboard" --> The login to microsoft page should display
+click the email or phone entry field and enter apharr@markertrax.com --> The email or phone entry field should appear
+click the next button --> The password Enter Password screen should appear
+click password field --> The password field should be clicked
+Enter text Xuja721184 --> The password Xuja721184 should be entered into the password field
+Click the Sign In button --> User should be taken to 'Stay Signed in? microsoft screen
+Click the Yes button --> The page should navigate to url https://uat-ad.moolahplay.net/dashboard and it should load properly
+Click the search button --> The search players window should open
+Click the search players field --> The Search Players field should be selected
+Enter the tex '40017' --> The text '40017' should be entered
+click  '40017' entry at the top of the search players box under 'RECENTLY VIEWED' --> The page should navigate to the URL https://uat-ad.moolahplay.net/players/22460/marker-info
+Click Make Payment --> A pop up or entry box should appear
+Enter 100 into the amount field --> The 100 text will be entered into the the amount field at the top of the pop-up under the amount text
+Click the Description box and enter 'text' --> The description box should be clicked and enter 'text"
+Click the Next button --> The verify your information popup text should display
+click Submit --> The submit button should load for 2000 to 3000 miliseconds
+^^
+
+__web > Next-GenMarkerTraxOperatorDashboard > MTXlogin__ 
+__web > Signintoyouraccount > UserLogin__ 
+--Wait for page load within-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Signintoyouraccount > search}} 
+--Input value-- [[40048]] --in-- {{web > Signintoyouraccount > search}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Click_40017}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Make_Payment}} 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
+--Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Chip_1}} 
+--Take Screenshot-- [[chip]] 
+#--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Chip}}
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > comment}} 
+--Input value-- [[test]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > comment}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
+#--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}}
+#--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}}
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account}} 
+--Take Screenshot-- [[result]] 
+

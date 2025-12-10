@@ -1,0 +1,16 @@
+>>summary: 
+>>recorderName: /login
+
+==Email_field;CSS;[placeholder='Email'];Input;[CSS:[aria-label='Email field']^^CSS:[type='text']];[Email_field];[/login];;==
+==Password_field;CSS;[placeholder='Password'];Input;[CSS:[aria-label='Password field']^^CSS:[type='password']];[Password_field];[/login];;==
+==Log_in;CSS;[aria-label='Log in'];Button;[CSS:[aria-label='Log\ in']];[Log_in];[/login];;==
+
+
+^^loginPP()
+	--Click on-- {{Email_field}} 
+	--Input value-- [[timtheyeti@gmail.com]] --in-- {{Email_field}} 
+	--Click on-- {{Password_field}} 
+	--Input value-- [[Testing1212isthisthingon!]] --in-- {{Password_field}} 
+	--Click on-- {{Log_in}} 
+
+^^

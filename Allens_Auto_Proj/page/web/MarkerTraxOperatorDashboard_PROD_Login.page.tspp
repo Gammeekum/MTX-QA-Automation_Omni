@@ -1,0 +1,38 @@
+>>summary: 
+>>recorderName: MarkerTraxOperatorDashboard(PROD)|Login
+
+==username;CSS;#input-19;Input;[CSS:[name='username']^^CSS:[type='text']^^XPATH://div[contains(@class, 'AppTextField')]//input[@id="input-19"]];[username];[MarkerTraxOperatorDashboard(PROD)|Login];;==
+==password;CSS;#input-25;Input;[CSS:[name='password']^^CSS:[type='password']^^XPATH://div[contains(@class, 'AppPasswordField')]//input[@id="input-25"]];[password];[MarkerTraxOperatorDashboard(PROD)|Login];;==
+==LOGIN;CSS;[type='submit'];Button;[CSS:.primary-moolah^^XPATH://div[contains(@class, 'AppButton')]//button[@type="submit"]];[LOGIN];[MarkerTraxOperatorDashboard(PROD)|Login];;==
+==visibility;CSS;[aria-label='append icon'];Button;[XPATH://button[text()="visibility"]^^CSS:.v-icon--link^^XPATH://div[contains(@class, 'v-input__icon--append')]//button[@aria-label="append icon"]];[visibility];[MarkerTraxOperatorDashboard(PROD)|Login];;==
+==Operator_Dashboard;CSS;h1;;[XPATH://h1[text()=" Operator Dashboard "]];[Operator_Dashboard];[MarkerTraxOperatorDashboard(PROD)|Login];;==
+
+
+
+
+
+
+^^PortalLog()
+	--Open URL-- [[https://portal.moolahplay.com/]] 
+	--Wait for-- [[10000]] --milliseconds-- 
+	--Click on-- {{username}} 
+	--Input value-- [[autoClanker]] --in-- {{username}} 
+	--Click on-- {{password}} 
+	--Input value-- [[Test1234@$]] --in-- {{password}} 
+	--Click on-- {{LOGIN}} 
+
+^^
+
+^^PortalLogin()
+	--Open URL-- [[https://portal.moolahplay.com/]] 
+	--Wait for-- [[10000]] --milliseconds-- 
+	--Click on-- {{username}} 
+	--Press keyboard keys-- [[Shift]] --on-- {{username}} 
+	--Input value-- [[autoClanker]] --in-- {{username}} 
+	--Press keyboard keys-- [[Control]] --on-- {{username}} 
+	--Press keyboard keys-- [[Tab]] --on-- {{username}} 
+	--Input value-- [[Test1234@$]] --in-- {{password}} 
+	--Click on-- {{visibility}} 
+	--Click on-- {{LOGIN}} 
+
+^^

@@ -1,0 +1,75 @@
+>>summary: 
+>>recorderName: Next-GenMarkerTraxOperatorDashboard
+
+==Sign_In_To_Dashboard;CSS;[type='button'];Button;[CSS:button^^CSS:.rounded-md^^CSS:.text-base^^CSS:.text-inverted^^CSS:.bg-primary^^CSS:.transition-all^^XPATH://div[contains(@class, 'relative')]//button[@type="button"]];[Sign_In_To_Dashboard];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search_player;XPATH;/html/body/div[5]/div/div[2]/div/div/a[1]/div/span;Text;[];[];[];;==
+==Click_40017;XPATH;/html/body/div[5]/div/div[2]/div/div/a[1]/div/span;Text;[];[];[];;==
+==MakeAPayment;XPATH;//*[@id="dashboard-panel-player-details"]/div[2]/div/div[3]/div/div[1]/div/div/button[1];Button;[];[];[];;==
+==PlusButton;XPATH;//*[@id="v-4-0-36"]/div/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/button/span;Button;[];[];[];;==
+==CashDot;XPATH;//*[@id="v-4-0-22"]/fieldset/label[1];Check Box;[];[];[];;==
+==Descrip;XPATH;//*[@id="v-4-0-27"];Input;[];[];[];;==
+==Next;XPATH;//*[@id="v-4-0-13"]/div/div[2]/div[2]/button[2];Button;[];[];[];;==
+==Submit;XPATH;//*[@id="v-4-0-13"]/div/div[2]/div[2]/button[2];Button;[];[];[];;==
+==NetworkError;text;//*[@id="v-4-0-13"]/div/div[2]/div/p;Text;[];[];[];;==
+==Search_players;CSS;[placeholder='Search players'];Input;[CSS:[type='text']^^CSS:input^^CSS:.appearance-none^^CSS:.ring-accented^^XPATH://div[@data-dismissable-layer=""]//input[@placeholder="Search players"]];[Search_players];[Next-GenMarkerTraxOperatorDashboard];;==
+==_40017;CSS;[href='\/players\/22460'];;[XPATH://div[contains(@class, 'focus:outline-none')]//a[@data-state="delayed-open"]];[_40017];[Next-GenMarkerTraxOperatorDashboard];;==
+==Make_Payment;XPATH;//button[text()="Make Payment"];Button;[CSS:.text-inverted^^CSS:.bg-primary^^XPATH://div[@id="dashboard-panel-player-details"]//button[text()="Make Payment"]];[Make_Payment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Increment;CSS;[aria-label='Increment'];Button;[XPATH://div[contains(@class, 'text-left')]//button[@aria-label="Increment"]];[Increment];[Next-GenMarkerTraxOperatorDashboard];;==
+==amount;CSS;[name='amount'];Input;[XPATH://div[contains(@class, 'text-left')]//input[@name="amount"]];[amount];[Next-GenMarkerTraxOperatorDashboard];;==
+==comment;CSS;#v-2-0-30;;[CSS:[placeholder='Enter a description for this Payment']^^CSS:[name='comment']^^CSS:textarea^^CSS:.appearance-none^^XPATH://div[@data-linear=""]//textarea[@id="v-2-0-30"]];[comment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Next_1;XPATH;//button[text()="Next"];Button;[CSS:.px-2\.5[disabled]^^XPATH://form[@id="v-2-0-16"]//button[text()="Next"]];[Next];[Next-GenMarkerTraxOperatorDashboard];;==
+==Submit_1;XPATH;//button[text()="Submit"];Button;[XPATH://form[@id="v-2-0-38"]//button[text()="Submit"]];[Submit];[Next-GenMarkerTraxOperatorDashboard];;==
+==Unable_to_get_account;CSS;p;;[XPATH://p[text()="Unable to get account"]^^XPATH://div[@data-linear=""]//p];[Unable_to_get_account];[Next-GenMarkerTraxOperatorDashboard];;==
+==Close;XPATH;//button[text()="Close"];Button;[CSS:#v-2-0-38 .rounded-md^^XPATH://form[@id="v-2-0-38"]//button[text()="Close"]];[Close];[Next-GenMarkerTraxOperatorDashboard];;==
+==Chip;CSS;label:nth-child(2);;[];[Chip];[Next-GenMarkerTraxOperatorDashboard];;==
+==payment_type;CSS;[name='payment_type'];Input;[XPATH://div[@id="v-2-0-25"]//input[@name="payment_type"]];[payment_type];[Next-GenMarkerTraxOperatorDashboard];;==
+==Chip_1;CSS;[aria-label='Chip'];;[CSS:#v-2-0-25\:chip^^XPATH://fieldset//button[@id="v-2-0-25:chip"]];[Chip];[Next-GenMarkerTraxOperatorDashboard];;==
+==Check;CSS;[aria-label='Check'];;[CSS:#v-4-0-25\:check^^XPATH://fieldset//button[@id="v-4-0-25:check"]];[Check];[Next-GenMarkerTraxOperatorDashboard];;==
+==Jackpot;CSS;label:nth-child(4);;[];[Jackpot];[Next-GenMarkerTraxOperatorDashboard];;==
+==Internal_Adjustment;XPATH;//button[text()="Internal Adjustment"];Button;[XPATH://div[@id="dashboard-panel-player-details"]//button[text()="Internal Adjustment"]];[Internal_Adjustment];[Next-GenMarkerTraxOperatorDashboard];;==
+==v_2_0_23;CSS;#v-2-0-23;;[CSS:.border-b^^CSS:.rounded-none^^XPATH://div[contains(@class, 'text-left')]//input[@id="v-2-0-23"]];[v_2_0_23];[Next-GenMarkerTraxOperatorDashboard];;==
+==comment_1;CSS;#v-2-0-28;;[CSS:[placeholder='Enter a description for this payment']^^CSS:[name='comment']^^CSS:textarea^^CSS:.appearance-none^^XPATH://div[@data-linear=""]//textarea[@id="v-2-0-28"]];[comment];[Next-GenMarkerTraxOperatorDashboard];;==
+==v_2_0_42;CSS;#v-2-0-42;;[CSS:.ring-error^^CSS:.border-b^^CSS:.rounded-none^^XPATH://div[contains(@class, 'text-left')]//input[@id="v-2-0-42"]];[v_2_0_42];[Next-GenMarkerTraxOperatorDashboard];;==
+==comment_2;CSS;#v-2-0-47;;[CSS:[placeholder='Enter a description for this payment']^^CSS:[name='comment']^^CSS:textarea^^CSS:.appearance-none^^XPATH://div[@data-linear=""]//textarea[@id="v-2-0-47"]];[comment];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search;CSS;.overflow-x-auto .px-2\.5;Button;[];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
+==Negative;CSS;[data-state='unchecked'];;[CSS:[aria-label='Negative']^^CSS:#v-2-0-44\:negative^^XPATH://fieldset//button[@id="v-2-0-44:negative"]];[Negative];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search_1;XPATH;//*[@type='button'][./span[text()="Search..."]];Button;[XPATH://button[./span[text()="Search..."]]^^XPATH://button[@type='button'][./span[text()="Search..."]]];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search_players_and_reports;CSS;[placeholder='Search players and reports'];Input;[CSS:[type='text']^^CSS:input];[Search_players_and_reports];[Next-GenMarkerTraxOperatorDashboard];;==
+==_40017_1;XPATH;//a[@data-state='delayed-open'][@data-grace-area-trigger=''];;[XPATH://a[@data-state='delayed-open']^^XPATH://*[@data-state='delayed-open'][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://a[.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]];[_40017];[Next-GenMarkerTraxOperatorDashboard];;==
+==_40017_2;XPATH;//*[@data-state='closed'][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]];;[XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://a[.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]];[_40017];[Next-GenMarkerTraxOperatorDashboard];;==
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^^MTXlogin()
+	--Open URL-- [[https://uat-od.moolahplay.net/]] 
+	--Wait for-- {{Sign_In_To_Dashboard}} --to be present within-- [[10000]] --milliseconds-- 
+	::isClickable_4 = --Is element-- {{Sign_In_To_Dashboard}} --clickable within-- [[10000]] --milliseconds-- 
+	--Verify boolean-- ::isClickable_4:: --is equal to-- [[true]] 
+	--Wait for-- [[5000]] --milliseconds-- 
+	--Click on-- {{Sign_In_To_Dashboard}} 
+	--Wait for-- {{Sign_In_To_Dashboard}} --to disappear-- 
+
+^^

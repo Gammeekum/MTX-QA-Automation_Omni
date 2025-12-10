@@ -1,0 +1,7 @@
+>>summary: 
+>>recorderName: /m/d/pay
+
+==aria_label_Label_Other_amount_;CSS;[aria-label='Label\:\ Other\ amount\ '] .r-1awozwy;;[];[aria_label_Label_Other_amount_];[/m/d/pay];;==
+==_0_00;CSS;[placeholder='$0.00'];Input;[CSS:[type='text']^^CSS:input^^XPATH://div[contains(@class, 'r-xrtecp')]//input[@placeholder="$0.00"]];[_0_00];[/m/d/pay];;==
+==Pay_now;CSS;[aria-label='Pay now'];Button;[CSS:[aria-label='Pay\ now']];[Pay_now];[/m/d/pay];;==
+

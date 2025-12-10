@@ -1,0 +1,198 @@
+{
+    "username": [
+        {
+            "snapshot": "1762805849962.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "testLabel": "REN_PROD > patron_Re-apply.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"a\"></input>"
+        },
+        {
+            "snapshot": "1762810488606.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"autoClanker\"></input>"
+        },
+        {
+            "snapshot": "1762819604724.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"autoClanker\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764712176809.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "snapshot": "1764875540793.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"autoClanker\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964839137.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764969814411.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971057231.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "password": [
+        {
+            "snapshot": "1762805852992.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "testLabel": "REN_PROD > patron_Re-apply.web",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"T\"></input>"
+        },
+        {
+            "snapshot": "1762810489789.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"T\"></input>"
+        },
+        {
+            "snapshot": "1762819494046.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"Test1234@$\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764712178074.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\"></input>"
+        },
+        {
+            "snapshot": "1764875543983.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"T\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964841521.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test1234@$\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764969816176.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971059599.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test1234@$\"></input>"
+        }
+    ],
+    "LOGIN": [
+        {
+            "snapshot": "1762805857418.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "testLabel": "REN_PROD > patron_Re-apply.web",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "snapshot": "1762810502054.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "snapshot": "1762819606522.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN_PROD > VerifyInternalAdjustment.web",
+            "snapshot": "1764712179119.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "snapshot": "1764875552575.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964842429.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764969998404.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971060449.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        }
+    ],
+    "visibility": [
+        {
+            "snapshot": "1762810498226.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility_off</button>"
+        },
+        {
+            "snapshot": "1762819494545.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "testLabel": "REN_PROD > InternalAdjustPositive.web",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility_off</button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCheck.web",
+            "snapshot": "1764964841920.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentChip.web",
+            "snapshot": "1764969816641.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "snapshot": "1764971060005.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        }
+    ],
+    "Operator_Dashboard": [
+        {
+            "snapshot": "1764875535282.png",
+            "label": "page > web > MarkerTraxOperatorDashboard_PROD_Login > Operator_Dashboard",
+            "testLabel": "REN_PROD > InternaAdjustNegative.web",
+            "attrs": "<h1 type=\"h1\"> Operator Dashboard </h1>"
+        },
+        {
+            "testLabel": "REN_PROD > MakePaymentCash.web",
+            "snapshot": "1764882980295.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > Operator_Dashboard",
+            "attrs": "<h1 type=\"h1\"> Operator Dashboard </h1>"
+        }
+    ]
+}

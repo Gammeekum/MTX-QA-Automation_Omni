@@ -1,0 +1,7 @@
+>>summary: 
+>>recorderName: Slickdeals:TheBestDeals,Coupons,PromoCodes&Discounts
+
+==Be_the_first_to_know_with_Deal;CSS;.genericDealAlertsModal__container;;[XPATH://dialog[@data-v-cdc11790=""]//div[contains(@class, 'genericDealAlertsModal__container')]];[Be_the_first_to_know_with_Deal];[Slickdeals:TheBestDeals,Coupons,PromoCodes&Discounts];;==
+==Close;CSS;[aria-label='Close'];Button;[XPATH://dialog[@data-v-cdc11790=""]//button[@data-v-f92eb192=""]];[Close];[Slickdeals:TheBestDeals,Coupons,PromoCodes&Discounts];;==
+==Slickdeals_is_community_suppor;XPATH;//span[text()=" Slickdeals is community-supported.  "];;[CSS:.slickdealsHeader__disclaimerHideMob^^XPATH://small[@data-v-f9e59146=""]//span[text()=" Slickdeals is community-supported.  "]];[Slickdeals_is_community_suppor];[Slickdeals:TheBestDeals,Coupons,PromoCodes&Discounts];;==
+
