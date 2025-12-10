@@ -54,6 +54,7 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Verify the Player's Status was Updated 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspended}} --is equal to-- [[Suspended]] 
+--Take Screenshot-- [[SuspendedStatus]] 
 #Set the Player's Status to Active/Unsuspend 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions_1}} 
 --Wait for-- [[3000]] --milliseconds-- 
@@ -69,6 +70,7 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Verify the Player's Status was Updated 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Active}} --is equal to-- [[Active]] 
+--Take Screenshot-- [[ActiveStatus]] 
 #Open Reports and Validate the Status Changes were Logged Correctly 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
 --Wait for-- [[5000]] --milliseconds-- 

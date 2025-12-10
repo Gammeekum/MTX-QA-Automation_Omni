@@ -11,6 +11,7 @@
 
 #Launch Web Portal 
 --Open URL-- [[https://uat-od.moolahplay.net/]] 
+#Login to the Dashboard 
 --Wait for-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --to be present within-- [[5000]] --milliseconds-- 
 ::isClickable_3 = --Is element-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} --clickable within-- [[5000]] --milliseconds-- 
 --Verify boolean-- ::isClickable_3:: --is equal to-- [[true]] 
@@ -31,6 +32,8 @@
 --Wait for-- [[5000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 1 )) 
 --Wait for-- [[5000]] --milliseconds-- 
+--Take Screenshot-- [[OriginalStatus]] 
+#Set the Player to Suspended 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspend_2}} 
@@ -49,6 +52,7 @@
 --Wait for-- [[2000]] --milliseconds-- 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Suspended}} --is equal to-- [[Suspended]] 
 --Take Screenshot-- [[Suspended_Status]] 
+#Unsuspend the Player 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > More_actions}} 
 --Wait for-- [[2000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > UnSuspend}} 
@@ -65,6 +69,7 @@
 --Wait for-- [[3000]] --milliseconds-- 
 --Verify if text of-- {{web > Next-GenMarkerTraxOperatorDashboard > Active}} --is equal to-- [[Active]] 
 --Take Screenshot-- [[Unsuspended_Status]] 
+#Verify the Status Changes are Logged in the Enable/Disable Report 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Reports}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Historical_status_changes_for}} 
