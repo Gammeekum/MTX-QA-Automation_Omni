@@ -228,3 +228,4 @@
 ==Export12;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div/button;Button;[];[];[];;==
 ==DateCreated;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div[1]/button;Button;[];[];[];;==
 ==Export13;XPATH;/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div/button;Button;[];[];[];;==
+==LimitActivityreport;XPATH;/html/body/div[4]/div/div/div[2]/div/div[12]/span[1];Button;[];[];[];;==

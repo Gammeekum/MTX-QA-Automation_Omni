@@ -181,14 +181,14 @@
 ::filePath_153 = --Get last downloaded file-- 
 ::content_154 = --File.Read content as text-- ::filePath_153:: 
 --Take Screenshot-- [[Fee]] 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[3000]] --milliseconds-- 
 #Verify the Limit Activity Historical Report is Downloadable 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > ReportSelector}} 
---Wait for-- [[2000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > LimitActivityReport}} 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[3000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > LimitActivityreport}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Download_Report}} 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[3000]] --milliseconds-- 
 --Wait for downloads to complete-- 
 ::filePath_164 = --Get last downloaded file-- 
 ::content_165 = --File.Read content as text-- ::filePath_164:: 
