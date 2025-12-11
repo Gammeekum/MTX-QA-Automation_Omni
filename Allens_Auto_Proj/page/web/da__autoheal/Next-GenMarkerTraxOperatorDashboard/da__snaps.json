@@ -37,7 +37,7 @@
             "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
         },
         {
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "snapshot": "1765407123318.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
             "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
@@ -271,7 +271,7 @@
         {
             "snapshot": "1765407672036.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<button type=\"button\" type=\"button\">Next</button>"
         },
         {
@@ -371,7 +371,7 @@
         {
             "snapshot": "1765407661101.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
         },
         {
@@ -445,7 +445,7 @@
         {
             "snapshot": "1765407661111.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<input type=\"input\" type=\"text\" value=\"0.01\"></input>"
         },
         {
@@ -519,7 +519,7 @@
         {
             "snapshot": "1765407675492.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
         },
         {
@@ -757,7 +757,7 @@
         {
             "snapshot": "1765407652210.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
         },
         {
@@ -817,7 +817,7 @@
         {
             "snapshot": "1765407627108.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_1",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
         },
         {
@@ -867,7 +867,7 @@
         {
             "snapshot": "1765407639995.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\" value=\"6\"></input>"
         },
         {
@@ -911,7 +911,7 @@
         {
             "snapshot": "1765407646020.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _60056",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
         },
         {
@@ -955,7 +955,7 @@
         {
             "snapshot": "1765407668640.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description",
-            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsCredit.web",
             "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this adjustment\" value=\"t\" aria-invalid=\"false\"></textarea>"
         },
         {
@@ -997,6 +997,20 @@
             "snapshot": "1765411510206.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > direction",
             "attrs": "<input type=\"input\" value=\"debitdebit\"></input>"
+        }
+    ],
+    "_60024": [
+        {
+            "snapshot": "1765494261889.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _60024",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765494515771.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
+            "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
         }
     ]
 }

@@ -9,20 +9,5 @@
 >>aiRequestId: 
 
 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.02]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.03]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.04]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Adjustment_Debit}} 
---Input value-- [[debit]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > direction}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
---Input value-- ::constants.portalTags.test:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
---Wait for-- [[10000]] --milliseconds-- 
+--Open URL-- [[https://uat-ad.moolahplay.net/players/22690/marker-info]] 
 

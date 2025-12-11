@@ -14,24 +14,19 @@ __web > Signintoyouraccount > UserLogin__
 --Wait for page load within-- [[5000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
---Input value-- [[60056]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
---Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60056}} 
+--Input value-- [[60024]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60024}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
 --Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.02]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.03]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
---Input value-- [[0.04]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Adjustment_Debit}} 
 --Input value-- [[debit]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > direction}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
 --Input value-- ::constants.portalTags.test:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Take Screenshot-- [[Internal Adjust Positive]] 
 

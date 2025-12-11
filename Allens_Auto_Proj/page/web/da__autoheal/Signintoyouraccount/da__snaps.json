@@ -71,6 +71,12 @@
             "snapshot": "1765414202380.png",
             "label": "web > Signintoyouraccount > loginfmt",
             "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "snapshot": "1765494223995.png",
+            "label": "page > web > Signintoyouraccount > loginfmt",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"E\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
         }
     ],
     "idSIButton9": [
@@ -145,6 +151,12 @@
             "snapshot": "1765414202734.png",
             "label": "web > Signintoyouraccount > idSIButton9",
             "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "snapshot": "1765494242294.png",
+            "label": "page > web > Signintoyouraccount > idSIButton9",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Sign in\"></input>"
         }
     ],
     "passwd": [
@@ -219,6 +231,12 @@
             "snapshot": "1765414203151.png",
             "label": "web > Signintoyouraccount > passwd",
             "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "snapshot": "1765494238519.png",
+            "label": "page > web > Signintoyouraccount > passwd",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Enter the password for emailtest@qa.com\" type=\"password\" value=\"N\" aria-required=\"true\" aria-describedby=\"loginHeader passwordError  \" aria-label=\"Enter the password for emailtest@qa.com\"></input>"
         }
     ],
     "search": [

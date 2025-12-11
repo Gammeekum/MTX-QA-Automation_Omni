@@ -41,6 +41,9 @@
 ==description;CSS;[placeholder='Enter a description for this adjustment'];;[CSS:[data-linear=''] [name='description']^^CSS:[aria-label='progress'] [name='description']^^CSS:#v-1-40^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Adjustment_Debit;XPATH;//label[.//*/*[@data-state='unchecked']];;[XPATH://label[.//*/*[@aria-label='Adjustment Debit']]^^XPATH://label[.//*/button[@id='v-1-35:debit'][@data-reka-collection-item='']]];[Adjustment_Debit];[Next-GenMarkerTraxOperatorDashboard];;==
 ==direction;CSS;[name='direction'];Input;[CSS:#v-1-35 [data-hidden='']^^CSS:#v-1-35 input^^CSS:[role='radiogroup'] [data-hidden='']^^CSS:[role='radiogroup'] input];[direction];[Next-GenMarkerTraxOperatorDashboard];;==
+==_60024;XPATH;//a[@data-state='closed'][@data-grace-area-trigger=''];;[XPATH://a[@data-state='closed']^^XPATH://a[@data-grace-area-trigger='']^^XPATH://*[@data-state='closed'][.//*/span[text()="mlawson624+docv1@domain.com"]]^^XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mlawson624+docv1@domain.com"]]^^XPATH://a[.//*/span[text()="mlawson624+docv1@domain.com"]]];[_60024];[Next-GenMarkerTraxOperatorDashboard];;==
+
+
 
 
 ^^MTXlogin()

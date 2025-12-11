@@ -14,9 +14,9 @@ __web > Signintoyouraccount > UserLogin__
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
---Input value-- [[60056]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
---Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60056}} 
+--Input value-- [[60024]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
+--Wait for-- [[2000]] --milliseconds-- 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60024}} 
 #search and click player 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment}} 
@@ -26,5 +26,6 @@ __web > Signintoyouraccount > UserLogin__
 --Input value-- ::constants.portalTags.test:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Take Screenshot-- [[Omni Negative Adjustment]] 
 

@@ -34,9 +34,9 @@ __web > Signintoyouraccount > UserLogin__
 --Wait for page load within-- [[5000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
---Input value-- [[60056]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
+--Input value-- [[60024]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
 --Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60056}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60024}} 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Make_Payment}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
@@ -47,5 +47,6 @@ __web > Signintoyouraccount > UserLogin__
 #--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}}
 #--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}}
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Take Screenshot-- [[Omni Cash Payment]] 
 
