@@ -47,6 +47,12 @@
             "snapshot": "1765391662655.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "snapshot": "1765403303198.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
         }
     ],
     "search": [
@@ -96,6 +102,12 @@
             "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
             "snapshot": "1765390337956.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "snapshot": "1765403398230.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
             "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
         }
     ],
@@ -188,6 +200,220 @@
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Players",
             "testLabel": "REN_PROD > MakePaymentCash.web",
             "attrs": "<h2 type=\"h2\"> Players </h2>"
+        },
+        {
+            "snapshot": "1765403286429.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Players",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<h2 type=\"h2\"> Players </h2>"
+        }
+    ],
+    "property_name": [
+        {
+            "snapshot": "1765403292383.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > property_name",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "pan": [
+        {
+            "snapshot": "1765403297586.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > pan",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "last_name": [
+        {
+            "snapshot": "1765403337027.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > last_name",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "input_170": [
+        {
+            "snapshot": "1765403342353.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > input_170",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        }
+    ],
+    "Status": [
+        {
+            "snapshot": "1765403388341.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Status",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"combobox\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-owns=\"list-170\">Status</div>"
+        }
+    ],
+    "_30_Days_Overdue": [
+        {
+            "snapshot": "1765403351267.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > _30_Days_Overdue",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">30 Days Overdue</div>"
+        }
+    ],
+    "_60_Days_Overdue": [
+        {
+            "snapshot": "1765403353287.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > _60_Days_Overdue",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">60 Days Overdue</div>"
+        }
+    ],
+    "_90_Days_Overdue": [
+        {
+            "snapshot": "1765403355341.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > _90_Days_Overdue",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">90 Days Overdue</div>"
+        }
+    ],
+    "Active": [
+        {
+            "snapshot": "1765403357549.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Active",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Active</div>"
+        }
+    ],
+    "Blocked": [
+        {
+            "snapshot": "1765403359891.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Blocked",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Blocked</div>"
+        }
+    ],
+    "Declined": [
+        {
+            "snapshot": "1765403362603.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Declined",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Declined</div>"
+        }
+    ],
+    "For_Signing_Agreement": [
+        {
+            "snapshot": "1765403365523.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > For_Signing_Agreement",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">For Signing Agreement</div>"
+        }
+    ],
+    "Inactive": [
+        {
+            "snapshot": "1765403374882.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Inactive",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Inactive</div>"
+        }
+    ],
+    "Manual_Closed": [
+        {
+            "snapshot": "1765403377404.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Manual_Closed",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Manual Closed</div>"
+        }
+    ],
+    "Last_name_1": [
+        {
+            "snapshot": "1765403378792.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Last_name_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\">Last nameStatus</div>"
+        }
+    ],
+    "Player_Bankruptcy": [
+        {
+            "snapshot": "1765403380416.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Player_Bankruptcy",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Player Bankruptcy</div>"
+        }
+    ],
+    "Status_1": [
+        {
+            "snapshot": "1765403387799.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Status_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\">Status</div>"
+        }
+    ],
+    "Refused": [
+        {
+            "snapshot": "1765403384046.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Refused",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Refused</div>"
+        }
+    ],
+    "Unpaid_Due": [
+        {
+            "snapshot": "1765403386341.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Unpaid_Due",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Unpaid Due</div>"
+        }
+    ],
+    "Write_Off": [
+        {
+            "snapshot": "1765403389730.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Write_Off",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">Write-Off</div>"
+        }
+    ],
+    "file_download_1": [
+        {
+            "snapshot": "1765403420370.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > file_download_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<button type=\"button\" role=\"button\" type=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">file_download Export </button>"
+        }
+    ],
+    "PDF": [
+        {
+            "snapshot": "1765403424346.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > PDF",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"menuitem\">PDF</div>"
+        }
+    ],
+    "navigate_before": [
+        {
+            "snapshot": "1765403449243.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > navigate_before",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<button type=\"button\" aria-label=\"Previous page\" type=\"button\" aria-label=\"Previous page\">navigate_before</button>"
+        }
+    ],
+    "Total_1212": [
+        {
+            "snapshot": "1765403463329.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > Total_1212",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\">Total: 1212</div>"
+        }
+    ],
+    "_10": [
+        {
+            "snapshot": "1765403466813.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > _10",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"button\" aria-haspopup=\"listbox\" aria-expanded=\"false\" aria-owns=\"list-387\">10</div>"
+        }
+    ],
+    "_20": [
+        {
+            "snapshot": "1765403467710.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > _20",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<div type=\"div\" role=\"option\" aria-selected=\"false\">20</div>"
         }
     ]
 }

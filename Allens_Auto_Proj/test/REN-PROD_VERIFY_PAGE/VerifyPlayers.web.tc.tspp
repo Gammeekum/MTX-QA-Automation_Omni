@@ -1,0 +1,61 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+__web > MarkerTraxOperatorDashboard_PROD_Login > RenProdLogin__ 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1}} 
+--Wait for-- [[10000]] --milliseconds-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Players}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > property_name}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > pan}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > first_name}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > last_name}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > input_170}} --is present-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > _30_Days_Overdue}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > _60_Days_Overdue}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > _90_Days_Overdue}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Active}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Blocked}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Declined}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > For_Signing_Agreement}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Inactive}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Manual_Closed}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Last_name_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Player_Bankruptcy}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Refused}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Unpaid_Due}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Status}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Write_Off}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > search}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > file_download_1}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > PDF}} 
+--Wait for downloads to complete within-- [[5000]] --milliseconds-- 
+::filePath_43 = --Get last downloaded file-- 
+::content_44 = --File.Read content as text-- ::filePath_43:: 
+--Wait for-- [[5000]] --milliseconds-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Total_1212}} 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Players > Total_1212}} --is present-- 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > _10}} 
+--Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Players > _20}} 
+--Take Screenshot-- [[Players Page]] 
+

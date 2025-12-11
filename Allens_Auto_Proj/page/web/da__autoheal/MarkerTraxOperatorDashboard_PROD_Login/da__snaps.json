@@ -53,6 +53,18 @@
             "snapshot": "1765390313607.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "snapshot": "1765396235896.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403557765.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
         }
     ],
     "password": [
@@ -107,6 +119,18 @@
         {
             "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
             "snapshot": "1765390320248.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "snapshot": "1765396988497.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403906264.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
             "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
         }
@@ -165,6 +189,18 @@
             "snapshot": "1765390320665.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
             "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "snapshot": "1765396238877.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403560173.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
         }
     ],
     "visibility": [
@@ -195,6 +231,18 @@
         {
             "testLabel": "REN_PROD > MakePaymentJackpot.web",
             "snapshot": "1764971060005.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "snapshot": "1765396891465.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403559717.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
             "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
         }

@@ -9,15 +9,7 @@
 >>aiRequestId: 
 
 
---Open URL-- ::urls.loginportal:: 
---Wait for-- [[3000]] --milliseconds-- 
---Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
---Input value-- [[autoClanker]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
---Press keyboard keys-- [[Tab]] --on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > username}} 
---Input value-- [[Test@$automation23]] --in-- {{web > MarkerTraxOperatorDashboard_PROD_Login > password}} 
---Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > visibility}} 
---Click on-- {{web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN}} 
---Wait for-- [[3000]] --milliseconds-- 
+__web > MarkerTraxOperatorDashboard_PROD_Login > RenProdLogin__ 
 --Open URL-- ::urls.dashboardAdminPage:: 
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players}} 

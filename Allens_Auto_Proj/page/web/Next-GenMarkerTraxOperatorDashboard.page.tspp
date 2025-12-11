@@ -16,10 +16,10 @@
 ==Make_Payment;XPATH;//button[text()="Make Payment"];Button;[CSS:.text-inverted^^CSS:.bg-primary^^XPATH://div[@id="dashboard-panel-player-details"]//button[text()="Make Payment"]];[Make_Payment];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Increment;CSS;[aria-label='Increment'];Button;[XPATH://div[contains(@class, 'text-left')]//button[@aria-label="Increment"]];[Increment];[Next-GenMarkerTraxOperatorDashboard];;==
 ==amount;CSS;[name='amount'];Input;[XPATH://div[contains(@class, 'text-left')]//input[@name="amount"]];[amount];[Next-GenMarkerTraxOperatorDashboard];;==
-==comment;CSS;#v-2-0-30;;[CSS:[placeholder='Enter a description for this Payment']^^CSS:[name='comment']^^CSS:textarea^^CSS:.appearance-none^^XPATH://div[@data-linear=""]//textarea[@id="v-2-0-30"]];[comment];[Next-GenMarkerTraxOperatorDashboard];;==
+==comment;CSS;[placeholder='Enter a description for this Payment'];;[CSS:[name='comment']^^CSS:textarea^^CSS:.appearance-none^^XPATH://div[@data-linear=""]//textarea[@id="v-2-0-30"]];[comment];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Next_1;XPATH;//button[text()="Next"];Button;[CSS:.px-2\.5[disabled]^^XPATH://form[@id="v-2-0-16"]//button[text()="Next"]];[Next];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Submit_1;XPATH;//button[text()="Submit"];Button;[XPATH://form[@id="v-2-0-38"]//button[text()="Submit"]];[Submit];[Next-GenMarkerTraxOperatorDashboard];;==
-==Unable_to_get_account;CSS;p;;[XPATH://p[text()="Unable to get account"]^^XPATH://div[@data-linear=""]//p];[Unable_to_get_account];[Next-GenMarkerTraxOperatorDashboard];;==
+==Unable_to_get_account;XPATH;//div[@data-linear='']//p;;[XPATH://p[text()="Unable to get account"]^^XPATH://div[@data-linear=""]//p];[Unable_to_get_account];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Close;XPATH;//button[text()="Close"];Button;[CSS:#v-2-0-38 .rounded-md^^XPATH://form[@id="v-2-0-38"]//button[text()="Close"]];[Close];[Next-GenMarkerTraxOperatorDashboard];;==
 ==Chip;CSS;label:nth-child(2);;[];[Chip];[Next-GenMarkerTraxOperatorDashboard];;==
 ==payment_type;CSS;[name='payment_type'];Input;[XPATH://div[@id="v-2-0-25"]//input[@name="payment_type"]];[payment_type];[Next-GenMarkerTraxOperatorDashboard];;==
@@ -37,30 +37,10 @@
 ==Search_players_and_reports;CSS;[placeholder='Search players and reports'];Input;[CSS:[type='text']^^CSS:input];[Search_players_and_reports];[Next-GenMarkerTraxOperatorDashboard];;==
 ==_40017_1;XPATH;//a[@data-state='delayed-open'][@data-grace-area-trigger=''];;[XPATH://a[@data-state='delayed-open']^^XPATH://*[@data-state='delayed-open'][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://a[.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]];[_40017];[Next-GenMarkerTraxOperatorDashboard];;==
 ==_40017_2;XPATH;//*[@data-state='closed'][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]];;[XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]^^XPATH://a[.//*/span[text()="mtx-omni-gs2cdh@markertrax.com"]]];[_40017];[Next-GenMarkerTraxOperatorDashboard];;==
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+==_60056;XPATH;//a[@data-state='closed'][@data-grace-area-trigger=''];;[XPATH://a[@data-state='closed']^^XPATH://a[@data-grace-area-trigger='']^^XPATH://*[@data-state='closed'][.//*/span[text()="leslie_60056@markertrax.net"]]^^XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="leslie_60056@markertrax.net"]]^^XPATH://a[.//*/span[text()="leslie_60056@markertrax.net"]]];[_60056];[Next-GenMarkerTraxOperatorDashboard];;==
+==description;CSS;[placeholder='Enter a description for this adjustment'];;[CSS:[data-linear=''] [name='description']^^CSS:[aria-label='progress'] [name='description']^^CSS:#v-1-40^^CSS:textarea];[description];[Next-GenMarkerTraxOperatorDashboard];;==
+==Adjustment_Debit;XPATH;//label[.//*/*[@data-state='unchecked']];;[XPATH://label[.//*/*[@aria-label='Adjustment Debit']]^^XPATH://label[.//*/button[@id='v-1-35:debit'][@data-reka-collection-item='']]];[Adjustment_Debit];[Next-GenMarkerTraxOperatorDashboard];;==
+==direction;CSS;[name='direction'];Input;[CSS:#v-1-35 [data-hidden='']^^CSS:#v-1-35 input^^CSS:[role='radiogroup'] [data-hidden='']^^CSS:[role='radiogroup'] input];[direction];[Next-GenMarkerTraxOperatorDashboard];;==
 
 
 ^^MTXlogin()

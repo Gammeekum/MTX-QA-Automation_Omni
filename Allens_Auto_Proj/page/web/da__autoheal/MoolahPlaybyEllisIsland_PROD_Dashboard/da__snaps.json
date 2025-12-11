@@ -29,6 +29,12 @@
             "snapshot": "1765390331617.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
             "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403564342.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
         }
     ],
     "Players_1": [
@@ -61,6 +67,12 @@
             "snapshot": "1765390326115.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
             "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "snapshot": "1765403563870.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
         }
     ],
     "Dashboard": [
@@ -74,6 +86,12 @@
             "testLabel": "REN_PROD > MakePaymentJackpot.web",
             "snapshot": "1764971202016.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
+            "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
+        },
+        {
+            "snapshot": "1765395862200.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
             "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
         }
     ],
@@ -115,6 +133,262 @@
             "snapshot": "1764971202924.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players",
             "attrs": "<a type=\"a\">List players</a>"
+        }
+    ],
+    "Enrollments": [
+        {
+            "snapshot": "1765395887479.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Enrollments",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h3 type=\"h3\">Enrollments</h3>"
+        }
+    ],
+    "Dashboard_1": [
+        {
+            "snapshot": "1765395879033.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<a type=\"a\">Dashboard</a>"
+        }
+    ],
+    "DOWNLOADS": [
+        {
+            "snapshot": "1765395943542.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > DOWNLOADS",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h5 type=\"h5\">Downloads</h5>"
+        }
+    ],
+    "Transactions": [
+        {
+            "snapshot": "1765395953147.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Transactions",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h3 type=\"h3\">Transactions</h3>"
+        }
+    ],
+    "Approved": [
+        {
+            "snapshot": "1765395970314.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Approved",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\" role=\"listitem\">Approved00%</div>"
+        }
+    ],
+    "For_Signing_Agreement": [
+        {
+            "snapshot": "1765395979281.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > For_Signing_Agreement",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\" role=\"listitem\">For Signing Agreement150%</div>"
+        }
+    ],
+    "Declined": [
+        {
+            "snapshot": "1765395996580.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Declined",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\" role=\"listitem\">Declined150%</div>"
+        }
+    ],
+    "Refused": [
+        {
+            "snapshot": "1765396006026.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Refused",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\" role=\"listitem\">Refused00%</div>"
+        }
+    ],
+    "Blocked": [
+        {
+            "snapshot": "1765396023654.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Blocked",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\" role=\"listitem\">Blocked00%</div>"
+        }
+    ],
+    "UPLOADS": [
+        {
+            "snapshot": "1765396044016.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > UPLOADS",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h5 type=\"h5\">Uploads</h5>"
+        }
+    ],
+    "_345_00": [
+        {
+            "snapshot": "1765396048133.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > _345_00",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\">$345.00</h2>"
+        }
+    ],
+    "AMOUNT": [
+        {
+            "snapshot": "1765396049163.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > AMOUNT",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<p type=\"p\">Amount</p>"
+        }
+    ],
+    "_241_60": [
+        {
+            "snapshot": "1765396050122.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > _241_60",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\">$241.60</h2>"
+        }
+    ],
+    "AMOUNT_1": [
+        {
+            "snapshot": "1765396050959.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > AMOUNT_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<p type=\"p\">Amount</p>"
+        }
+    ],
+    "_50_00": [
+        {
+            "snapshot": "1765396052599.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > _50_00",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\">$50.00</h2>"
+        }
+    ],
+    "AMOUNT_2": [
+        {
+            "snapshot": "1765396053178.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > AMOUNT_2",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<p type=\"p\">Amount</p>"
+        }
+    ],
+    "_1": [
+        {
+            "snapshot": "1765396054036.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > _1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\">1</h2>"
+        }
+    ],
+    "COUNT": [
+        {
+            "snapshot": "1765396054596.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > COUNT",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<p type=\"p\">Count</p>"
+        }
+    ],
+    "TODAY": [
+        {
+            "snapshot": "1765396057341.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > TODAY",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\"> Today </div>"
+        }
+    ],
+    "TODAY_1": [
+        {
+            "snapshot": "1765396063858.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > TODAY_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<button type=\"button\" role=\"button\" type=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\"> Today </button>"
+        }
+    ],
+    "div_input_125": [
+        {
+            "snapshot": "1765396060818.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > div_input_125",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\"></div>"
+        }
+    ],
+    "doughnut_chart": [
+        {
+            "snapshot": "1765396063210.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > doughnut_chart",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<canvas type=\"canvas\"></canvas>"
+        }
+    ],
+    "This_Week": [
+        {
+            "snapshot": "1765396065840.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > This_Week",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<label type=\"label\">This Week</label>"
+        }
+    ],
+    "Dashboard_2": [
+        {
+            "snapshot": "1765396068581.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard_2",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\"> Dashboard home > Dashboard Today AllTodayYesterda</div>"
+        }
+    ],
+    "Moolah_Play_by_Ellis_Island_Ca": [
+        {
+            "snapshot": "1765396074482.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Moolah_Play_by_Ellis_Island_Ca",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\"> Moolah Play by Ellis Island Casino  Copyright © 2</div>"
+        }
+    ],
+    "Instance_PROD": [
+        {
+            "snapshot": "1765396081700.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Instance_PROD",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\"> Instance: PROD </div>"
+        }
+    ],
+    "timer": [
+        {
+            "snapshot": "1765396086031.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > timer",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<i type=\"i\">timer</i>"
+        }
+    ],
+    "_10": [
+        {
+            "snapshot": "1765396571028.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > _10",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\">10</h2>"
+        }
+    ],
+    "DOWNLOADS_1": [
+        {
+            "snapshot": "1765396689375.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > DOWNLOADS_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<div type=\"div\">Downloads10Count$461.00AmountUploads5Count$241.60A</div>"
+        }
+    ],
+    "COUNT_2": [
+        {
+            "snapshot": "1765396761102.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > COUNT_2",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<p type=\"p\">Count</p>"
+        }
+    ],
+    "Payments": [
+        {
+            "snapshot": "1765396771316.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Payments",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h3 type=\"h3\">Payments</h3>"
+        }
+    ],
+    "timer_1": [
+        {
+            "snapshot": "1765396850584.png",
+            "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > timer_1",
+            "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<span type=\"span\">timer 11:56</span>"
         }
     ]
 }

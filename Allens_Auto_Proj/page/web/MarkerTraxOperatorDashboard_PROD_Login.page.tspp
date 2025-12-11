@@ -8,10 +8,6 @@
 ==Operator_Dashboard;CSS;h1;;[XPATH://h1[text()=" Operator Dashboard "]];[Operator_Dashboard];[MarkerTraxOperatorDashboard(PROD)|Login];;==
 
 
-
-
-
-
 ^^PortalLog()
 	--Open URL-- [[https://portal.moolahplay.com/]] 
 	--Wait for-- [[10000]] --milliseconds-- 
@@ -34,5 +30,18 @@
 	--Input value-- [[Test1234@$]] --in-- {{password}} 
 	--Click on-- {{visibility}} 
 	--Click on-- {{LOGIN}} 
+
+^^
+
+^^RenProdLogin()
+	--Open URL-- ::urls.loginportal:: 
+	--Wait for-- [[3000]] --milliseconds-- 
+	--Click on-- {{username}} 
+	--Input value-- [[autoClanker]] --in-- {{username}} 
+	--Press keyboard keys-- [[Tab]] --on-- {{username}} 
+	--Input value-- [[Test@$automation23]] --in-- {{password}} 
+	--Click on-- {{visibility}} 
+	--Click on-- {{LOGIN}} 
+	--Wait for-- [[3000]] --milliseconds-- 
 
 ^^

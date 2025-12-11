@@ -7,6 +7,41 @@
 ==Dashboard;XPATH;//h2[text()=" Dashboard "];;[CSS:h2[data-v-fc048714]^^XPATH://div[@data-v-fc048714=""]//h2[@data-v-fc048714=""]];[Dashboard];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
 ==Players_1;XPATH;//div[@role='button'];Button;[XPATH://*[@role='button'][.//*/*/div[text()="Players"]]^^XPATH://div[./*[@id='logo']]//*[@role='button']^^XPATH://div[./div[text()=" by Ellis Island Casino "]]//*[@role='button']^^CSS:nav [role='button']];[Players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
 ==List_players_1;XPATH;//a[.//*/span[text()="List players"]];;[];[List_players];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Dashboard_1;XPATH;//a[text()="Dashboard"];;[];[Dashboard];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==DOWNLOADS;XPATH;//h5[text()="Downloads"];;[];[DOWNLOADS];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Transactions;XPATH;//h3[text()="Transactions"];;[];[Transactions];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Approved;XPATH;(//*[@role='listitem'])[1];;[XPATH:(//div[@data-v-0b535bd0=''][@role='listitem'])[1]^^XPATH:(//div[@role='listitem'])[1]];[Approved];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==For_Signing_Agreement;XPATH;(//*[@role='listitem'])[2];;[XPATH:(//div[@data-v-0b535bd0=''][@role='listitem'])[2]^^XPATH:(//div[@role='listitem'])[2]];[For_Signing_Agreement];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Declined;XPATH;(//*[@role='listitem'])[3];;[XPATH:(//div[@data-v-0b535bd0=''][@role='listitem'])[3]^^XPATH:(//div[@role='listitem'])[3]];[Declined];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Refused;XPATH;(//*[@role='listitem'])[4];;[XPATH:(//div[@data-v-0b535bd0=''][@role='listitem'])[4]^^XPATH:(//div[@role='listitem'])[4]];[Refused];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Blocked;XPATH;(//*[@role='listitem'])[5];;[XPATH:(//div[@data-v-0b535bd0=''][@role='listitem'])[5]^^XPATH:(//div[@role='listitem'])[5]];[Blocked];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==UPLOADS;XPATH;//h5[text()="Uploads"];;[];[UPLOADS];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==_345_00;XPATH;//h2[text()="$345.00"];;[];[_345_00];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==AMOUNT;XPATH;//*[@data-v-b52e3af0=''][./h2[text()="$345.00"]]//p;;[XPATH://*[@data-v-b52e3af0=''][./h2[text()="$345.00"]]//p[text()="Amount"]^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="$345.00"]]//p[@data-v-b52e3af0='']^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="$345.00"]]//p[@data-v-b52e3af0=''][text()="Amount"]];[AMOUNT];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==_241_60;XPATH;//h2[text()="$241.60"];;[];[_241_60];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==AMOUNT_1;XPATH;//*[@data-v-b52e3af0=''][./h2[text()="$241.60"]]//p;;[XPATH://*[@data-v-b52e3af0=''][./h2[text()="$241.60"]]//p[text()="Amount"]^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="$241.60"]]//p[@data-v-b52e3af0='']^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="$241.60"]]//p[@data-v-b52e3af0=''][text()="Amount"]];[AMOUNT];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==_50_00;XPATH;//h2[text()="$50.00"];;[];[_50_00];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==AMOUNT_2;XPATH;//p[@data-v-d4a4da68=''][text()="Amount"];;[XPATH://*[@data-v-d4a4da68=''][./h2[text()="$50.00"]]//p^^XPATH://*[@data-v-d4a4da68=''][./h2[text()="$50.00"]]//p[text()="Amount"]^^XPATH://*[@data-v-d4a4da68=''][./h2[text()="$50.00"]]//p[@data-v-d4a4da68='']];[AMOUNT];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==_1;XPATH;//h2[text()="1"];;[];[_1];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==COUNT;XPATH;//p[@data-v-d4a4da68=''][text()="Count"];;[XPATH://*[@data-v-d4a4da68=''][./h2[text()="1"]]//p^^XPATH://*[@data-v-d4a4da68=''][./h2[text()="1"]]//p[text()="Count"]^^XPATH://*[@data-v-d4a4da68=''][./h2[text()="1"]]//p[@data-v-d4a4da68='']];[COUNT];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==TODAY;XPATH;//*[@data-v-73611e18=''][./button[@data-v-0a82f357=''][@type='button']];;[XPATH://div[./button[@data-v-0a82f357=''][@type='button']]^^XPATH://div[@data-v-73611e18=''][./button[@data-v-0a82f357=''][@type='button']]];[TODAY];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==TODAY_1;XPATH;//button[@data-v-0a82f357=''][@type='button'];Button;[XPATH://button[@data-v-0a82f357=''][@role='button']^^XPATH://button[@data-v-0a82f357='']^^XPATH://*[@data-v-0a82f357=''][./span]^^XPATH://*[@role='button'][./span]^^XPATH://*[@data-v-0a82f357=''][./span//*[@data-v-0a82f357='']]];[TODAY];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==div_input_125;XPATH;//div[./*[@id='input-125']]//div;;[];[div_input_125];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==doughnut_chart;CSS;#doughnut-chart;;[CSS:canvas];[doughnut_chart];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==This_Week;XPATH;//label[./div[text()="This Week"]];;[CSS:#list-item-127 label];[This_Week];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Dashboard_2;XPATH;(//main[@data-v-44827943=''][@data-booted='true']//*[@data-v-44827943=''])[1];;[XPATH:(//main[@data-v-44827943=''][@data-booted='true']//div)[2]^^XPATH:(//main[@data-v-44827943=''][@data-booted='true']//div[@data-v-44827943=''])[1]];[Dashboard];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Moolah_Play_by_Ellis_Island_Ca;XPATH;//div[./br];;[];[Moolah_Play_by_Ellis_Island_Ca];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Instance_PROD;XPATH;//div[text()=" Instance: PROD "];;[];[Instance_PROD];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==timer;CSS;footer i;;[XPATH://i[text()="timer"]];[timer];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==_10;XPATH;//h2[text()="10"];;[];[_10];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==DOWNLOADS_1;XPATH;(//div[@data-v-b52e3af0=''])[2];;[XPATH:(//*[@data-v-b52e3af0=''])[3]];[DOWNLOADS];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==COUNT_2;XPATH;//*[@data-v-b52e3af0=''][./h2[text()="5"]]//p;;[XPATH://*[@data-v-b52e3af0=''][./h2[text()="5"]]//p[text()="Count"]^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="5"]]//p[@data-v-b52e3af0='']^^XPATH://*[@data-v-b52e3af0=''][./h2[text()="5"]]//p[@data-v-b52e3af0=''][text()="Count"]];[COUNT];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==Payments;XPATH;//h3[text()="Payments"];;[];[Payments];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+==timer_1;XPATH;//span[./i[text()="timer"]];;[];[timer];[MoolahPlaybyEllisIsland(PROD)|Dashboard];;==
+
+
+
+
 
 
 

@@ -1,0 +1,38 @@
+>>testDataType: undefined
+>>summary: 
+>>tags: 
+>>feature: 
+>>ticketUrl: 
+>>testCaseId: 
+>>importSource: 
+>>priority: 
+>>aiRequestId: 
+
+
+__web > MarkerTraxOperatorDashboard_PROD_Login > RenProdLogin__ 
+--Open URL-- ::urls.dashboardAdminPage:: 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard_1}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Enrollments}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > DOWNLOADS}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Transactions}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Approved}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > For_Signing_Agreement}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Declined}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Refused}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Blocked}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Approved}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > For_Signing_Agreement}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Declined}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Refused}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Blocked}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Transactions}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > DOWNLOADS}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > UPLOADS}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Payments}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > COUNT}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Moolah_Play_by_Ellis_Island_Ca}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Moolah_Play_by_Ellis_Island_Ca}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > Instance_PROD}} --is present-- 
+--Verify if-- {{web > MoolahPlaybyEllisIsland_PROD_Dashboard > timer_1}} --is present-- 
+

@@ -29,6 +29,48 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765405215610.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "snapshot": "1765407123318.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410691987.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "snapshot": "1765411146015.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413074764.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414008183.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414194824.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard",
+            "attrs": "<button type=\"button\" type=\"button\">Sign In To Dashboard</button>"
         }
     ],
     "Search_players": [
@@ -119,6 +161,30 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
             "testLabel": "web > MakePaymentJackpot.web",
             "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410872171.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413110427.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414123276.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414226274.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
         }
     ],
     "comment": [
@@ -145,6 +211,30 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > comment",
             "testLabel": "web > MakePaymentJackpot.web",
             "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" value=\"test\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412808458.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413117612.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414130148.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414233510.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > comment",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this Payment\" aria-invalid=\"false\"></textarea>"
         }
     ],
     "Next_1": [
@@ -176,6 +266,48 @@
             "snapshot": "1761331485480.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
             "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1765407672036.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "snapshot": "1765411274473.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411511409.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412819450.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413118437.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414130939.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Next_1",
+            "attrs": "<button type=\"button\" type=\"button\">Next</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414234335.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Next_1",
             "attrs": "<button type=\"button\" type=\"button\">Next</button>"
         }
     ],
@@ -235,6 +367,48 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "snapshot": "1765407661101.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411095026.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "snapshot": "1765411260386.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412797456.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413115895.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414128821.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414231754.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Increment",
+            "attrs": "<button type=\"button\" aria-label=\"Increment\" type=\"button\" aria-label=\"Increment\"></button>"
         }
     ],
     "amount": [
@@ -267,6 +441,48 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<input type=\"input\" type=\"text\" value=\"0.01\"></input>"
+        },
+        {
+            "snapshot": "1765407661111.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.01\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411095514.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "snapshot": "1765411260390.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.04\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412797934.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413116357.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414129308.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414232240.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > amount",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"0.010.01\"></input>"
         }
     ],
     "Submit_1": [
@@ -298,6 +514,48 @@
             "snapshot": "1761331487152.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
             "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1765407675492.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "snapshot": "1765411276931.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411511840.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412819883.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413118860.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414131337.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
+            "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414234756.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Submit_1",
             "attrs": "<button type=\"button\" type=\"button\">Submit</button>"
         }
     ],
@@ -331,6 +589,18 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<p type=\"p\">Card adjustment failed</p>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765412823358.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "attrs": "<p type=\"p\">Payment request processed successfully</p>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413121282.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Unable_to_get_account",
+            "attrs": "<p type=\"p\">Payment request processed successfully</p>"
         }
     ],
     "Close": [
@@ -409,6 +679,18 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > payment_type",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<input type=\"input\" value=\"negative\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413117160.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "attrs": "<input type=\"input\" value=\"checkcheck\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414233072.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > payment_type",
+            "attrs": "<input type=\"input\" value=\"jackpotjackpot\"></input>"
         }
     ],
     "Chip_1": [
@@ -429,6 +711,12 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Chip_1",
             "testLabel": "web > MakePaymentJackpot.web",
             "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Chip\" type=\"button\" value=\"chip\" aria-checked=\"false\" aria-label=\"Chip\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414129656.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Chip_1",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Chip\" type=\"button\" value=\"chip\" aria-checked=\"false\" aria-label=\"Chip\"></button>"
         }
     ],
     "Check": [
@@ -436,6 +724,12 @@
             "snapshot": "1761329240124.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Check",
             "testLabel": "web > MakePaymentCheck.web",
+            "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Check\" type=\"button\" value=\"check\" aria-checked=\"false\" aria-label=\"Check\"></button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413116725.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Check",
             "attrs": "<button type=\"button\" role=\"radio\" aria-label=\"Check\" type=\"button\" value=\"check\" aria-checked=\"false\" aria-label=\"Check\"></button>"
         }
     ],
@@ -445,6 +739,12 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Jackpot",
             "testLabel": "web > MakePaymentJackpot.web",
             "attrs": "<label type=\"label\">Jackpot</label>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414232605.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Jackpot",
+            "attrs": "<label type=\"label\">Jackpot</label>"
         }
     ],
     "Internal_Adjustment": [
@@ -452,6 +752,24 @@
             "snapshot": "1761331472747.png",
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
             "testLabel": "A_InternalAdjustments.web",
+            "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
+        },
+        {
+            "snapshot": "1765407652210.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411094580.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
+            "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
+        },
+        {
+            "snapshot": "1765411252328.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Internal_Adjustment",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
             "attrs": "<button type=\"button\" type=\"button\">Internal Adjustment</button>"
         }
     ],
@@ -495,6 +813,48 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_1",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "snapshot": "1765407627108.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410864489.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411086877.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "snapshot": "1765411231090.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413097692.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414117487.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414216569.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_1",
+            "attrs": "<button type=\"button\" type=\"button\">Search...CtrlK</button>"
         }
     ],
     "Search_players_and_reports": [
@@ -503,6 +863,140 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
             "testLabel": "A_InternalAdjustments.web",
             "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\" value=\"4\"></input>"
+        },
+        {
+            "snapshot": "1765407639995.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\" value=\"6\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410864922.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411087328.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\"></input>"
+        },
+        {
+            "snapshot": "1765411244816.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\" value=\"6\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413098128.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414117944.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414217008.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports",
+            "attrs": "<input type=\"input\" placeholder=\"Search players and reports\" type=\"text\"></input>"
+        }
+    ],
+    "_60056": [
+        {
+            "snapshot": "1765407646020.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410868772.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411091143.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "snapshot": "1765411247653.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413101942.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414121790.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414220839.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60056",
+            "attrs": "<a type=\"a\">60056leslie_60056@markertrax.net</a>"
+        }
+    ],
+    "description": [
+        {
+            "snapshot": "1765407668640.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description",
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this adjustment\" value=\"t\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "snapshot": "1765411266122.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > description",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this adjustment\" value=\"t\" aria-invalid=\"false\"></textarea>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411510557.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > description",
+            "attrs": "<textarea type=\"textarea\" placeholder=\"Enter a description for this adjustment\" aria-invalid=\"false\"></textarea>"
+        }
+    ],
+    "Adjustment_Debit": [
+        {
+            "snapshot": "1765411263504.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Adjustment_Debit",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<label type=\"label\">Adjustment DebitUse Adjustment Debit to Increase t</label>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411509714.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Adjustment_Debit",
+            "attrs": "<label type=\"label\">Adjustment DebitUse Adjustment Debit to Increase t</label>"
+        }
+    ],
+    "direction": [
+        {
+            "snapshot": "1765411264015.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > direction",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" value=\"debit\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765411510206.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > direction",
+            "attrs": "<input type=\"input\" value=\"debitdebit\"></input>"
         }
     ]
 }

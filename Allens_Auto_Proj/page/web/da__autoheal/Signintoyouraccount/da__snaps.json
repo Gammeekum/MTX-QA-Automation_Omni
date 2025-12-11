@@ -35,6 +35,42 @@
             "snapshot": "1763764795856.png",
             "label": "web > Signintoyouraccount > loginfmt",
             "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765405224113.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "snapshot": "1765407130943.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410851010.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413083376.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414015643.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414202380.png",
+            "label": "web > Signintoyouraccount > loginfmt",
+            "attrs": "<input type=\"input\" placeholder=\"Email or phone\" aria-label=\"Enter your email or phone\" type=\"email\" value=\"aclanker@gmail.com\" aria-required=\"true\" aria-label=\"Enter your email or phone\" aria-describedby=\"loginHeader usernameError\"></input>"
         }
     ],
     "idSIButton9": [
@@ -73,6 +109,42 @@
             "snapshot": "1761331930683.png",
             "label": "web > Signintoyouraccount > idSIButton9",
             "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765405225446.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Sign in\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "snapshot": "1765407131413.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410699889.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413083756.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414016136.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414202734.png",
+            "label": "web > Signintoyouraccount > idSIButton9",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
         }
     ],
     "passwd": [
@@ -109,6 +181,42 @@
         {
             "testLabel": "A_InternalAdjustments.web",
             "snapshot": "1761331931120.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765407035738.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsNegative.web",
+            "snapshot": "1765407131946.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765410700326.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCheck.web",
+            "snapshot": "1765413084183.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentChip.web",
+            "snapshot": "1765414016622.png",
+            "label": "web > Signintoyouraccount > passwd",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765414203151.png",
             "label": "web > Signintoyouraccount > passwd",
             "attrs": "<input type=\"input\" type=\"password\" value=\"Nohelani86!*\" aria-hidden=\"true\"></input>"
         }

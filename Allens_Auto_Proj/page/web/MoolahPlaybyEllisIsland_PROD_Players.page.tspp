@@ -10,6 +10,34 @@
 ==table_button_1;XPATH;(//table)[1]//tbody/tr/td[${colId}]/button;Button;[];[table_button];[MoolahPlaybyEllisIsland(PROD)|Players];;==
 ==button_fas;XPATH;//*[@type='button'][.//*/*[@data-prefix='fas']];Button;[XPATH://button[.//*/*[@data-prefix='fas']]^^XPATH://button[@type='button'][.//*/*[@data-prefix='fas']]^^XPATH://tr[./td[text()="Ellis Island Casino"]]//*[@type='button']^^XPATH://tr[./td[text()="Ellis Island Casino"]]//button];[button_fas];[MoolahPlaybyEllisIsland(PROD)|Players];;==
 ==Players;CSS;h2;;[XPATH://h2[text()=" Players "]];[Players];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==property_name;CSS;[name='property_name'];Input;[XPATH://div[./label[text()="Property name"]]//*[@type='text']^^XPATH://div[./label[text()="Property name"]]//input^^XPATH://div[./label[text()="Property name"]]//input[@type='text']^^CSS:#input-153];[property_name];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==pan;CSS;[name='pan'];Input;[XPATH://div[./label[text()="Card number"]]//*[@type='text']^^XPATH://div[./label[text()="Card number"]]//input^^XPATH://div[./label[text()="Card number"]]//input[@type='text']^^CSS:#input-157];[pan];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==last_name;CSS;[name='last_name'];Input;[XPATH://div[./label[text()="Last name"]]//*[@type='text']^^XPATH://div[./label[text()="Last name"]]//input^^XPATH://div[./label[text()="Last name"]]//input[@type='text']^^CSS:#input-165];[last_name];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==input_170;XPATH;//div[./label[text()="Status"]]//*[@type='text'];Input;[XPATH://div[./label[text()="Status"]]//input[@type='text']^^CSS:#input-170];[input_170];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Status;XPATH;//*[@role='combobox'][.//*/label[text()="Status"]];;[XPATH://div[@role='combobox'][.//*/label[text()="Status"]]^^XPATH://*[@role='combobox'][.//*/*[@id='input-170']]];[Status];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==_30_Days_Overdue;XPATH;//*[@role='option'][.//*/div[text()="30 Days Overdue"]];;[XPATH://div[@role='option'][.//*/div[text()="30 Days Overdue"]]^^CSS:#list-item-211-0];[_30_Days_Overdue];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==_60_Days_Overdue;XPATH;//*[@role='option'][.//*/div[text()="60 Days Overdue"]];;[XPATH://div[@role='option'][.//*/div[text()="60 Days Overdue"]]^^CSS:#list-item-211-1];[_60_Days_Overdue];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==_90_Days_Overdue;XPATH;//*[@role='option'][.//*/div[text()="90 Days Overdue"]];;[XPATH://div[@role='option'][.//*/div[text()="90 Days Overdue"]]^^CSS:#list-item-211-2];[_90_Days_Overdue];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Active;XPATH;//*[@role='option'][.//*/div[text()="Active"]];;[XPATH://div[@role='option'][.//*/div[text()="Active"]]^^CSS:#list-item-211-3];[Active];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Blocked;XPATH;//*[@role='option'][.//*/div[text()="Blocked"]];;[XPATH://div[@role='option'][.//*/div[text()="Blocked"]]^^CSS:#list-item-211-4];[Blocked];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Declined;XPATH;//*[@role='option'][.//*/div[text()="Declined"]];;[XPATH://div[@role='option'][.//*/div[text()="Declined"]]^^CSS:#list-item-211-5];[Declined];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==For_Signing_Agreement;XPATH;//*[@role='option'][.//*/div[text()="For Signing Agreement"]];;[XPATH://div[@role='option'][.//*/div[text()="For Signing Agreement"]]^^CSS:#list-item-211-6];[For_Signing_Agreement];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Inactive;XPATH;//*[@role='option'][.//*/div[text()="Inactive"]];;[XPATH://div[@role='option'][.//*/div[text()="Inactive"]]^^CSS:#list-item-211-7];[Inactive];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Manual_Closed;XPATH;//*[@role='option'][.//*/div[text()="Manual Closed"]];;[XPATH://div[@role='option'][.//*/div[text()="Manual Closed"]]^^CSS:#list-item-211-8];[Manual_Closed];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Last_name_1;CSS;form > div > div:nth-child(2);;[];[Last_name];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Player_Bankruptcy;XPATH;//*[@role='option'][.//*/div[text()="Player Bankruptcy"]];;[XPATH://div[@role='option'][.//*/div[text()="Player Bankruptcy"]]^^CSS:#list-item-211-9];[Player_Bankruptcy];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Status_1;CSS;div:nth-child(2) > div:nth-child(2) > div > div;;[];[Status];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Refused;XPATH;//*[@role='option'][.//*/div[text()="Refused"]];;[XPATH://div[@role='option'][.//*/div[text()="Refused"]]^^CSS:#list-item-211-10];[Refused];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Unpaid_Due;XPATH;//*[@role='option'][.//*/div[text()="Unpaid Due"]];;[XPATH://div[@role='option'][.//*/div[text()="Unpaid Due"]]^^CSS:#list-item-211-11];[Unpaid_Due];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Write_Off;XPATH;//*[@role='option'][.//*/div[text()="Write-Off"]];;[XPATH://div[@role='option'][.//*/div[text()="Write-Off"]]^^CSS:#list-item-211-12];[Write_Off];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==file_download_1;XPATH;//button[@type='button'][@role='button'];Button;[XPATH://button[@role='button']^^XPATH://*[@type='button'][.//*/i[text()="file_download"]]^^XPATH://*[@role='button'][.//*/i[text()="file_download"]]^^XPATH://button[.//*/i[text()="file_download"]]];[file_download];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==PDF;XPATH;//*[@role='menuitem'][.//*/div[text()="PDF"]];;[XPATH://div[@role='menuitem'][.//*/div[text()="PDF"]]^^CSS:#list-item-431];[PDF];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==navigate_before;XPATH;//*[@aria-label='Previous page'][./i[text()="navigate_before"]];Button;[XPATH://*[@type='button'][./i[text()="navigate_before"]]^^XPATH://button[./i[text()="navigate_before"]]^^CSS:ul [aria-label='Previous page']^^CSS:[aria-label='Pagination Navigation'] [aria-label='Previous page']];[navigate_before];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==Total_1212;XPATH;//div[text()="Total: 1212"];;[];[Total_1212];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==_10;XPATH;//*[@role='button'][.//*/*/div[text()="10"]];Button;[XPATH://div[@role='button'][.//*/*/div[text()="10"]]^^XPATH://*[@role='button'][.//*/*/*[@id='input-387']]^^XPATH://div[./div[text()="Total: 1212"]]//*[@role='button']^^XPATH://div[./div[text()="Total: 1212"]]//div[@role='button']];[_10];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+==_20;XPATH;//*[@role='option'][.//*/div[text()="20"]];;[XPATH://div[@role='option'][.//*/div[text()="20"]]^^CSS:#list-item-449-1];[_20];[MoolahPlaybyEllisIsland(PROD)|Players];;==
+
+
 
 
 
