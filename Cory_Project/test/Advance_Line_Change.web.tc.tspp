@@ -106,9 +106,9 @@
 --Wait for-- [[3000]] --milliseconds-- 
 #Verify the Status is Updated to For Signing Agreement 
 --Take Screenshot-- [[FSA]] 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[4000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > MarkerInfoTab1}} 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[4000]] --milliseconds-- 
 --Take Screenshot-- [[MarkerInfoFSA]] 
 #Refresh the Page to Display the Print Marker Agreement Button 
 --Open URL-- [[https://uat-od.moolahplay.net/players/22608/line-activity]] 
