@@ -34,12 +34,13 @@
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Apply_1}} 
 --Wait for-- [[5000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > table_span}}(( colId: 2 )) 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[5000]] --milliseconds-- 
+--Take Screenshot-- [[OriginalStatus]] 
 #Set the Players Status to Disabled 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Patron_Info}} 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[6000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Change_Status}} 
---Wait for-- [[2000]] --milliseconds-- 
+--Wait for-- [[4000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Select_a_status}} 
 --Wait for-- [[2000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Disabled}} 
