@@ -185,6 +185,12 @@
             "snapshot": "1765414226274.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
             "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
+        },
+        {
+            "snapshot": "1765565715886.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Make_Payment",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<button type=\"button\" type=\"button\">Make Payment</button>"
         }
     ],
     "comment": [
@@ -1017,6 +1023,46 @@
             "snapshot": "1765559843680.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
             "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
+        }
+    ],
+    "Welcome_Back": [
+        {
+            "snapshot": "1765564955162.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Welcome_Back",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<body type=\"body\">Welcome Back Log in to your Admin Dashboard. Sign </body>"
+        }
+    ],
+    "Players": [
+        {
+            "snapshot": "1765565693941.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Players",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<a type=\"a\">Players</a>"
+        }
+    ],
+    "spinbutton": [
+        {
+            "snapshot": "1765565730804.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > spinbutton",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" role=\"spinbutton\" type=\"text\" value=\"$0.01\" aria-roledescription=\"Number field\" aria-valuenow=\"0.01\" aria-valuemin=\"0\" aria-invalid=\"true\" aria-describedby=\"v-1-65-error\"></input>"
+        }
+    ],
+    "open_true": [
+        {
+            "snapshot": "1765565732264.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > open_true",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<div type=\"div\" data-aria-hidden=\"true\" aria-hidden=\"true\"></div>"
+        }
+    ],
+    "Search_2": [
+        {
+            "snapshot": "1765565733064.png",
+            "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_2",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<body type=\"body\">Search...CtrlKHomePlayersReportsEmployeesSupportAd</body>"
         }
     ]
 }

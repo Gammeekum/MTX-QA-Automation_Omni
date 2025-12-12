@@ -5,6 +5,9 @@
 ==idSIButton9;CSS;#idSIButton9;Input;[CSS:[type='submit']^^CSS:.win-button^^CSS:.button_primary^^CSS:.high-contrast-overrides^^CSS:.button^^CSS:.ext-button^^CSS:.primary^^CSS:.ext-primary^^XPATH://div[@data-bind="css: { 'inline-block': isPrimaryButtonVisible }, externalCss: { 'button-item': true }"]//input[@id="idSIButton9"]];[idSIButton9];[Signintoyouraccount];;==
 ==passwd;CSS;#i0118;Input;[CSS:[placeholder='Password']^^CSS:[name='passwd']^^CSS:[aria-label='Enter the password for aclanker@gmail.com']^^CSS:[type='password']^^CSS:.form-control^^CSS:.input^^CSS:.ext-input^^CSS:.text-box^^CSS:.ext-text-box^^CSS:.show-reveal-password^^CSS:.ext-show-reveal-password];[passwd];[Signintoyouraccount];;==
 ==search;XPATH;//*[@id="__nuxt"]/div[2]/div/div[2]/div/div[1]/div[1]/button;Button;[];[];[];;==
+==Signin_Submit;CSS;[data-report-event='Signin_Submit'];Input;[CSS:[data-report-value='Submit']^^CSS:[type='submit']^^CSS:#idSIButton9];[Signin_Submit];[Signintoyouraccount];;==
+
+
 
 
 

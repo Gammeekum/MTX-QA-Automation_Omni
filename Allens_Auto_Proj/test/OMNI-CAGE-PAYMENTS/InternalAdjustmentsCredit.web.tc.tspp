@@ -27,5 +27,7 @@ __web > Signintoyouraccount > UserLogin__
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
 --Wait for-- [[7000]] --milliseconds-- 
+--Press keyboard keys-- [[F12]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_2}} 
+--Wait for-- [[3000]] --milliseconds-- 
 --Take Screenshot-- [[Omni Negative Adjustment]] 
 

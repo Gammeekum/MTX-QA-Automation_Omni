@@ -10,4 +10,35 @@
 
 
 --Open URL-- [[https://uat-ad.moolahplay.net/players/22690/marker-info]] 
+--Press keyboard keys-- [[Meta]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > Welcome_Back}} 
+--Press keyboard keys-- [[F12]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > Welcome_Back}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Sign_In_To_Dashboard}} 
+--Click on-- {{web > Signintoyouraccount > loginfmt}} 
+--Input value-- [[aclanker@gmail.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Input value-- [[Test@$automation23]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Click on-- {{web > _m_d_confirm > Back}} 
+--Click on-- {{web > Signintoyouraccount > loginfmt}} 
+--Input value-- [[EmailTest@qa.com]] --in-- {{web > Signintoyouraccount > loginfmt}} 
+--Click on-- {{web > Signintoyouraccount > Signin_Submit}} 
+--Click on-- {{web > Signintoyouraccount > passwd}} 
+--Input value-- [[Nohelani86!*]] --in-- {{web > Signintoyouraccount > passwd}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Click on-- {{web > Signintoyouraccount > idSIButton9}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Players}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_1}} 
+--Input value-- [[60056]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60056}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_1}} 
+--Input value-- [[60024]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_players_and_reports}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60024}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Make_Payment}} 
+--Press keyboard keys-- [[F12]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > spinbutton}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > spinbutton}} 
+--Press keyboard keys-- [[Digit1]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > spinbutton}} 
+--Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
+--Press keyboard keys-- [[F12]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > spinbutton}} 
+--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > open_true}} 
+--Press keyboard keys-- [[F12]] --on-- {{web > Next-GenMarkerTraxOperatorDashboard > Search_2}} 
 

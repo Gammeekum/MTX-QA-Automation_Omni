@@ -42,6 +42,13 @@
 ==Adjustment_Debit;XPATH;//label[.//*/*[@data-state='unchecked']];;[XPATH://label[.//*/*[@aria-label='Adjustment Debit']]^^XPATH://label[.//*/button[@id='v-1-35:debit'][@data-reka-collection-item='']]];[Adjustment_Debit];[Next-GenMarkerTraxOperatorDashboard];;==
 ==direction;CSS;[name='direction'];Input;[CSS:#v-1-35 [data-hidden='']^^CSS:#v-1-35 input^^CSS:[role='radiogroup'] [data-hidden='']^^CSS:[role='radiogroup'] input];[direction];[Next-GenMarkerTraxOperatorDashboard];;==
 ==_60024;XPATH;//a[@data-state='closed'][@data-grace-area-trigger=''];;[XPATH://a[@data-state='closed']^^XPATH://a[@data-grace-area-trigger='']^^XPATH://*[@data-state='closed'][.//*/span[text()="mlawson624+docv1@domain.com"]]^^XPATH://*[@data-grace-area-trigger=''][.//*/span[text()="mlawson624+docv1@domain.com"]]^^XPATH://a[.//*/span[text()="mlawson624+docv1@domain.com"]]];[_60024];[Next-GenMarkerTraxOperatorDashboard];;==
+==Welcome_Back;CSS;body;;[];[Welcome_Back];[Next-GenMarkerTraxOperatorDashboard];;==
+==Players;XPATH;//*[@data-reka-collection-item=''][./span[text()="Players"]];;[XPATH://a[./span[text()="Players"]]^^XPATH://a[@data-reka-collection-item=''][./span[text()="Players"]]];[Players];[Next-GenMarkerTraxOperatorDashboard];;==
+==spinbutton;CSS;[role='spinbutton'];;[CSS:#v-1-65];[spinbutton];[Next-GenMarkerTraxOperatorDashboard];;==
+==open_true;XPATH;//div[@data-state='open'][@data-aria-hidden='true'];;[];[open_true];[Next-GenMarkerTraxOperatorDashboard];;==
+==Search_2;CSS;body;;[];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
+
+
 
 
 

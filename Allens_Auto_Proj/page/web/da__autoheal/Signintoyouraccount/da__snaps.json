@@ -264,5 +264,13 @@
             "label": "web > Signintoyouraccount > search",
             "attrs": "<button type=\"button\" type=\"button\">Search</button>"
         }
+    ],
+    "Signin_Submit": [
+        {
+            "snapshot": "1765565016278.png",
+            "label": "page > web > Signintoyouraccount > Signin_Submit",
+            "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
+            "attrs": "<input type=\"input\" type=\"submit\" value=\"Next\"></input>"
+        }
     ]
 }
