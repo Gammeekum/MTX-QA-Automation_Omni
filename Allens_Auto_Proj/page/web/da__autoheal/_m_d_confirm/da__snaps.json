@@ -11,6 +11,12 @@
             "label": "page > web > _m_d_confirm > Yes",
             "testLabel": "REN_PROD > ACHTransaction.web",
             "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Yes\" type=\"button\" aria-label=\"Yes\">Yes</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560006340.png",
+            "label": "web > _m_d_confirm > Yes",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Yes\" type=\"button\" aria-label=\"Yes\">Yes</button>"
         }
     ],
     "Back": [
@@ -24,6 +30,12 @@
             "snapshot": "1762454471059.png",
             "label": "page > web > _m_d_confirm > Back",
             "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Back\" type=\"button\" aria-label=\"Back\">Back</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560012880.png",
+            "label": "web > _m_d_confirm > Back",
             "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Back\" type=\"button\" aria-label=\"Back\">Back</button>"
         }
     ]

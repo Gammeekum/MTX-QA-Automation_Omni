@@ -53,6 +53,12 @@
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
             "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560051837.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > first_name",
+            "attrs": "<input type=\"input\" type=\"text\" value=\"val\"></input>"
         }
     ],
     "search": [
@@ -108,6 +114,12 @@
             "snapshot": "1765403398230.png",
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_Players > search",
             "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
+            "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560052250.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > search",
             "attrs": "<button type=\"button\" type=\"submit\">search Search </button>"
         }
     ],
@@ -190,6 +202,12 @@
         {
             "testLabel": "REN-PROD-CAGE-PAYMENTS > ZInternalAdjustBalanceReset.web",
             "snapshot": "1765390341415.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
+            "attrs": "<button type=\"button\" type=\"button\"></button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560055712.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Players > button_fas",
             "attrs": "<button type=\"button\" type=\"button\"></button>"
         }

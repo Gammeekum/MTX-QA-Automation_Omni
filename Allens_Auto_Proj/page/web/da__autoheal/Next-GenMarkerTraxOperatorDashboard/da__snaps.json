@@ -1011,6 +1011,12 @@
             "snapshot": "1765494515771.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
             "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > InternalAdjustmentsPositive.web",
+            "snapshot": "1765559843680.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
+            "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
         }
     ]
 }

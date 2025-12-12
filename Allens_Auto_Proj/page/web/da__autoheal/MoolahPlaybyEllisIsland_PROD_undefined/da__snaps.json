@@ -109,6 +109,12 @@
             "snapshot": "1765390343476.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > _0",
             "attrs": "<input type=\"input\" placeholder=\"0\" type=\"text\" value=\"$0.00\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560060816.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > _0",
+            "attrs": "<input type=\"input\" placeholder=\"0\" type=\"text\" value=\"$0.00\"></input>"
         }
     ],
     "comment": [
@@ -153,6 +159,12 @@
             "snapshot": "1765390344588.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > comment",
             "attrs": "<textarea type=\"textarea\" value=\"automation\"></textarea>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560061653.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > comment",
+            "attrs": "<textarea type=\"textarea\"></textarea>"
         }
     ],
     "YES": [
@@ -331,6 +343,12 @@
             "snapshot": "1765390347968.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM_1",
             "attrs": "<button type=\"button\" type=\"button\"> Confirm </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560065564.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > CONFIRM_1",
+            "attrs": "<button type=\"button\" type=\"button\"> Confirm </button>"
         }
     ],
     "div_input_449": [
@@ -455,6 +473,12 @@
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_undefined > MAKE_PAYMENT_1",
             "testLabel": "REN_PROD > MakePaymentJackpot.web",
             "attrs": "<button type=\"button\" type=\"button\"> Make payment </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560057211.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > MAKE_PAYMENT_1",
+            "attrs": "<button type=\"button\" type=\"button\"> Make payment </button>"
         }
     ],
     "YES_1": [
@@ -468,6 +492,12 @@
             "snapshot": "1764972379391.png",
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_undefined > YES_1",
             "testLabel": "REN_PROD > MakePaymentJackpot.web",
+            "attrs": "<button type=\"button\" type=\"button\"> Yes </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560074399.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_undefined > YES_1",
             "attrs": "<button type=\"button\" type=\"button\"> Yes </button>"
         }
     ]

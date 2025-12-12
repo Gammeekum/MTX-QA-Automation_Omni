@@ -35,6 +35,12 @@
             "snapshot": "1765403564342.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
             "attrs": "<a type=\"a\">List players</a>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560046177.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > List_players_1",
+            "attrs": "<a type=\"a\">List players</a>"
         }
     ],
     "Players_1": [
@@ -73,6 +79,12 @@
             "snapshot": "1765403563870.png",
             "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
             "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560045703.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Players_1",
+            "attrs": "<div type=\"div\" role=\"button\" aria-expanded=\"false\">Players</div>"
         }
     ],
     "Dashboard": [
@@ -92,6 +104,12 @@
             "snapshot": "1765395862200.png",
             "label": "page > web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
             "testLabel": "REN-PROD_VERIFY_PAGE > VerifyDashboard.web",
+            "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560045247.png",
+            "label": "web > MoolahPlaybyEllisIsland_PROD_Dashboard > Dashboard",
             "attrs": "<h2 type=\"h2\"> Dashboard </h2>"
         }
     ],

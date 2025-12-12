@@ -11,6 +11,12 @@
             "label": "page > web > _m_d_dashboard > Make_a_payment",
             "testLabel": "REN_PROD > ACHTransaction.web",
             "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Make a payment\" type=\"button\" aria-label=\"Make a payment\">Make a payment</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560001134.png",
+            "label": "web > _m_d_dashboard > Make_a_payment",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Make a payment\" type=\"button\" aria-label=\"Make a payment\">Make a payment</button>"
         }
     ]
 }

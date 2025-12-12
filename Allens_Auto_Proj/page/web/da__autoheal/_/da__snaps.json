@@ -11,6 +11,12 @@
             "snapshot": "1763747418443.png",
             "label": "web > _ > Sign_in",
             "attrs": "<a type=\"a\" role=\"link\">Sign in</a>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765559994652.png",
+            "label": "web > _ > Sign_in",
+            "attrs": "<a type=\"a\" role=\"link\">Sign in</a>"
         }
     ]
 }

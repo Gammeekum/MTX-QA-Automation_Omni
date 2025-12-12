@@ -11,6 +11,12 @@
             "snapshot": "1763747419181.png",
             "label": "web > _login > Email_field",
             "attrs": "<input type=\"input\" placeholder=\"Email\" aria-label=\"Email field\" type=\"text\" aria-label=\"Email field\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765559995240.png",
+            "label": "web > _login > Email_field",
+            "attrs": "<input type=\"input\" placeholder=\"Email\" aria-label=\"Email field\" type=\"text\" aria-label=\"Email field\"></input>"
         }
     ],
     "Password_field": [
@@ -25,6 +31,12 @@
             "snapshot": "1763747420557.png",
             "label": "web > _login > Password_field",
             "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Password field\" type=\"password\" aria-label=\"Password field\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765559996486.png",
+            "label": "web > _login > Password_field",
+            "attrs": "<input type=\"input\" placeholder=\"Password\" aria-label=\"Password field\" type=\"password\" aria-label=\"Password field\"></input>"
         }
     ],
     "Log_in": [
@@ -37,6 +49,12 @@
         {
             "testLabel": "REN_PROD > ACHTransaction.web",
             "snapshot": "1763747421702.png",
+            "label": "web > _login > Log_in",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Log in\" type=\"button\" aria-label=\"Log in\">Log in</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765559997592.png",
             "label": "web > _login > Log_in",
             "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Log in\" type=\"button\" aria-label=\"Log in\">Log in</button>"
         }

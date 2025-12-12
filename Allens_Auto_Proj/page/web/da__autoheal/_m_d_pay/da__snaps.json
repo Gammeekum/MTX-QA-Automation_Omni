@@ -11,6 +11,12 @@
             "label": "page > web > _m_d_pay > aria_label_Label_Other_amount_",
             "testLabel": "REN_PROD > ACHTransaction.web",
             "attrs": "<div type=\"div\"></div>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560001598.png",
+            "label": "web > _m_d_pay > aria_label_Label_Other_amount_",
+            "attrs": "<div type=\"div\"></div>"
         }
     ],
     "_0_00": [
@@ -25,6 +31,12 @@
             "label": "page > web > _m_d_pay > _0_00",
             "testLabel": "REN_PROD > ACHTransaction.web",
             "attrs": "<input type=\"input\" placeholder=\"$0.00\" type=\"text\" value=\"$0.0\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560002009.png",
+            "label": "web > _m_d_pay > _0_00",
+            "attrs": "<input type=\"input\" placeholder=\"$0.00\" type=\"text\" value=\"$0.00\"></input>"
         }
     ],
     "Pay_now": [
@@ -38,6 +50,12 @@
             "snapshot": "1762454458363.png",
             "label": "page > web > _m_d_pay > Pay_now",
             "testLabel": "REN_PROD > ACHTransaction.web",
+            "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Pay now\" type=\"button\" aria-label=\"Pay now\">Pay now</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > ACHTransaction.web",
+            "snapshot": "1765560005867.png",
+            "label": "web > _m_d_pay > Pay_now",
             "attrs": "<button type=\"button\" role=\"button\" aria-label=\"Pay now\" type=\"button\" aria-label=\"Pay now\">Pay now</button>"
         }
     ]

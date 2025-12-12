@@ -65,6 +65,12 @@
             "snapshot": "1765403557765.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
             "attrs": "<input type=\"input\" type=\"text\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560039134.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > username",
+            "attrs": "<input type=\"input\" type=\"text\"></input>"
         }
     ],
     "password": [
@@ -131,6 +137,12 @@
         {
             "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
             "snapshot": "1765403906264.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
+            "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560040640.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > password",
             "attrs": "<input type=\"input\" type=\"password\" value=\"Test@$automation23\"></input>"
         }
@@ -201,6 +213,12 @@
             "snapshot": "1765403560173.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
             "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560041496.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > LOGIN",
+            "attrs": "<button type=\"button\" type=\"submit\"> Login </button>"
         }
     ],
     "visibility": [
@@ -243,6 +261,12 @@
         {
             "testLabel": "REN-PROD_VERIFY_PAGE > VerifyPlayers.web",
             "snapshot": "1765403559717.png",
+            "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
+            "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
+        },
+        {
+            "testLabel": "REN-PROD-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765560041057.png",
             "label": "web > MarkerTraxOperatorDashboard_PROD_Login > visibility",
             "attrs": "<button type=\"button\" aria-label=\"append icon\" type=\"button\" aria-label=\"append icon\">visibility</button>"
         }
