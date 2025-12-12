@@ -47,6 +47,6 @@ __web > Signintoyouraccount > UserLogin__
 #--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next}}
 #--Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit}}
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[7000]] --milliseconds-- 
 --Take Screenshot-- [[Omni Cash Payment]] 
 
