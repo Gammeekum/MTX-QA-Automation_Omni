@@ -49,16 +49,12 @@
 ==Search_2;CSS;body;;[];[Search];[Next-GenMarkerTraxOperatorDashboard];;==
 
 
-
-
-
-
 ^^MTXlogin()
 	--Open URL-- [[https://uat-od.moolahplay.net/]] 
 	--Wait for-- {{Sign_In_To_Dashboard}} --to be present within-- [[10000]] --milliseconds-- 
 	::isClickable_4 = --Is element-- {{Sign_In_To_Dashboard}} --clickable within-- [[10000]] --milliseconds-- 
 	--Verify boolean-- ::isClickable_4:: --is equal to-- [[true]] 
-	--Wait for-- [[5000]] --milliseconds-- 
+	--Wait for-- [[4000]] --milliseconds-- 
 	--Click on-- {{Sign_In_To_Dashboard}} 
 	--Wait for-- {{Sign_In_To_Dashboard}} --to disappear-- 
 
