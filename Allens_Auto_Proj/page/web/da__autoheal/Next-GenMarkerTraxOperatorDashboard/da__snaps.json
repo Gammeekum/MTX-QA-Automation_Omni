@@ -1023,6 +1023,12 @@
             "snapshot": "1765559843680.png",
             "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
             "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765578847152.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > _60024",
+            "attrs": "<a type=\"a\">60024mlawson624+docv1@domain.com</a>"
         }
     ],
     "Welcome_Back": [
@@ -1063,6 +1069,18 @@
             "label": "page > web > Next-GenMarkerTraxOperatorDashboard > Search_2",
             "testLabel": "OMNI-CAGE-PAYMENTS > TestOfThrones.web",
             "attrs": "<body type=\"body\">Search...CtrlKHomePlayersReportsEmployeesSupportAd</body>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentCash.web",
+            "snapshot": "1765578758060.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_2",
+            "attrs": "<body type=\"body\">Search...CtrlKHomePlayersReportsEmployeesSettingsA</body>"
+        },
+        {
+            "testLabel": "OMNI-CAGE-PAYMENTS > MakePaymentJackpot.web",
+            "snapshot": "1765578865322.png",
+            "label": "web > Next-GenMarkerTraxOperatorDashboard > Search_2",
+            "attrs": "<body type=\"body\">Search...CtrlKHomePlayersReportsEmployeesSettingsA</body>"
         }
     ]
 }
