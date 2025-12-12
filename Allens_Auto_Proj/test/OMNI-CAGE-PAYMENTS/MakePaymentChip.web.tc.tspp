@@ -38,7 +38,7 @@ __web > Signintoyouraccount > UserLogin__
 --Wait for-- [[3000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > _60024}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Make_Payment}} 
---Wait for-- [[5000]] --milliseconds-- 
+--Wait for-- [[7000]] --milliseconds-- 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Increment}} 
 --Input value-- [[0.01]] --in-- {{web > Next-GenMarkerTraxOperatorDashboard > amount}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Chip_1}} 

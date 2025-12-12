@@ -26,6 +26,6 @@ __web > Signintoyouraccount > UserLogin__
 --Input value-- ::constants.portalTags.test:: --in-- {{web > Next-GenMarkerTraxOperatorDashboard > description}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Next_1}} 
 --Click on-- {{web > Next-GenMarkerTraxOperatorDashboard > Submit_1}} 
---Wait for-- [[3000]] --milliseconds-- 
+--Wait for-- [[7000]] --milliseconds-- 
 --Take Screenshot-- [[Omni Negative Adjustment]] 
 
